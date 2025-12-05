@@ -6,4 +6,3 @@
 
 -- SELECT * FROM extension;
 
-CREATE TABLE IF NOT EXISTS users
