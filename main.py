@@ -33,6 +33,7 @@ csrf = CSRFProtect(app)
 @app.route("/index.asp", methods=["GET"])
 @app.route("/index.php", methods=["GET"])
 @app.route("/index.html", methods=["GET"])
+@app.route("/home.html", methods=["GET"])
 def root():
     return redirect("/", 302)
 
@@ -84,6 +85,17 @@ def form():
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
+
+
+# Home page
+@app.route("/home.html", methods=["POST"])
+def home():
+    if request.method == "POST":
+        email = request.form["email"]
+        text = request.form["text"]
+        return render_template("/home.html")
+    else:
+        return render_template("/home.html")
 
 
 if __name__ == "__main__":
