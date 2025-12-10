@@ -90,12 +90,7 @@ def csp_report():
 # Home page
 @app.route("/home.html", methods=["POST"])
 def home():
-    if request.method == "POST":
-        email = request.form["email"]
-        text = request.form["text"]
-        return render_template("/home.html")
-    else:
-        return render_template("/home.html")
+    return render_template("/home.html")
 
 
 if __name__ == "__main__":
