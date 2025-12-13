@@ -3093,3 +3093,345 @@
 2025-12-12 03:21:44,139 127.0.0.1 - - [12/Dec/2025 03:21:44] "[32mPOST / HTTP/1.1[0m" 303 -
 2025-12-12 03:21:44,162 127.0.0.1 - - [12/Dec/2025 03:21:44] "GET /home.html HTTP/1.1" 200 -
 2025-12-12 03:21:44,208 127.0.0.1 - - [12/Dec/2025 03:21:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-12 03:30:28,385 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.71:5000
+2025-12-12 03:30:28,385 [33mPress CTRL+C to quit[0m
+2025-12-12 03:30:28,385  * Restarting with stat
+2025-12-12 03:30:28,680  * Debugger is active!
+2025-12-12 03:30:28,680  * Debugger PIN: 141-033-719
+2025-12-12 03:30:35,396 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET / HTTP/1.1" 200 -
+2025-12-12 03:30:35,725 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-12 03:30:35,730 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-12 03:30:35,731 127.0.0.1 - - [12/Dec/2025 03:30:35] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:35,732 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":23,"column-number":265506,"source-file":"chrome-extension","status-code":200,"script-sample":""}}
+2025-12-12 03:30:35,732 127.0.0.1 - - [12/Dec/2025 03:30:35] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:35,770 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-12 03:30:35,771 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-12 03:30:35,863 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","line-number":56,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-12 03:30:35,864 127.0.0.1 - - [12/Dec/2025 03:30:35] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:35,881 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-12 03:30:35,899 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-12 03:30:35,928 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-12 03:30:35,946 127.0.0.1 - - [12/Dec/2025 03:30:35] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-12 03:30:36,048 127.0.0.1 - - [12/Dec/2025 03:30:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-12 03:30:36,119 127.0.0.1 - - [12/Dec/2025 03:30:36] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-12 03:30:36,225 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,232 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,237 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,241 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,243 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,245 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,246 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,247 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,248 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,249 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,251 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,253 127.0.0.1 - - [12/Dec/2025 03:30:36] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-12 03:30:36,256 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-12 03:30:36,256 127.0.0.1 - - [12/Dec/2025 03:30:36] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:36,259 127.0.0.1 - - [12/Dec/2025 03:30:36] "GET / HTTP/1.1" 200 -
+2025-12-12 03:30:36,486 127.0.0.1 - - [12/Dec/2025 03:30:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-12 03:30:36,489 127.0.0.1 - - [12/Dec/2025 03:30:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-12 03:30:49,623 Form submitted: 1@3
+2025-12-12 03:30:49,623 127.0.0.1 - - [12/Dec/2025 03:30:49] "[32mPOST / HTTP/1.1[0m" 303 -
+2025-12-12 03:30:49,683 127.0.0.1 - - [12/Dec/2025 03:30:49] "GET /home.html HTTP/1.1" 200 -
+2025-12-12 03:30:49,955 127.0.0.1 - - [12/Dec/2025 03:30:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-12 03:30:50,772 127.0.0.1 - - [12/Dec/2025 03:30:50] "GET / HTTP/1.1" 200 -
+2025-12-12 03:30:50,951 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":23,"column-number":265506,"source-file":"chrome-extension","status-code":200,"script-sample":""}}
+2025-12-12 03:30:50,951 127.0.0.1 - - [12/Dec/2025 03:30:50] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:50,963 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-12 03:30:50,964 127.0.0.1 - - [12/Dec/2025 03:30:50] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:50,969 127.0.0.1 - - [12/Dec/2025 03:30:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-12 03:30:50,974 127.0.0.1 - - [12/Dec/2025 03:30:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-12 03:30:50,981 127.0.0.1 - - [12/Dec/2025 03:30:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-12 03:30:50,987 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"font-src","effective-directive":"font-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"data","status-code":200,"script-sample":""}}
+2025-12-12 03:30:50,987 127.0.0.1 - - [12/Dec/2025 03:30:50] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 03:30:51,130 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-12 03:30:51,130 127.0.0.1 - - [12/Dec/2025 03:30:51] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 05:48:11,728 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.5:5000
+2025-12-12 05:48:11,729 [33mPress CTRL+C to quit[0m
+2025-12-12 05:48:11,729  * Restarting with stat
+2025-12-12 05:48:11,966  * Debugger is active!
+2025-12-12 05:48:11,967  * Debugger PIN: 652-039-375
+2025-12-12 05:48:17,244 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET / HTTP/1.1" 200 -
+2025-12-12 05:48:17,465 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-12 05:48:17,518 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-12 05:48:17,518 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-12 05:48:17,518 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-12 05:48:17,519 127.0.0.1 - - [12/Dec/2025 05:48:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 05:48:17,700 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-12-12 05:48:17,736 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-12 05:48:17,776 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-12 05:48:17,785 127.0.0.1 - - [12/Dec/2025 05:48:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-12 05:48:17,907 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,926 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,929 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,930 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,935 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,939 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,939 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,942 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,942 127.0.0.1 - - [12/Dec/2025 05:48:17] "GET / HTTP/1.1" 200 -
+2025-12-12 05:48:17,943 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,944 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,947 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,950 127.0.0.1 - - [12/Dec/2025 05:48:17] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-12-12 05:48:17,951 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-12 05:48:17,951 127.0.0.1 - - [12/Dec/2025 05:48:17] "POST /csp_report HTTP/1.1" 200 -
+2025-12-12 05:48:21,839 Form submitted: 
+2025-12-12 05:48:21,840 127.0.0.1 - - [12/Dec/2025 05:48:21] "[32mPOST / HTTP/1.1[0m" 303 -
+2025-12-12 05:48:21,944 127.0.0.1 - - [12/Dec/2025 05:48:21] "GET /home.html HTTP/1.1" 200 -
+2025-12-12 05:48:22,078 127.0.0.1 - - [12/Dec/2025 05:48:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-12 05:48:43,778 Form submitted: 1@3
+2025-12-12 05:48:43,778 127.0.0.1 - - [12/Dec/2025 05:48:43] "[32mPOST / HTTP/1.1[0m" 303 -
+2025-12-12 05:48:43,880 127.0.0.1 - - [12/Dec/2025 05:48:43] "GET /home.html HTTP/1.1" 200 -
+2025-12-13 04:52:53,639 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.165:5000
+2025-12-13 04:52:53,639 [33mPress CTRL+C to quit[0m
+2025-12-13 04:52:53,640  * Restarting with stat
+2025-12-13 04:52:53,846  * Debugger is active!
+2025-12-13 04:52:53,847  * Debugger PIN: 116-315-259
+2025-12-13 04:52:57,671 127.0.0.1 - - [13/Dec/2025 04:52:57] "GET / HTTP/1.1" 200 -
+2025-12-13 04:52:57,909 127.0.0.1 - - [13/Dec/2025 04:52:57] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-12-13 04:52:57,949 127.0.0.1 - - [13/Dec/2025 04:52:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-12-13 04:52:57,949 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 04:52:57,950 127.0.0.1 - - [13/Dec/2025 04:52:57] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:52:57,986 127.0.0.1 - - [13/Dec/2025 04:52:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-13 04:52:58,172 127.0.0.1 - - [13/Dec/2025 04:52:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 04:52:58,216 127.0.0.1 - - [13/Dec/2025 04:52:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-12-13 04:52:58,260 127.0.0.1 - - [13/Dec/2025 04:52:58] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-12-13 04:52:58,335 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 04:52:58,338 127.0.0.1 - - [13/Dec/2025 04:52:58] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:53:06,704 127.0.0.1 - - [13/Dec/2025 04:53:06] "GET /home.html HTTP/1.1" 200 -
+2025-12-13 04:53:06,756 127.0.0.1 - - [13/Dec/2025 04:53:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-13 04:53:13,519 127.0.0.1 - - [13/Dec/2025 04:53:13] "GET /privacy.html HTTP/1.1" 200 -
+2025-12-13 04:53:13,582 127.0.0.1 - - [13/Dec/2025 04:53:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 04:53:13,585 127.0.0.1 - - [13/Dec/2025 04:53:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 04:53:13,588 127.0.0.1 - - [13/Dec/2025 04:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 04:53:13,629 127.0.0.1 - - [13/Dec/2025 04:53:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 04:53:13,663 127.0.0.1 - - [13/Dec/2025 04:53:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,049 127.0.0.1 - - [13/Dec/2025 04:56:07] "GET / HTTP/1.1" 200 -
+2025-12-13 04:56:07,260 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,283 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,289 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 04:56:07,289 127.0.0.1 - - [13/Dec/2025 04:56:07] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:56:07,292 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,401 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,442 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,477 127.0.0.1 - - [13/Dec/2025 04:56:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 04:56:07,559 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 04:56:07,559 127.0.0.1 - - [13/Dec/2025 04:56:07] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:56:09,587 127.0.0.1 - - [13/Dec/2025 04:56:09] "[33mGET /signup.html HTTP/1.1[0m" 404 -
+2025-12-13 04:56:11,937 127.0.0.1 - - [13/Dec/2025 04:56:11] "GET / HTTP/1.1" 200 -
+2025-12-13 04:56:11,983 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 04:56:11,983 127.0.0.1 - - [13/Dec/2025 04:56:11] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:56:12,030 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 04:56:12,030 127.0.0.1 - - [13/Dec/2025 04:56:12] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:56:26,865 127.0.0.1 - - [13/Dec/2025 04:56:26] "[33mGET /signup.html HTTP/1.1[0m" 404 -
+2025-12-13 04:58:11,604  * Detected change in '/workspaces/2026SE_Task1_Leo.P/main.py', reloading
+2025-12-13 04:58:11,634  * Restarting with stat
+2025-12-13 04:58:11,844  * Debugger is active!
+2025-12-13 04:58:11,844  * Debugger PIN: 116-315-259
+2025-12-13 04:58:56,234  * Detected change in '/workspaces/2026SE_Task1_Leo.P/main.py', reloading
+2025-12-13 04:58:56,261  * Restarting with stat
+2025-12-13 04:58:56,479  * Debugger is active!
+2025-12-13 04:58:56,479  * Debugger PIN: 116-315-259
+2025-12-13 04:58:58,255 127.0.0.1 - - [13/Dec/2025 04:58:58] "GET / HTTP/1.1" 200 -
+2025-12-13 04:58:58,475 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,520 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 04:58:58,520 127.0.0.1 - - [13/Dec/2025 04:58:58] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:58:58,522 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,525 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,645 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,683 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,722 127.0.0.1 - - [13/Dec/2025 04:58:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 04:58:58,802 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 04:58:58,803 127.0.0.1 - - [13/Dec/2025 04:58:58] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:58:59,779 127.0.0.1 - - [13/Dec/2025 04:58:59] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 04:58:59,838 127.0.0.1 - - [13/Dec/2025 04:58:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 04:58:59,841 127.0.0.1 - - [13/Dec/2025 04:58:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 04:58:59,842 127.0.0.1 - - [13/Dec/2025 04:58:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 04:58:59,889 127.0.0.1 - - [13/Dec/2025 04:58:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 04:58:59,928 127.0.0.1 - - [13/Dec/2025 04:58:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 04:59:03,165 127.0.0.1 - - [13/Dec/2025 04:59:03] "GET / HTTP/1.1" 200 -
+2025-12-13 04:59:03,210 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 04:59:03,210 127.0.0.1 - - [13/Dec/2025 04:59:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 04:59:03,262 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 04:59:03,262 127.0.0.1 - - [13/Dec/2025 04:59:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:00:49,249 Form submitted: wesdf@w
+2025-12-13 05:00:49,249 127.0.0.1 - - [13/Dec/2025 05:00:49] "[32mPOST / HTTP/1.1[0m" 303 -
+2025-12-13 05:00:49,364 127.0.0.1 - - [13/Dec/2025 05:00:49] "GET /home.html HTTP/1.1" 200 -
+2025-12-13 05:00:59,347 127.0.0.1 - - [13/Dec/2025 05:00:59] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:00:59,534 127.0.0.1 - - [13/Dec/2025 05:00:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:00:59,537 127.0.0.1 - - [13/Dec/2025 05:00:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:00:59,539 127.0.0.1 - - [13/Dec/2025 05:00:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:00:59,595 127.0.0.1 - - [13/Dec/2025 05:00:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:00:59,629 127.0.0.1 - - [13/Dec/2025 05:00:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,073 127.0.0.1 - - [13/Dec/2025 05:01:11] "GET / HTTP/1.1" 200 -
+2025-12-13 05:01:11,130 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,132 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,134 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:01:11,134 127.0.0.1 - - [13/Dec/2025 05:01:11] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:01:11,136 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,178 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,212 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,246 127.0.0.1 - - [13/Dec/2025 05:01:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:01:11,279 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:01:11,279 127.0.0.1 - - [13/Dec/2025 05:01:11] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:02:39,402  * Detected change in '/workspaces/2026SE_Task1_Leo.P/main.py', reloading
+2025-12-13 05:02:39,431  * Restarting with stat
+2025-12-13 05:02:39,672  * Debugger is active!
+2025-12-13 05:02:39,672  * Debugger PIN: 116-315-259
+2025-12-13 05:02:42,552 127.0.0.1 - - [13/Dec/2025 05:02:42] "GET / HTTP/1.1" 200 -
+2025-12-13 05:02:42,625 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,627 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:02:42,627 127.0.0.1 - - [13/Dec/2025 05:02:42] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:02:42,722 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,725 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,763 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,794 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,841 127.0.0.1 - - [13/Dec/2025 05:02:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:02:42,898 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:02:42,898 127.0.0.1 - - [13/Dec/2025 05:02:42] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:02:44,570 127.0.0.1 - - [13/Dec/2025 05:02:44] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:02:44,633 127.0.0.1 - - [13/Dec/2025 05:02:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:02:44,636 127.0.0.1 - - [13/Dec/2025 05:02:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:44,638 127.0.0.1 - - [13/Dec/2025 05:02:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:02:44,678 127.0.0.1 - - [13/Dec/2025 05:02:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:44,707 127.0.0.1 - - [13/Dec/2025 05:02:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:02:47,120 127.0.0.1 - - [13/Dec/2025 05:02:47] "GET / HTTP/1.1" 200 -
+2025-12-13 05:02:47,169 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:02:47,169 127.0.0.1 - - [13/Dec/2025 05:02:47] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:02:47,203 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:02:47,203 127.0.0.1 - - [13/Dec/2025 05:02:47] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:03:54,691 127.0.0.1 - - [13/Dec/2025 05:03:54] "GET / HTTP/1.1" 200 -
+2025-12-13 05:03:54,756 127.0.0.1 - - [13/Dec/2025 05:03:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:03:54,757 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:03:54,757 127.0.0.1 - - [13/Dec/2025 05:03:54] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:03:54,760 127.0.0.1 - - [13/Dec/2025 05:03:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:03:54,818 127.0.0.1 - - [13/Dec/2025 05:03:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:03:54,943 127.0.0.1 - - [13/Dec/2025 05:03:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:03:54,975 127.0.0.1 - - [13/Dec/2025 05:03:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:03:55,013 127.0.0.1 - - [13/Dec/2025 05:03:55] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:03:55,042 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:03:55,042 127.0.0.1 - - [13/Dec/2025 05:03:55] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:03:56,642 127.0.0.1 - - [13/Dec/2025 05:03:56] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:03:56,691 127.0.0.1 - - [13/Dec/2025 05:03:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:03:56,703 127.0.0.1 - - [13/Dec/2025 05:03:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:03:56,706 127.0.0.1 - - [13/Dec/2025 05:03:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:03:56,748 127.0.0.1 - - [13/Dec/2025 05:03:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:03:56,781 127.0.0.1 - - [13/Dec/2025 05:03:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:04:09,968 127.0.0.1 - - [13/Dec/2025 05:04:09] "[31m[1mPOST /signup.html HTTP/1.1[0m" 405 -
+2025-12-13 05:04:20,507 127.0.0.1 - - [13/Dec/2025 05:04:20] "[31m[1mPOST /signup.html HTTP/1.1[0m" 405 -
+2025-12-13 05:04:32,012 127.0.0.1 - - [13/Dec/2025 05:04:32] "[31m[1mPOST /signup.html HTTP/1.1[0m" 405 -
+2025-12-13 05:04:33,270 127.0.0.1 - - [13/Dec/2025 05:04:33] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:05:30,464 127.0.0.1 - - [13/Dec/2025 05:05:30] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:05:30,527 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:05:30,621 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:05:30,627 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:05:30,659 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:05:30,692 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:05:30,726 127.0.0.1 - - [13/Dec/2025 05:05:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,593 127.0.0.1 - - [13/Dec/2025 05:06:11] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:06:11,645 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,648 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,650 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,685 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,724 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:11,771 127.0.0.1 - - [13/Dec/2025 05:06:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,671 127.0.0.1 - - [13/Dec/2025 05:06:21] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:06:21,736 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,739 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,742 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,790 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,821 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:21,856 127.0.0.1 - - [13/Dec/2025 05:06:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:06:24,481 127.0.0.1 - - [13/Dec/2025 05:06:24] "[31m[1mPOST /signup.html HTTP/1.1[0m" 405 -
+2025-12-13 05:06:57,885  * Detected change in '/workspaces/2026SE_Task1_Leo.P/main.py', reloading
+2025-12-13 05:06:57,915  * Restarting with stat
+2025-12-13 05:06:58,136  * Debugger is active!
+2025-12-13 05:06:58,137  * Debugger PIN: 116-315-259
+2025-12-13 05:06:58,337 127.0.0.1 - - [13/Dec/2025 05:06:58] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:06:58,402 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:58,403 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:58,405 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:58,449 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:58,485 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:58,523 127.0.0.1 - - [13/Dec/2025 05:06:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:06:59,824 Form submitted: 
+2025-12-13 05:06:59,824 127.0.0.1 - - [13/Dec/2025 05:06:59] "[32mPOST /signup.html HTTP/1.1[0m" 303 -
+2025-12-13 05:06:59,862 127.0.0.1 - - [13/Dec/2025 05:06:59] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-13 05:06:59,896 127.0.0.1 - - [13/Dec/2025 05:06:59] "GET / HTTP/1.1" 200 -
+2025-12-13 05:06:59,966 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:06:59,967 127.0.0.1 - - [13/Dec/2025 05:06:59] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:06:59,970 127.0.0.1 - - [13/Dec/2025 05:06:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:06:59,972 127.0.0.1 - - [13/Dec/2025 05:06:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:06:59,975 127.0.0.1 - - [13/Dec/2025 05:06:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:07:00,019 127.0.0.1 - - [13/Dec/2025 05:07:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:00,058 127.0.0.1 - - [13/Dec/2025 05:07:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:00,134 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:07:00,135 127.0.0.1 - - [13/Dec/2025 05:07:00] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:07:02,084 127.0.0.1 - - [13/Dec/2025 05:07:02] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:07:03,296 Form submitted: 
+2025-12-13 05:07:03,296 127.0.0.1 - - [13/Dec/2025 05:07:03] "[32mPOST /signup.html HTTP/1.1[0m" 303 -
+2025-12-13 05:07:03,330 127.0.0.1 - - [13/Dec/2025 05:07:03] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-13 05:07:03,364 127.0.0.1 - - [13/Dec/2025 05:07:03] "GET / HTTP/1.1" 200 -
+2025-12-13 05:07:03,449 127.0.0.1 - - [13/Dec/2025 05:07:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:07:03,451 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:07:03,451 127.0.0.1 - - [13/Dec/2025 05:07:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:07:03,454 127.0.0.1 - - [13/Dec/2025 05:07:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:07:03,456 127.0.0.1 - - [13/Dec/2025 05:07:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:03,494 127.0.0.1 - - [13/Dec/2025 05:07:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:03,527 127.0.0.1 - - [13/Dec/2025 05:07:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:03,590 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:07:03,590 127.0.0.1 - - [13/Dec/2025 05:07:03] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:07:06,043 127.0.0.1 - - [13/Dec/2025 05:07:06] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:07:06,093 127.0.0.1 - - [13/Dec/2025 05:07:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:07:06,103 127.0.0.1 - - [13/Dec/2025 05:07:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:06,106 127.0.0.1 - - [13/Dec/2025 05:07:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:07:06,143 127.0.0.1 - - [13/Dec/2025 05:07:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:07:06,174 127.0.0.1 - - [13/Dec/2025 05:07:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:08:12,645 127.0.0.1 - - [13/Dec/2025 05:08:12] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:08:12,699 127.0.0.1 - - [13/Dec/2025 05:08:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:08:12,709 127.0.0.1 - - [13/Dec/2025 05:08:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:08:12,712 127.0.0.1 - - [13/Dec/2025 05:08:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:08:12,763 127.0.0.1 - - [13/Dec/2025 05:08:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:08:12,814 127.0.0.1 - - [13/Dec/2025 05:08:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:30,565 127.0.0.1 - - [13/Dec/2025 05:09:30] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:09:30,646 127.0.0.1 - - [13/Dec/2025 05:09:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:30,652 127.0.0.1 - - [13/Dec/2025 05:09:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:30,713 127.0.0.1 - - [13/Dec/2025 05:09:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:30,754 127.0.0.1 - - [13/Dec/2025 05:09:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:30,804 127.0.0.1 - - [13/Dec/2025 05:09:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,169 Form submitted: xdfdfsafsdfsdf@swdsd
+2025-12-13 05:09:38,170 127.0.0.1 - - [13/Dec/2025 05:09:38] "[32mPOST /signup.html HTTP/1.1[0m" 303 -
+2025-12-13 05:09:38,202 127.0.0.1 - - [13/Dec/2025 05:09:38] "[32mGET /index.html HTTP/1.1[0m" 302 -
+2025-12-13 05:09:38,235 127.0.0.1 - - [13/Dec/2025 05:09:38] "GET / HTTP/1.1" 200 -
+2025-12-13 05:09:38,301 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:09:38,301 127.0.0.1 - - [13/Dec/2025 05:09:38] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:09:38,304 127.0.0.1 - - [13/Dec/2025 05:09:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,306 127.0.0.1 - - [13/Dec/2025 05:09:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,308 127.0.0.1 - - [13/Dec/2025 05:09:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,352 127.0.0.1 - - [13/Dec/2025 05:09:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,393 127.0.0.1 - - [13/Dec/2025 05:09:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:38,477 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:09:38,477 127.0.0.1 - - [13/Dec/2025 05:09:38] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:09:43,152 127.0.0.1 - - [13/Dec/2025 05:09:43] "GET /signup.html HTTP/1.1" 200 -
+2025-12-13 05:09:52,941 127.0.0.1 - - [13/Dec/2025 05:09:52] "GET / HTTP/1.1" 200 -
+2025-12-13 05:09:53,001 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,004 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":20,"source-file":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-12-13 05:09:53,004 127.0.0.1 - - [13/Dec/2025 05:09:53] "POST /csp_report HTTP/1.1" 200 -
+2025-12-13 05:09:53,006 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,008 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,098 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,133 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,170 127.0.0.1 - - [13/Dec/2025 05:09:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-12-13 05:09:53,204 {"csp-report":{"document-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/","referrer":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://humble-happiness-x66gvwxvj6g2w75-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-12-13 05:09:53,204 127.0.0.1 - - [13/Dec/2025 05:09:53] "POST /csp_report HTTP/1.1" 200 -
