@@ -73,6 +73,7 @@ def privacy():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
+        dbHandler.insertSignup(email, password)
         app_log.info(f"Form submitted: {email}")
         return redirect("/index.html", code=303)
     else:

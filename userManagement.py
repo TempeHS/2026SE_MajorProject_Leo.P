@@ -18,4 +18,3 @@ def insertSignup(email, password):
         "INSERT INTO user_info (email, password) VALUES (?,?)", (email, password)
     )
     con.commit()
-    con.close()
