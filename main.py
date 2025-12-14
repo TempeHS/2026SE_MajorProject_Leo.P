@@ -62,10 +62,13 @@ def index():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
-        app_log.info(f"Form submitted: {email}")
-        return redirect("/home.html", code=303)
-    else:
-        return render_template("/index.html")
+        if dbHandler.getUsers(email, password):
+            app_log.info("%s has logged in.", email)
+            return redirect("/home.html", code=303)
+        else:
+            app_log.info("%s failed to log in.", email)
+            return render_template("/index.html")
+    return render_template("/index.html")
 
 
 @app.route("/signup.html", methods=["POST", "GET"])
