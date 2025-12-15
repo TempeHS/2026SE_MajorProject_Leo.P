@@ -11,3 +11,5 @@ CREATE TABLE IF NOT EXISTS "user_info" (
     "email"	TEXT NOT NULL UNIQUE,
     "password"	TEXT NOT NULL
 );
+
+DELETE FROM user_info WHERE email = "leoleolego1@gmail.com" AND password = "123";
