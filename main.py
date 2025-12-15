@@ -87,7 +87,7 @@ def index():
 
 
 @app.route("/signup.html", methods=["POST", "GET"])
-def privacy():
+def signup():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
