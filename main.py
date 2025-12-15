@@ -128,5 +128,13 @@ def home():
     return render_template("/home.html")
 
 
+@app.route("/logout", methods=["GET", "POST"])
+def logout():
+    email = session.get("user_email", "Unknown")
+    session.clear()
+    app_log.info("%s logged out.", email)
+    return redirect("/", code=303)
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
