@@ -19,7 +19,13 @@ def getUsers(email, password):
 def insertSignup(email, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()
-    cur.execute(
-        "INSERT INTO user_info (email, password) VALUES (?,?)", (email, password)
-    )
-    con.commit()
+    try:
+        cur.execute(
+            "INSERT INTO user_info (email, password) VALUES (?,?)", (email, password)
+        )
+        con.commit()
+        con.close()
+        return True
+    except sql.IntegrityError:
+        con.close()
+        return False

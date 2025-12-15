@@ -26,6 +26,15 @@ logging.basicConfig(
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
 app.secret_key = b"_53oi3uriq9pifpff;apl"
+
+app.config["SESSION_TYPE"] = "filesystem"
+app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_USE_SIGNER"] = True
+app.config["SESSION_FILE_DIR"] = "./flask_session"
+app.config["PERMANENT_SESSION_LIFETIME"] = 2700
+
+Session(app)
+
 csrf = CSRFProtect(app)
 
 
@@ -61,10 +70,14 @@ def root():
     }
 )
 def index():
+    if session.get("logged_in"):
+        return redirect("/home.html", code=303)
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
         if dbHandler.getUsers(email, password):
+            session["user_email"] = email
+            session["logged_in"] = True
             app_log.info("%s has logged in.", email)
             return redirect("/home.html", code=303)
         else:
@@ -108,6 +121,10 @@ def csp_report():
 # Home page
 @app.route("/home.html", methods=["GET"])
 def home():
+    if not session.get("logged_in"):
+        app_log.warning("Unauthorised attempt to access data")
+        return redirect("/", code=303)
+
     return render_template("/home.html")
 
 
