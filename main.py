@@ -3,6 +3,7 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask import jsonify
+from flask import url_for
 from flask import session
 import requests
 from flask_wtf import CSRFProtect
@@ -11,6 +12,12 @@ from flask_session import Session
 import logging
 
 import userManagement as dbHandler
+
+import pyotp
+import pyqrcode
+import os
+import base64
+from io import BytesIO
 
 # Code snippet for logging a message
 # app.logger.critical("message")
@@ -77,9 +84,11 @@ def index():
         password = request.form["password"]
         if dbHandler.getUsers(email, password):
             session["user_email"] = email
-            session["logged_in"] = True
+            user_secret = pyotp.random_base32()
+            session["user_secret"] = user_secret
+
             app_log.info("%s has logged in.", email)
-            return redirect("/home.html", code=303)
+            return redirect("/2fa.html", code=303)
         else:
             app_log.info("%s failed to log in.", email)
             return render_template("/index.html")
@@ -134,6 +143,52 @@ def logout():
     session.clear()
     app_log.info("%s logged out.", email)
     return redirect("/", code=303)
+
+
+@app.route("/2fa.html", methods=["POST", "GET"])
+@csp_header(
+    {
+        "base-uri": "'self'",
+        "default-src": "'self'",
+        "style-src": "'self' 'unsafe-inline'",
+        "script-src": "'self'",
+        "img-src": "'self' data:",
+        "media-src": "'self'",
+        "font-src": "'self'",
+        "object-src": "'self'",
+        "child-src": "'self'",
+        "connect-src": "'self'",
+        "worker-src": "'self'",
+        "manifest-src": "'self'",
+        "report-uri": "/csp_report",
+        "frame-ancestors": "'none'",
+        "form-action": "'self'",
+        "frame-src": "'none'",
+    }
+)
+def reach_2fa():
+    username = session.get("user_email", "User")
+    user_secret = session.get("user_secret")
+
+    if not user_secret:
+        return redirect("/", code=303)
+
+    totp = pyotp.TOTP(user_secret)
+    otp_uri = totp.provisioning_uri(name=username, issuer_name="Developer Logs")
+    qr_code = pyqrcode.create(otp_uri)
+    stream = BytesIO()
+    qr_code.png(stream, scale=5)
+    qr_code_b64 = base64.b64encode(stream.getvalue()).decode("utf-8")
+
+    if request.method == "POST":
+        otp_input = request.form["otp"]
+        if totp.verify(otp_input):
+            session["logged_in"] = True
+            return render_template("/home.html")
+        else:
+            return "Invalid OTP. Please try again.", 401
+
+    return render_template("/2fa.html", qr_code=qr_code_b64, value=username)
 
 
 if __name__ == "__main__":
