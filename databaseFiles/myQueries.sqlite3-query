@@ -12,9 +12,9 @@ CREATE TABLE IF NOT EXISTS "user_info" (
     "password"	TEXT NOT NULL
 );
 
-DELETE FROM user_info WHERE email = "leoleolego1@gmail.com" AND password = "123";
+DELETE FROM user_info WHERE email = "leoleolego1@gmail.com" AND password = "$2b$12$idNAHtxN4Fq6YwcaXCPQYeEukWR3ZJAY7W.S7jmT.ewnvgsBIkNZ.";
 
-CREATE TABLE IF NOT EXISTS dev_logs (
+CREATE TABLE IF NOT EXISTS "dev_logs" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "user_email" TEXT NOT NULL,
     "dev_name" TEXT NOT NULL,
@@ -25,5 +25,5 @@ CREATE TABLE IF NOT EXISTS dev_logs (
     "time_worked" TEXT NOT NULL,
     "repository" TEXT NOT NULL,
     "notes" TEXT,
-    "created_at" TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    "time_created" TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
