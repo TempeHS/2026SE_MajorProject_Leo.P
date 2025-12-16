@@ -15,7 +15,7 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <h1>Welcome, {{ session.user_email }}</h1>
+      <h1>Logged in as {{ session.user_email }}</h1>
       <a href="/logout">Logout</a>
     </div>
   </div>
@@ -29,6 +29,7 @@
               type="text"
               class="form-control"
               id="inputDevName"
+              placeholder="e.g. Leo Projceski"
               name="dev_name"
               required
             />
@@ -39,11 +40,12 @@
               type="text"
               class="form-control"
               id="inputProjName"
+              placeholder="e.g. 2026SE-Task1"
               name="project_name"
               required
             />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <label for="inputDateTime" class="form-label">Start Time</label>
             <input
               type="datetime-local"
@@ -53,7 +55,7 @@
               required
             />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <label for="inputDateTime2" class="form-label">End Time</label>
             <input
               type="datetime-local"
@@ -63,22 +65,13 @@
               required
             />
           </div>
-          <div class="col-md-4">
-            <label for="inputDateTime3" class="form-label">Entry Date</label>
-            <input
-              type="datetime-local"
-              class="form-control"
-              id="inputDateTime3"
-              name="entry_date"
-              required
-            />
-          </div>
           <div class="col-md-6">
             <label for="inputTimeWorked" class="form-label">Time Worked</label>
             <input
               type="text"
               class="form-control"
               id="inputTimeWorked"
+              placeholder="e.g. 1.5 hours (Note: Time Worked must be in increments of .5)"
               name="time_worked"
               required
             />
@@ -89,6 +82,7 @@
               type="text"
               class="form-control"
               id="inputRepo"
+              placeholder="e.g. https://github.com/TempeHS/2026SE_Task1_Leo.P"
               name="repository"
               required
             />
