@@ -12,50 +12,101 @@
 </html> -->
 
 {% extends 'layout.html' %} {% block content %}
-    <body>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
       <h1>Welcome, {{ session.user_email }}</h1>
       <a href="/logout">Logout</a>
-    </body>
-<div class="d-flex justify-content-center align-items-center min-vh-100">
-  <div class="card p-5" style="width: 100%; max-width: 480px">
-  <form class="row g-3">
-    <div class="col-md-2">
-      <label for="inputDevName" class="form-label">Developer Name</label>
-      <input type="text" class="form-control" id="inputDevName"/>
     </div>
-    <div class="col-md-2">
-      <label for="inputProjName" class="form-label">Project Name</label>
-      <input type="text" class="form-control" id="inputProjName"/>
-    </div>
-    <div class="col-md-2">
-      <label for="inputDateTime" class="form-label">Start Time</label>
-      <input type="datetime-local" class="form-control" id="inputDateTime"/>
-    </div>
-    <div class="col-md-2">
-      <label for="inputDateTime2" class="form-label">End Time</label>
-      <input type="datetime-local" class="form-control" id="inputDateTime2"/>
-    </div>
-    <div class="col-md-2">
-      <label for="inputDateTime3" class="form-label">Entry Date</label>
-      <input type="datetime-local" class="form-control" id="inputDateTime3"/>
-    </div>
-    <div class="col-md-2">
-      <label for="inputTimeWorked" class="form-label">Time Worked</label>
-      <input type="text" class="form-control" id="inputTimeWorked"/>
-    </div>
-    <div class="col-md-6">
-      <label for="inputRepo" class="form-label">Repository</label>
-      <input type="text" class="form-control" id="inputRepo"/>
-    </div>
-      <div class="col-md-6">
-      <label for="inputNotes" class="form-label">Notes</label>
-      <textarea type="text" class="form-control" id="inputNotes"></textarea>
-    </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </form>
   </div>
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card p-4">
+        <form method="POST" class="row g-3">
+          <div class="col-md-6">
+            <label for="inputDevName" class="form-label">Developer Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputDevName"
+              name="dev_name"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputProjName" class="form-label">Project Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputProjName"
+              name="project_name"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputDateTime" class="form-label">Start Time</label>
+            <input
+              type="datetime-local"
+              class="form-control"
+              id="inputDateTime"
+              name="start_time"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputDateTime2" class="form-label">End Time</label>
+            <input
+              type="datetime-local"
+              class="form-control"
+              id="inputDateTime2"
+              name="end_time"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="inputDateTime3" class="form-label">Entry Date</label>
+            <input
+              type="datetime-local"
+              class="form-control"
+              id="inputDateTime3"
+              name="entry_date"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputTimeWorked" class="form-label">Time Worked</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputTimeWorked"
+              name="time_worked"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputRepo" class="form-label">Repository</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputRepo"
+              name="repository"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputNotes" class="form-label">Notes</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="inputNotes"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
 </div>
-</div>
-{% endblock %}
