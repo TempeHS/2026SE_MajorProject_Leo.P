@@ -36,3 +36,44 @@ body {
     opacity: 1;
   }
 }
+
+/* Install App button */
+.install-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #14e6dd;
+  color: #106d69;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(20, 230, 221, 0.4);
+  transition: all 0.3s ease;
+  z-index: 999;
+  animation: pulse 2s infinite;
+}
+
+.install-button:hover {
+  background: #106d69;
+  color: #14e6dd;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(20, 230, 221, 0.6);
+}
+
+.install-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(20, 230, 221, 0.4);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 4px 12px rgba(20, 230, 221, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(20, 230, 221, 0.7);
+  }
+}
