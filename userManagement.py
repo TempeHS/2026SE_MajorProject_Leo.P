@@ -5,9 +5,7 @@ import bcrypt
 def getUsers(email, password):
     con = sql.connect("databaseFiles/database.db")
     cur = con.cursor()
-    cur.execute(
-        "SELECT * FROM user_info WHERE email = ? AND password = ?", (email, password)
-    )
+    cur.execute("SELECT password FROM user_info WHERE email = ?", (email,))
     result = cur.fetchone()
     con.close()
     if result is None:

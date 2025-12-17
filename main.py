@@ -96,6 +96,26 @@ def index():
 
 
 @app.route("/signup.html", methods=["POST", "GET"])
+@csp_header(
+    {
+        "base-uri": "'self'",
+        "default-src": "'self'",
+        "style-src": "'self' 'unsafe-inline'",
+        "script-src": "'self'",
+        "img-src": "'self' data:",
+        "media-src": "'self'",
+        "font-src": "'self'",
+        "object-src": "'self'",
+        "child-src": "'self'",
+        "connect-src": "'self'",
+        "worker-src": "'self'",
+        "manifest-src": "'self'",
+        "report-uri": "/csp_report",
+        "frame-ancestors": "'none'",
+        "form-action": "'self'",
+        "frame-src": "'none'",
+    }
+)
 def signup():
     if request.method == "POST":
         email = request.form["email"]
@@ -192,4 +212,4 @@ def reach_2fa():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=8000)
