@@ -84,7 +84,7 @@ def index():
         password = request.form["password"]
         if dbHandler.getUsers(email, password):
             session["user_email"] = email
-            user_secret = pyotp.random_base32()
+            user_secret = dbHandler.getUserSecret(email)
             session["user_secret"] = user_secret
 
             app_log.info("%s has logged in.", email)
@@ -202,7 +202,7 @@ def reach_2fa():
 
     if request.method == "POST":
         otp_input = request.form["otp"]
-        if totp.verify(otp_input):
+        if totp.verify(otp_input, valid_window=1):
             session["logged_in"] = True
             return render_template("/home.html")
         else:

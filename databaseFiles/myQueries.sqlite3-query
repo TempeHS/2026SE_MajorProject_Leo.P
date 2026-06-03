@@ -12,7 +12,13 @@ CREATE TABLE IF NOT EXISTS "user_info" (
     "password"	TEXT NOT NULL
 );
 
-DELETE FROM user_info WHERE email = "leoleolego1@gmail.com";
+
+ALTER TABLE user_info ADD COLUMN "totp_secret" TEXT;
+
+
+DELETE FROM user_info WHERE email = "ya@a";
+DELETE FROM user_info WHERE email = "l@e";
+DELETE FROM user_info WHERE email = "test@t";
 
 CREATE TABLE IF NOT EXISTS "dev_logs" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT,

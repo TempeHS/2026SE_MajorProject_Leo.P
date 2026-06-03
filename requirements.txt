@@ -6,3 +6,4 @@ requests
 pyotp
 pyqrcode
 pypng
+flask_session
