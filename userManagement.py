@@ -1,5 +1,6 @@
 import sqlite3 as sql
 import bcrypt
+import pyotp
 
 
 def getUsers(email, password):
@@ -26,11 +27,12 @@ def insertSignup(email, password):
     salt = bcrypt.gensalt()
     hashed_password = bcrypt.hashpw(password_bytes, salt)
     hashed_password_str = hashed_password.decode("utf-8")
+    totp_secret = pyotp.random_base32()
 
     try:
         cur.execute(
-            "INSERT INTO user_info (email, password) VALUES (?,?)",
-            (email, hashed_password_str),
+            "INSERT INTO user_info (email, password, totp_secret) VALUES (?,?,?)",
+            (email, hashed_password_str, totp_secret),
         )
         con.commit()
         con.close()
@@ -38,3 +40,12 @@ def insertSignup(email, password):
     except sql.IntegrityError:
         con.close()
         return False
+
+
+def getUserSecret(email):
+    con = sql.connect("databaseFiles/database.db")
+    cur = con.cursor()
+    cur.execute("SELECT totp_secret FROM user_info WHERE email = ?", (email,))
+    result = cur.fetchone()
+    con.close()
+    return result[0] if result else None
