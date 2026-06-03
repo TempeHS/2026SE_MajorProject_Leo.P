@@ -6226,3 +6226,20 @@
 2026-06-01 03:38:10,915 127.0.0.1 - - [01/Jun/2026 03:38:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-01 03:38:10,923 {"csp-report":{"document-uri":"https://stunning-space-happiness-9vvgj9w59wj26pg-8000.app.github.dev/2fa.html","referrer":"https://stunning-space-happiness-9vvgj9w59wj26pg-8000.app.github.dev/2fa.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://stunning-space-happiness-9vvgj9w59wj26pg-8000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
 2026-06-01 03:38:10,923 127.0.0.1 - - [01/Jun/2026 03:38:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:46:47,032 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.226:8000
+2026-06-01 03:46:47,032 [33mPress CTRL+C to quit[0m
+2026-06-01 03:46:47,034  * Restarting with stat
+2026-06-01 03:46:47,363  * Debugger is active!
+2026-06-01 03:46:47,364  * Debugger PIN: 107-521-982
+2026-06-01 03:46:58,568 127.0.0.1 - - [01/Jun/2026 03:46:58] "[32mGET / HTTP/1.1[0m" 303 -
+2026-06-01 03:46:58,662 127.0.0.1 - - [01/Jun/2026 03:46:58] "GET /home.html HTTP/1.1" 200 -
+2026-06-01 03:46:58,848 127.0.0.1 - - [01/Jun/2026 03:46:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:46:58,860 127.0.0.1 - - [01/Jun/2026 03:46:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:46:58,864 127.0.0.1 - - [01/Jun/2026 03:46:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:46:58,980 127.0.0.1 - - [01/Jun/2026 03:46:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-01 03:53:59,414 127.0.0.1 - - [01/Jun/2026 03:53:59] "[31m[1mPOST /home.html HTTP/1.1[0m" 405 -
+2026-06-01 03:53:59,577 127.0.0.1 - - [01/Jun/2026 03:53:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-01 03:54:09,628 127.0.0.1 - - [01/Jun/2026 03:54:09] "GET /home.html HTTP/1.1" 200 -
