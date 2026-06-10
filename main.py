@@ -55,7 +55,7 @@ def root():
     return redirect("/", 302)
 
 
-@app.route("/", methods=["POST", "GET"])
+@app.route("/", methods=["GET"])
 @csp_header(
     {
         # Server Side CSP is consistent with meta CSP in layout.html
@@ -77,30 +77,15 @@ def root():
     }
 )
 def index():
-    if session.get("logged_in"):
-        return redirect("/home.html", code=303)
-    if request.method == "POST":
-        email = request.form["email"]
-        password = request.form["password"]
-        if dbHandler.getUsers(email, password):
-            session["user_email"] = email
-            user_secret = dbHandler.getUserSecret(email)
-            session["user_secret"] = user_secret
-
-            app_log.info("%s has logged in.", email)
-            return redirect("/2fa.html", code=303)
-        else:
-            app_log.info("%s failed to log in.", email)
-            return render_template("/index.html")
     return render_template("/index.html")
 
 
-@app.route("/signup.html", methods=["POST", "GET"])
+@app.route("/login.html", methods=["GET", "POST"])
 @csp_header(
     {
         "base-uri": "'self'",
         "default-src": "'self'",
-        "style-src": "'self' 'unsafe-inline'",
+        "style-src": "'self'",
         "script-src": "'self'",
         "img-src": "'self' data:",
         "media-src": "'self'",
@@ -109,20 +94,38 @@ def index():
         "child-src": "'self'",
         "connect-src": "'self'",
         "worker-src": "'self'",
-        "manifest-src": "'self'",
         "report-uri": "/csp_report",
         "frame-ancestors": "'none'",
         "form-action": "'self'",
         "frame-src": "'none'",
     }
 )
+def login():
+    if session.get("logged_in"):
+        return redirect("/home.html", code=303)
+    if request.method == "POST":
+        email = request.form["email"]
+        password = request.form["password"]
+        if dbHandler.getUsers(email, password):
+            session["user_email"] = email
+            session["user_secret"] = dbHandler.getUserSecret(email)
+
+            app_log.info("%s has logged in.", email)
+            return redirect("/2fa.html", code=303)
+        else:
+            app_log.info("%s failed to log in.", email)
+
+    return render_template("/index.html")
+
+
+@app.route("/signup.html", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
         dbHandler.insertSignup(email, password)
         app_log.info(f"Form submitted: {email}")
-        return redirect("/index.html", code=303)
+        return redirect("/login.html", code=303)
     else:
         return render_template("/signup.html")
 
