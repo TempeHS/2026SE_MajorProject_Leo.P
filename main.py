@@ -115,7 +115,7 @@ def login():
         else:
             app_log.info("%s failed to log in.", email)
 
-    return render_template("/index.html")
+    return render_template("/login.html")
 
 
 @app.route("/signup.html", methods=["GET", "POST"])
@@ -212,6 +212,11 @@ def reach_2fa():
             return "Invalid OTP. Please try again.", 401
 
     return render_template("/2fa.html", qr_code=qr_code_b64, value=username)
+
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 
 if __name__ == "__main__":
