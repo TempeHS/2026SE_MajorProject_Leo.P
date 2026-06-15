@@ -1,6 +1,7 @@
 * {
 }
 body {
+  padding-top: 56px;
 }
 .container {
 }
@@ -24,6 +25,10 @@ body {
 .offline-banner p {
   margin: 0;
   font-size: 0.95rem;
+}
+
+#offcanvasScrolling {
+  top: 56px;
 }
 
 @keyframes slideDown {
