@@ -224,5 +224,26 @@ def privacy():
     return render_template("privacy.html")
 
 
+### Card pages
+@app.route("/resources")
+def resources():
+    return render_template("cards/resources.html")
+
+
+@app.route("/past_papers")
+def past_papers():
+    return render_template("cards/past_papers.html")
+
+
+@app.route("/useful_websites")
+def useful_websites():
+    return render_template("cards/useful_websites.html")
+
+
+@app.route("/personal_dashboard")
+def personal_dashboard():
+    return render_template("cards/personal_dashboard.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
