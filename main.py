@@ -8,6 +8,7 @@ from flask import session
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
+
 from flask_session import Session
 import logging
 
@@ -39,6 +40,8 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_USE_SIGNER"] = True
 app.config["SESSION_FILE_DIR"] = "./flask_session"
 app.config["PERMANENT_SESSION_LIFETIME"] = 2700
+
+app.config["SESSION_REFRESH_EACH_REQUEST"]
 
 Session(app)
 
@@ -207,7 +210,7 @@ def reach_2fa():
         otp_input = request.form["otp"]
         if totp.verify(otp_input, valid_window=1):
             session["logged_in"] = True
-            return render_template("/home.html")
+            return redirect("/")
         else:
             return "Invalid OTP. Please try again.", 401
 
