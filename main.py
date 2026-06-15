@@ -8,6 +8,7 @@ from flask import session
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
+
 from flask_session import Session
 import logging
 
@@ -40,6 +41,8 @@ app.config["SESSION_USE_SIGNER"] = True
 app.config["SESSION_FILE_DIR"] = "./flask_session"
 app.config["PERMANENT_SESSION_LIFETIME"] = 2700
 
+app.config["SESSION_REFRESH_EACH_REQUEST"]
+
 Session(app)
 
 csrf = CSRFProtect(app)
@@ -55,7 +58,7 @@ def root():
     return redirect("/", 302)
 
 
-@app.route("/", methods=["POST", "GET"])
+@app.route("/", methods=["GET"])
 @csp_header(
     {
         # Server Side CSP is consistent with meta CSP in layout.html
@@ -77,30 +80,15 @@ def root():
     }
 )
 def index():
-    if session.get("logged_in"):
-        return redirect("/home.html", code=303)
-    if request.method == "POST":
-        email = request.form["email"]
-        password = request.form["password"]
-        if dbHandler.getUsers(email, password):
-            session["user_email"] = email
-            user_secret = dbHandler.getUserSecret(email)
-            session["user_secret"] = user_secret
-
-            app_log.info("%s has logged in.", email)
-            return redirect("/2fa.html", code=303)
-        else:
-            app_log.info("%s failed to log in.", email)
-            return render_template("/index.html")
     return render_template("/index.html")
 
 
-@app.route("/signup.html", methods=["POST", "GET"])
+@app.route("/login.html", methods=["GET", "POST"])
 @csp_header(
     {
         "base-uri": "'self'",
         "default-src": "'self'",
-        "style-src": "'self' 'unsafe-inline'",
+        "style-src": "'self'",
         "script-src": "'self'",
         "img-src": "'self' data:",
         "media-src": "'self'",
@@ -109,20 +97,38 @@ def index():
         "child-src": "'self'",
         "connect-src": "'self'",
         "worker-src": "'self'",
-        "manifest-src": "'self'",
         "report-uri": "/csp_report",
         "frame-ancestors": "'none'",
         "form-action": "'self'",
         "frame-src": "'none'",
     }
 )
+def login():
+    if session.get("logged_in"):
+        return redirect("/home.html", code=303)
+    if request.method == "POST":
+        email = request.form["email"]
+        password = request.form["password"]
+        if dbHandler.getUsers(email, password):
+            session["user_email"] = email
+            session["user_secret"] = dbHandler.getUserSecret(email)
+
+            app_log.info("%s has logged in.", email)
+            return redirect("/2fa.html", code=303)
+        else:
+            app_log.info("%s failed to log in.", email)
+
+    return render_template("/login.html")
+
+
+@app.route("/signup.html", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
         dbHandler.insertSignup(email, password)
         app_log.info(f"Form submitted: {email}")
-        return redirect("/index.html", code=303)
+        return redirect("/login.html", code=303)
     else:
         return render_template("/signup.html")
 
@@ -204,11 +210,42 @@ def reach_2fa():
         otp_input = request.form["otp"]
         if totp.verify(otp_input, valid_window=1):
             session["logged_in"] = True
-            return render_template("/home.html")
+            return redirect("/")
         else:
             return "Invalid OTP. Please try again.", 401
 
     return render_template("/2fa.html", qr_code=qr_code_b64, value=username)
+
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
+@app.route("/privacy")
+def privacy():
+    return render_template("privacy.html")
+
+
+### Card pages
+@app.route("/resources")
+def resources():
+    return render_template("cards/resources.html")
+
+
+@app.route("/past_papers")
+def past_papers():
+    return render_template("cards/past_papers.html")
+
+
+@app.route("/useful_websites")
+def useful_websites():
+    return render_template("cards/useful_websites.html")
+
+
+@app.route("/personal_dashboard")
+def personal_dashboard():
+    return render_template("cards/personal_dashboard.html")
 
 
 if __name__ == "__main__":

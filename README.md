@@ -8,6 +8,8 @@ OneLink works by allowing students to find and access all the study materials th
 
 ### Current sprint
 
+Sprint 1: Skeleton
+
 ### Last increment
 
 ### Next planned increment
@@ -15,7 +17,7 @@ OneLink works by allowing students to find and access all the study materials th
 ## Backlogs
 
 - [Product Backlog](PRODUCTBACKLOG.md)
-- [Sprint Backlog](SPRINBACKLOG.md)
+- [Sprint Backlog](SPRINTBACKLOG.md)
 
 ## Dependencies
 

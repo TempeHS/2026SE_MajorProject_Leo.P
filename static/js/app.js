@@ -52,4 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
       link.removeAttribute("aria-current");
     }
   });
+
+  document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach((el) => {
+    new bootstrap.Tooltip(el);
+  });
 });
