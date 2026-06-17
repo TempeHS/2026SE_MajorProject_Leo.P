@@ -5,6 +5,7 @@ from flask import request
 from flask import jsonify
 from flask import url_for
 from flask import session
+from flask import flash
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
@@ -109,6 +110,12 @@ def login():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
+
+        if not dbHandler.userExists(email):
+            flash("Account not found. Please sign up", "not-registered")
+            app_log.info("%s attempted to log in without registered account.", email)
+            return render_template("/login.html")
+
         if dbHandler.getUsers(email, password):
             session["user_email"] = email
             session["user_secret"] = dbHandler.getUserSecret(email)
@@ -116,6 +123,7 @@ def login():
             app_log.info("%s has logged in.", email)
             return redirect("/2fa.html", code=303)
         else:
+            flash("Incorrect email or password. Please try again.", "error")
             app_log.info("%s failed to log in.", email)
 
     return render_template("/login.html")
