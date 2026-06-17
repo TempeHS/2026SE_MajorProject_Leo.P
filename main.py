@@ -106,15 +106,15 @@ def index():
 )
 def login():
     if session.get("logged_in"):
-        return redirect("/home.html", code=303)
+        return redirect("/home.html", code=303)  # this might be wrong
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
 
         if not dbHandler.userExists(email):
-            flash("Account not found. Please sign up", "not-registered")
+            flash("Account not found. Please sign up first.", "not-registered")
             app_log.info("%s attempted to log in without registered account.", email)
-            return render_template("/login.html")
+            return redirect("/login.html")
 
         if dbHandler.getUsers(email, password):
             session["user_email"] = email
@@ -122,9 +122,10 @@ def login():
 
             app_log.info("%s has logged in.", email)
             return redirect("/2fa.html", code=303)
-        else:
-            flash("Incorrect email or password. Please try again.", "error")
-            app_log.info("%s failed to log in.", email)
+
+        flash("Incorrect email or password. Please try again.", "error")
+        app_log.info("%s failed to log in.", email)
+        return redirect("/login.html", code=303)
 
     return render_template("/login.html")
 
