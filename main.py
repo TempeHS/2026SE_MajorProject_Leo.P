@@ -133,13 +133,18 @@ def login():
 @app.route("/signup.html", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
-        email = request.form["email"]
+        email = request.form["email"].strip().lower()
         password = request.form["password"]
-        dbHandler.insertSignup(email, password)
+        exists = dbHandler.insertSignup(email, password)
+        if not exists:
+            flash("Email already registered. Please log in instead.", "error")
+            return redirect("/signup.html", code=303)
+
         app_log.info(f"Form submitted: {email}")
+        flash("Account created successfully. Please log in.", "success")
         return redirect("/login.html", code=303)
-    else:
-        return render_template("/signup.html")
+
+    return render_template("/signup.html")
 
 
 # example CSRF protected form
@@ -209,10 +214,10 @@ def reach_2fa():
         return redirect("/", code=303)
 
     totp = pyotp.TOTP(user_secret)
-    otp_uri = totp.provisioning_uri(name=username, issuer_name="Developer Logs")
+    otp_uri = totp.provisioning_uri(name=username, issuer_name="OneLink: HSC")
     qr_code = pyqrcode.create(otp_uri)
     stream = BytesIO()
-    qr_code.png(stream, scale=5)
+    qr_code.png(stream, scale=10)
     qr_code_b64 = base64.b64encode(stream.getvalue()).decode("utf-8")
 
     if request.method == "POST":
@@ -221,7 +226,8 @@ def reach_2fa():
             session["logged_in"] = True
             return redirect("/")
         else:
-            return "Invalid OTP. Please try again.", 401
+            flash("Invalid OTP. Please try again.", "error")
+            return redirect("/2fa.html", code=303)
 
     return render_template("/2fa.html", qr_code=qr_code_b64, value=username)
 
