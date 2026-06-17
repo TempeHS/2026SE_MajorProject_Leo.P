@@ -31,6 +31,85 @@ body {
   top: 56px;
 }
 
+/* home page cards */
+
+.home-cards-wrap {
+  max-width: 1260px;
+  margin-inline: auto;
+  padding-inline: 0.75rem;
+}
+
+.equal-card {
+  height: 270px;
+}
+
+.card-action-btn {
+  width: 50%;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.side-card .side-img {
+  height: 95px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.side-card .card-body .btn {
+  margin-top: auto;
+}
+
+.feature-card .row,
+.feature-card [class*="col-"] {
+  height: 100%;
+}
+
+.feature-card .feature-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feature-card .card-body {
+  height: 100%;
+}
+
+.side-card .side-img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: cover; /* changed from contain */
+  object-position: center;
+  background-color: transparent;
+}
+
+.compact-card .card-body {
+  padding: 0.75rem;
+}
+
+.compact-card .card-title {
+  margin-bottom: 0.35rem;
+}
+
+.compact-card .card-text {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .equal-card {
+    height: auto;
+  }
+
+  .feature-img,
+  .side-img {
+    height: 160px;
+  }
+}
+
+/* something */
+
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
