@@ -89,6 +89,11 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* changing the font to helvetica */
+/* * {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+} */
+
 /* laptop/desktop with short viewport height */
 @media (min-width: 992px) and (max-height: 760px) {
   .home-cards-wrap {

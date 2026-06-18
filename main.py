@@ -263,5 +263,12 @@ def personal_dashboard():
     return render_template("cards/personal_dashboard.html")
 
 
+### Subjects
+#### HSIE
+@app.route("/subject/hsie/business-studies")
+def businessStudies():
+    return render_template("subject/hsie/business-studies.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)

@@ -14950,3 +14950,563 @@
 2026-06-18 08:37:45,357 127.0.0.1 - - [18/Jun/2026 08:37:45] "POST /csp_report HTTP/1.1" 200 -
 2026-06-18 08:37:46,521 127.0.0.1 - - [18/Jun/2026 08:37:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-18 08:37:47,348 127.0.0.1 - - [18/Jun/2026 08:37:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 08:42:36,914 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 08:42:36,915 [33mPress CTRL+C to quit[0m
+2026-06-18 08:42:36,915  * Restarting with stat
+2026-06-18 08:42:37,216  * Debugger is active!
+2026-06-18 08:42:37,216  * Debugger PIN: 648-350-617
+2026-06-18 08:42:42,614 127.0.0.1 - - [18/Jun/2026 08:42:42] "GET / HTTP/1.1" 200 -
+2026-06-18 08:42:42,848 127.0.0.1 - - [18/Jun/2026 08:42:42] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:42,864 127.0.0.1 - - [18/Jun/2026 08:42:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:42,866 127.0.0.1 - - [18/Jun/2026 08:42:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:43,319 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:42:43,319 127.0.0.1 - - [18/Jun/2026 08:42:43] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:42:43,322 127.0.0.1 - - [18/Jun/2026 08:42:43] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:42:43,325 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:42:43,326 127.0.0.1 - - [18/Jun/2026 08:42:43] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:42:43,400 127.0.0.1 - - [18/Jun/2026 08:42:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:42:43,462 127.0.0.1 - - [18/Jun/2026 08:42:43] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 08:42:44,199 127.0.0.1 - - [18/Jun/2026 08:42:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,057 127.0.0.1 - - [18/Jun/2026 08:42:48] "GET / HTTP/1.1" 200 -
+2026-06-18 08:42:48,128 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,147 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,151 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,153 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,950 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:42:48,950 127.0.0.1 - - [18/Jun/2026 08:42:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:42:48,952 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:42:48,952 127.0.0.1 - - [18/Jun/2026 08:42:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:42:48,956 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:42:48,958 127.0.0.1 - - [18/Jun/2026 08:42:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:50:32,484  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-18 08:50:32,555  * Restarting with stat
+2026-06-18 08:50:32,924  * Debugger is active!
+2026-06-18 08:50:32,924  * Debugger PIN: 648-350-617
+2026-06-18 08:52:05,277  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-18 08:52:05,310  * Restarting with stat
+2026-06-18 08:55:29,643 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 08:55:29,643 [33mPress CTRL+C to quit[0m
+2026-06-18 08:55:29,644  * Restarting with stat
+2026-06-18 08:55:29,965  * Debugger is active!
+2026-06-18 08:55:29,966  * Debugger PIN: 648-350-617
+2026-06-18 08:56:01,619 127.0.0.1 - - [18/Jun/2026 08:56:01] "GET / HTTP/1.1" 200 -
+2026-06-18 08:56:02,108 127.0.0.1 - - [18/Jun/2026 08:56:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:02,111 127.0.0.1 - - [18/Jun/2026 08:56:02] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:02,112 127.0.0.1 - - [18/Jun/2026 08:56:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:03,028 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:56:03,029 127.0.0.1 - - [18/Jun/2026 08:56:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:56:03,031 127.0.0.1 - - [18/Jun/2026 08:56:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:56:03,038 127.0.0.1 - - [18/Jun/2026 08:56:03] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:56:03,119 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:56:03,119 127.0.0.1 - - [18/Jun/2026 08:56:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:56:03,824 127.0.0.1 - - [18/Jun/2026 08:56:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:56:04,142 127.0.0.1 - - [18/Jun/2026 08:56:04] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 08:56:22,528 127.0.0.1 - - [18/Jun/2026 08:56:22] "GET / HTTP/1.1" 200 -
+2026-06-18 08:56:23,040 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:23,044 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:23,051 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:56:23,132 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:56:23,132 127.0.0.1 - - [18/Jun/2026 08:56:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:56:23,138 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:56:23,140 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:56:23,142 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:56:23,143 127.0.0.1 - - [18/Jun/2026 08:56:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:56:23,945 127.0.0.1 - - [18/Jun/2026 08:56:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:56:24,993 127.0.0.1 - - [18/Jun/2026 08:56:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 08:56:30,051 127.0.0.1 - - [18/Jun/2026 08:56:30] "[33mGET /subjects/hsie/business-studies HTTP/1.1[0m" 404 -
+2026-06-18 08:57:39,592  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-18 08:57:39,623  * Restarting with stat
+2026-06-18 08:57:39,922  * Debugger is active!
+2026-06-18 08:57:39,922  * Debugger PIN: 648-350-617
+2026-06-18 08:58:57,968 127.0.0.1 - - [18/Jun/2026 08:58:57] "GET / HTTP/1.1" 200 -
+2026-06-18 08:58:59,274 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:58:59,278 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:58:59,291 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:58:59,313 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:58:59,313 127.0.0.1 - - [18/Jun/2026 08:58:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:58:59,319 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:58:59,319 127.0.0.1 - - [18/Jun/2026 08:58:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:58:59,881 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:58:59,886 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:58:59,938 127.0.0.1 - - [18/Jun/2026 08:58:59] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 08:59:00,922 127.0.0.1 - - [18/Jun/2026 08:59:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:59:01,994 127.0.0.1 - - [18/Jun/2026 08:59:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 08:59:06,388 127.0.0.1 - - [18/Jun/2026 08:59:06] "[35m[1mGET /subjectpages/hsie/business-studies HTTP/1.1[0m" 500 -
+2026-06-18 08:59:06,937 127.0.0.1 - - [18/Jun/2026 08:59:06] "GET /subjectpages/hsie/business-studies?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-18 08:59:06,939 127.0.0.1 - - [18/Jun/2026 08:59:06] "GET /subjectpages/hsie/business-studies?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-18 08:59:07,949 127.0.0.1 - - [18/Jun/2026 08:59:07] "GET /subjectpages/hsie/business-studies?__debugger__=yes&cmd=resource&f=console.png&s=TBGZU9i1VebjC54HPTIk HTTP/1.1" 200 -
+2026-06-18 08:59:08,968 127.0.0.1 - - [18/Jun/2026 08:59:08] "GET /subjectpages/hsie/business-studies?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-18 08:59:31,218  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-18 08:59:31,253  * Restarting with stat
+2026-06-18 08:59:31,555  * Debugger is active!
+2026-06-18 08:59:31,556  * Debugger PIN: 648-350-617
+2026-06-18 08:59:32,519 127.0.0.1 - - [18/Jun/2026 08:59:32] "GET / HTTP/1.1" 200 -
+2026-06-18 08:59:33,011 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:33,011 127.0.0.1 - - [18/Jun/2026 08:59:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:33,014 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:33,015 127.0.0.1 - - [18/Jun/2026 08:59:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:39,627 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 08:59:39,627 [33mPress CTRL+C to quit[0m
+2026-06-18 08:59:39,628  * Restarting with stat
+2026-06-18 08:59:39,939  * Debugger is active!
+2026-06-18 08:59:39,940  * Debugger PIN: 648-350-617
+2026-06-18 08:59:45,072 127.0.0.1 - - [18/Jun/2026 08:59:45] "GET / HTTP/1.1" 200 -
+2026-06-18 08:59:45,453 127.0.0.1 - - [18/Jun/2026 08:59:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:45,453 127.0.0.1 - - [18/Jun/2026 08:59:45] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:45,456 127.0.0.1 - - [18/Jun/2026 08:59:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:45,886 127.0.0.1 - - [18/Jun/2026 08:59:45] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:59:45,891 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:45,892 127.0.0.1 - - [18/Jun/2026 08:59:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:45,892 127.0.0.1 - - [18/Jun/2026 08:59:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:59:45,894 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:45,895 127.0.0.1 - - [18/Jun/2026 08:59:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:46,894 127.0.0.1 - - [18/Jun/2026 08:59:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:59:47,707 127.0.0.1 - - [18/Jun/2026 08:59:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,439 127.0.0.1 - - [18/Jun/2026 08:59:52] "GET / HTTP/1.1" 200 -
+2026-06-18 08:59:52,500 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,511 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,515 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,704 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,709 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,712 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:52,712 127.0.0.1 - - [18/Jun/2026 08:59:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:52,714 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 08:59:52,714 127.0.0.1 - - [18/Jun/2026 08:59:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 08:59:52,819 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 08:59:52,880 127.0.0.1 - - [18/Jun/2026 08:59:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 08:59:57,389 127.0.0.1 - - [18/Jun/2026 08:59:57] "GET /subjectpages/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:00:44,263  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-18 09:00:44,297  * Restarting with stat
+2026-06-18 09:00:44,607  * Debugger is active!
+2026-06-18 09:00:44,607  * Debugger PIN: 648-350-617
+2026-06-18 09:01:05,738 127.0.0.1 - - [18/Jun/2026 09:01:05] "[33mGET /subjectpages/hsie/business-studies HTTP/1.1[0m" 404 -
+2026-06-18 09:01:10,354 127.0.0.1 - - [18/Jun/2026 09:01:10] "GET / HTTP/1.1" 200 -
+2026-06-18 09:01:10,911 127.0.0.1 - - [18/Jun/2026 09:01:10] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:10,916 127.0.0.1 - - [18/Jun/2026 09:01:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:10,924 127.0.0.1 - - [18/Jun/2026 09:01:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:11,882 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:01:11,882 127.0.0.1 - - [18/Jun/2026 09:01:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:01:11,883 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:01:11,884 127.0.0.1 - - [18/Jun/2026 09:01:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:01:11,887 127.0.0.1 - - [18/Jun/2026 09:01:11] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:01:11,929 127.0.0.1 - - [18/Jun/2026 09:01:11] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:01:11,957 127.0.0.1 - - [18/Jun/2026 09:01:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:01:12,466 127.0.0.1 - - [18/Jun/2026 09:01:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:01:13,147 127.0.0.1 - - [18/Jun/2026 09:01:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 09:01:16,775 127.0.0.1 - - [18/Jun/2026 09:01:16] "[35m[1mGET /subject/hsie/business-studies HTTP/1.1[0m" 500 -
+2026-06-18 09:01:16,948 127.0.0.1 - - [18/Jun/2026 09:01:16] "GET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-18 09:01:16,966 127.0.0.1 - - [18/Jun/2026 09:01:16] "GET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-18 09:01:17,950 127.0.0.1 - - [18/Jun/2026 09:01:17] "GET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=console.png&s=huoy62Wi78dkouQtfs2Z HTTP/1.1" 200 -
+2026-06-18 09:01:19,095 127.0.0.1 - - [18/Jun/2026 09:01:19] "GET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-18 09:01:48,331 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 09:01:48,332 [33mPress CTRL+C to quit[0m
+2026-06-18 09:01:48,332  * Restarting with stat
+2026-06-18 09:01:48,654  * Debugger is active!
+2026-06-18 09:01:48,654  * Debugger PIN: 648-350-617
+2026-06-18 09:01:52,388 127.0.0.1 - - [18/Jun/2026 09:01:52] "GET / HTTP/1.1" 200 -
+2026-06-18 09:01:52,692 127.0.0.1 - - [18/Jun/2026 09:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:52,694 127.0.0.1 - - [18/Jun/2026 09:01:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:52,696 127.0.0.1 - - [18/Jun/2026 09:01:52] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:01:52,753 127.0.0.1 - - [18/Jun/2026 09:01:52] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:01:52,759 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:01:52,759 127.0.0.1 - - [18/Jun/2026 09:01:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:01:52,772 127.0.0.1 - - [18/Jun/2026 09:01:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:01:52,848 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:01:52,849 127.0.0.1 - - [18/Jun/2026 09:01:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:01:53,033 127.0.0.1 - - [18/Jun/2026 09:01:53] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:01:53,043 127.0.0.1 - - [18/Jun/2026 09:01:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:02:02,995 127.0.0.1 - - [18/Jun/2026 09:02:02] "[35m[1mGET /subject/hsie/business-studies HTTP/1.1[0m" 500 -
+2026-06-18 09:02:03,893 127.0.0.1 - - [18/Jun/2026 09:02:03] "[36mGET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:02:03,903 127.0.0.1 - - [18/Jun/2026 09:02:03] "[36mGET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 09:02:04,924 127.0.0.1 - - [18/Jun/2026 09:02:04] "GET /subject/hsie/business-studies?__debugger__=yes&cmd=resource&f=console.png&s=uEsTValTiiz1gCw8kCHQ HTTP/1.1" 200 -
+2026-06-18 09:04:01,128 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 09:04:01,129 [33mPress CTRL+C to quit[0m
+2026-06-18 09:04:01,129  * Restarting with stat
+2026-06-18 09:04:01,466  * Debugger is active!
+2026-06-18 09:04:01,466  * Debugger PIN: 648-350-617
+2026-06-18 09:04:09,239 127.0.0.1 - - [18/Jun/2026 09:04:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-06-18 09:04:09,723 127.0.0.1 - - [18/Jun/2026 09:04:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-18 09:04:09,724 127.0.0.1 - - [18/Jun/2026 09:04:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-18 09:04:10,339 127.0.0.1 - - [18/Jun/2026 09:04:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=7XzsvdX3NbLCiu8uDNZw HTTP/1.1" 200 -
+2026-06-18 09:04:10,908 127.0.0.1 - - [18/Jun/2026 09:04:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-18 09:09:52,841 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ("\x15A¡\x00\x00\x84\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+2026-06-18 09:09:52,841 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03ø\x9e\x04FF\x96!5\x1f\x92\x14wEÄ\x84yäz\x8aR|\x98m¹î%\x0d_\x1e\x15A¡\x00\x00\x84\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" 400 -
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00')
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x006\x00')
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00')
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x03\x00\x8c\x01\x00\x00\x88\x03\x03j3µàÚ\x84;7\x00$è\x10I\x17\x1a\x10\x00CÈbiX\x01'°ãQÍ\x84")
+2026-06-18 09:09:52,848 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x03\x00\x8c\x01\x00\x00\x88\x03\x03j3µàÚ\x84;7\x00$è\x10I\x17\x1a\x10\x00CÈbiX\x01'°ãQÍ\x84\x0bCb\x00\x00\x1a\x13\x05\x13\x04\x13\x01\x13\x02\x13\x03À´Àµ\x00Ç\x00ÆÀ²À°À³À±\x01\x00\x00E\x00[0m" 400 -
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µàI¶¶kûóáîG\x13\x93e\x88vÐYv\x1c'Ð\\À\x07ëéÆró\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:52,847 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j3µà\x9eÂ:Þ\x0e\x81¦Á\x0dm\x1cOrÇè:i\x88!j\x8eF\x7f]Ù\x7fÈ@\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x006\x00[0m" 400 -
+2026-06-18 09:09:52,847 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j3µà¬B]ÊN\x1bÅsµªvoì1{¬BMR\x83©;reõ¡\x8eo\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:52,846 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request syntax ('\x16\x03\x01\x00W\x01\x00\x00S\x03\x03j3µàÒ¶×½ó±ôëJñÁ\x95\x8bâ\x1aF?Z³Ãý\x97;a`\x88\x8bÇ\x00\x00')
+2026-06-18 09:09:52,850 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x01\x00W\x01\x00\x00S\x03\x03j3µàÒ¶×½ó±ôëJñÁ\x95\x8bâ\x1aF?Z³Ãý\x97;a`\x88\x8bÇ\x00\x00[0m" 400 -
+2026-06-18 09:09:52,857 127.0.0.1 - - [18/Jun/2026 09:09:52] "[35m[1mHEAD / HTTP/1.1[0m" 500 -
+2026-06-18 09:09:52,957 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('\x00/\x00')
+2026-06-18 09:09:52,957 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00')
+2026-06-18 09:09:52,957 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x006\x00')
+2026-06-18 09:09:52,957 127.0.0.1 - - [18/Jun/2026 09:09:52] code 400, message Bad request syntax ('\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µàa¥\x8eGÚtRÓ\x90@º£bq\x8d')
+2026-06-18 09:09:52,957 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+2026-06-18 09:09:52,958 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j3µàî½\x05û'!&U`vØÇHÞØ\x0c]i_\x91Qij>?³PT\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:52,958 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j3µàÜlöÒ\x058ëX8Ó,y`îØà\x92H¬áÁ%ó»a\x9a\x84ã\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x006\x00[0m" 400 -
+2026-06-18 09:09:52,958 127.0.0.1 - - [18/Jun/2026 09:09:52] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µàa¥\x8eGÚtRÓ\x90@º£bq\x8d[0m" 400 -
+2026-06-18 09:09:53,021 127.0.0.1 - - [18/Jun/2026 09:09:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-06-18 09:09:53,108 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-18 09:09:53,108 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-18 09:09:53,108 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-18 09:09:53,108 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j3µá2}\x0cÑ3Ônî4\x02Ó{~Ð~\x8a%Yz·mì\x07³Þ«íi\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-18 09:09:53,109 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j3µá>n~\x15a³M2{Ü¼¿°Ý\\6c5ÂãÀ\x0cø\x84Ú©Æå\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-18 09:09:53,109 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µá\x14\x80uÆlzÎ~É_8Sß c.¯9\x93xË\x9b\x11#&±\x84K\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00')
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x006\x00')
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00')
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j3µá\x18ì\x02Êè\x06\x9e,gDÖ\x11\x1e/\x1a?ÊP1\x09\x97\x19LY\x9a3-5\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j3µá¬1\x0eÖ!ªÎpkùp\x8e\x8cÏd2»\x17-7\x04Û÷ÒVdî3\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x006\x00[0m" 400 -
+2026-06-18 09:09:53,257 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µá©ñjf\x8bó°ºßü\x19´ïK\x93üã\x1eñVaNfç\x92D\x89;\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:53,405 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00')
+2026-06-18 09:09:53,405 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x006\x00')
+2026-06-18 09:09:53,405 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j3µá\x99$1XÆ"\x9càx6IåT\x91¡\x10ëËÿ_\x07\x9d\x80ª7\x10N\x19\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x006\x00[0m" 400 -
+2026-06-18 09:09:53,405 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j3µá\x93¾xÇNÝ¹\x19~äëÛÙ\x8dÁ½\x89r\x84\x80@e7ýÜu\x1cÐ\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:53,405 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00')
+2026-06-18 09:09:53,406 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j3µáá;ÃÂª\x84\x9cÿ\x09\x90}5\\_«\x02ÔÍR\x9c\x97µãÇ4Jl8\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00[0m" 400 -
+2026-06-18 09:09:53,553 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad request version ("óU§\x10\x84\x04§î\x8c\x07Èá³'\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00")
+2026-06-18 09:09:53,554 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x01j3µáõ!\x0b\x9f¿\x1a\x86à"uL\x04\x9c\x1cóU§\x10\x84\x04§î\x8c\x07Èá³'\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-18 09:09:53,554 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x02\x00½\x01\x00\x00¹\x03\x02j3µá\x17JN3ÅU')
+2026-06-18 09:09:53,554 127.0.0.1 - - [18/Jun/2026 09:09:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00Ý\x01\x00\x00Ù\x03\x03j3µá')
+2026-06-18 09:09:53,554 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x02\x00½\x01\x00\x00¹\x03\x02j3µá\x17JN3ÅU dÞë\x11>\x96ÈË7}EE\x00ª¥\x07ó\x16&\x16\x9d\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-18 09:09:53,554 127.0.0.1 - - [18/Jun/2026 09:09:53] "[31m[1m\x16\x03\x03\x00Ý\x01\x00\x00Ù\x03\x03j3µá\x1f\x96b\x81w\x7f\x07°\x8eGú\x82?\x8c/ßî\x96|\x18Q½·*ãK"R\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-18 09:09:57,958 127.0.0.1 - - [18/Jun/2026 09:09:57] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00')
+2026-06-18 09:09:57,958 127.0.0.1 - - [18/Jun/2026 09:09:57] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j3µàB[©ÞLÖ\x9e\x8d´rÛùÙ\x08`÷S\x0f\x08îtd\x83|\x99Àø&\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00[0m" 400 -
+2026-06-18 09:10:03,058 127.0.0.1 - - [18/Jun/2026 09:10:03] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00')
+2026-06-18 09:10:03,058 127.0.0.1 - - [18/Jun/2026 09:10:03] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j3µåìÓT\x8a\x11\x94Þ|Mh^@o_\x8e%¾\x9bÃXñmä²\x84ö\x88\x10\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00[0m" 400 -
+2026-06-18 09:10:03,059 127.0.0.1 - - [18/Jun/2026 09:10:03] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-18 09:10:03,059 127.0.0.1 - - [18/Jun/2026 09:10:03] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j3µëDó¬j6ÝA\x17P>aÆÀæÍRG­Ä\x18<ø0DH£÷Ð\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-18 09:10:08,160 127.0.0.1 - - [18/Jun/2026 09:10:08] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00')
+2026-06-18 09:10:08,160 127.0.0.1 - - [18/Jun/2026 09:10:08] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j3µë/\x9d!Ò>±ï\x04P2üD\x87G(<@sm\x07½¬²\x07\x12÷`)\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00[0m" 400 -
+2026-06-18 09:10:13,261 127.0.0.1 - - [18/Jun/2026 09:10:13] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00')
+2026-06-18 09:10:13,261 127.0.0.1 - - [18/Jun/2026 09:10:13] code 400, message Bad request version ('\x97\x1aÉ¨\x11\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-18 09:10:13,261 127.0.0.1 - - [18/Jun/2026 09:10:13] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j3µðt\x0fÍpzDÔ\x05\x06Ò\x15DT«\x1aµ';\x09\x8a}Ì\x082·¶ðÆ\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00[0m" 400 -
+2026-06-18 09:10:13,261 127.0.0.1 - - [18/Jun/2026 09:10:13] "[31m[1m\x16\x03\x00\x00¥\x01\x00\x00¡\x03\x00j3µõ]\x1cÝ\x09z9â0\x95Þ\x0f?gî\x0dY\x02J\x09w3 \x85\x97\x1aÉ¨\x11\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-18 09:11:48,238 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.232:8000
+2026-06-18 09:11:48,238 [33mPress CTRL+C to quit[0m
+2026-06-18 09:11:48,238  * Restarting with stat
+2026-06-18 09:11:48,570  * Debugger is active!
+2026-06-18 09:11:48,570  * Debugger PIN: 648-350-617
+2026-06-18 09:12:11,178 127.0.0.1 - - [18/Jun/2026 09:12:11] "GET / HTTP/1.1" 200 -
+2026-06-18 09:12:11,428 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,429 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,437 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,533 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,848 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,854 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:12:11,854 127.0.0.1 - - [18/Jun/2026 09:12:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:12:11,859 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:12:11,939 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:12:11,940 127.0.0.1 - - [18/Jun/2026 09:12:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:12:11,997 127.0.0.1 - - [18/Jun/2026 09:12:11] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:12:20,745 127.0.0.1 - - [18/Jun/2026 09:12:20] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:12:25,362 127.0.0.1 - - [18/Jun/2026 09:12:25] "GET / HTTP/1.1" 200 -
+2026-06-18 09:12:25,788 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:12:25,789 127.0.0.1 - - [18/Jun/2026 09:12:25] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:12:25,796 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:12:25,797 127.0.0.1 - - [18/Jun/2026 09:12:25] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:19:22,108 127.0.0.1 - - [18/Jun/2026 09:19:22] "GET / HTTP/1.1" 200 -
+2026-06-18 09:19:22,541 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,558 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,559 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,574 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,789 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,803 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:19:22,804 127.0.0.1 - - [18/Jun/2026 09:19:22] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:19:22,861 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:19:22,861 127.0.0.1 - - [18/Jun/2026 09:19:22] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:19:22,874 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,876 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:19:22,994 127.0.0.1 - - [18/Jun/2026 09:19:22] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 09:19:31,000 127.0.0.1 - - [18/Jun/2026 09:19:31] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:19:33,477 127.0.0.1 - - [18/Jun/2026 09:19:33] "GET / HTTP/1.1" 200 -
+2026-06-18 09:19:33,618 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:19:33,618 127.0.0.1 - - [18/Jun/2026 09:19:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:19:33,620 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:19:33,621 127.0.0.1 - - [18/Jun/2026 09:19:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:20:34,313 127.0.0.1 - - [18/Jun/2026 09:20:34] "GET / HTTP/1.1" 200 -
+2026-06-18 09:20:34,408 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,412 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,419 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,423 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,425 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:20:34,426 127.0.0.1 - - [18/Jun/2026 09:20:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:20:34,431 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:20:34,431 127.0.0.1 - - [18/Jun/2026 09:20:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:20:34,437 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,532 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,536 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:20:34,601 127.0.0.1 - - [18/Jun/2026 09:20:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 09:21:22,963 127.0.0.1 - - [18/Jun/2026 09:21:22] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:21:23,104 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,126 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,129 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,131 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,213 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,222 127.0.0.1 - - [18/Jun/2026 09:21:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:21:23,362 127.0.0.1 - - [18/Jun/2026 09:21:23] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 09:22:37,030 127.0.0.1 - - [18/Jun/2026 09:22:37] "GET / HTTP/1.1" 200 -
+2026-06-18 09:22:37,201 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,207 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,221 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:22:37,221 127.0.0.1 - - [18/Jun/2026 09:22:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:22:37,225 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,225 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,227 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,234 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:22:37,234 127.0.0.1 - - [18/Jun/2026 09:22:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:22:37,311 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:22:37,320 127.0.0.1 - - [18/Jun/2026 09:22:37] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:25:10,926 127.0.0.1 - - [18/Jun/2026 09:25:10] "GET / HTTP/1.1" 200 -
+2026-06-18 09:25:11,110 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-18 09:25:11,355 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:25:11,356 127.0.0.1 - - [18/Jun/2026 09:25:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:25:11,358 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:25:11,359 127.0.0.1 - - [18/Jun/2026 09:25:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:25:11,360 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 09:25:11,360 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-18 09:25:11,362 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-18 09:25:11,367 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-18 09:25:11,522 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-18 09:25:11,571 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-18 09:25:11,665 127.0.0.1 - - [18/Jun/2026 09:25:11] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-18 09:25:38,423 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET / HTTP/1.1" 200 -
+2026-06-18 09:25:38,595 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:25:38,595 127.0.0.1 - - [18/Jun/2026 09:25:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:25:38,598 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-18 09:25:38,602 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-18 09:25:38,605 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 09:25:38,606 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:25:38,606 127.0.0.1 - - [18/Jun/2026 09:25:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:25:38,608 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-18 09:25:38,616 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-18 09:25:38,786 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-18 09:25:38,798 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-18 09:25:38,924 127.0.0.1 - - [18/Jun/2026 09:25:38] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-18 09:36:05,626 127.0.0.1 - - [18/Jun/2026 09:36:05] "GET / HTTP/1.1" 200 -
+2026-06-18 09:36:06,374 127.0.0.1 - - [18/Jun/2026 09:36:06] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:06,480 127.0.0.1 - - [18/Jun/2026 09:36:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:06,482 127.0.0.1 - - [18/Jun/2026 09:36:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:07,355 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:36:07,356 127.0.0.1 - - [18/Jun/2026 09:36:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:36:07,359 127.0.0.1 - - [18/Jun/2026 09:36:07] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:36:07,372 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:36:07,372 127.0.0.1 - - [18/Jun/2026 09:36:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:36:07,417 127.0.0.1 - - [18/Jun/2026 09:36:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:36:07,511 127.0.0.1 - - [18/Jun/2026 09:36:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:36:07,906 127.0.0.1 - - [18/Jun/2026 09:36:07] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:36:10,274 127.0.0.1 - - [18/Jun/2026 09:36:10] "GET / HTTP/1.1" 200 -
+2026-06-18 09:36:10,365 127.0.0.1 - - [18/Jun/2026 09:36:10] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:10,422 127.0.0.1 - - [18/Jun/2026 09:36:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:10,425 127.0.0.1 - - [18/Jun/2026 09:36:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:36:11,396 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:36:11,396 127.0.0.1 - - [18/Jun/2026 09:36:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:36:11,411 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:36:11,411 127.0.0.1 - - [18/Jun/2026 09:36:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:36:11,417 127.0.0.1 - - [18/Jun/2026 09:36:11] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:36:11,420 127.0.0.1 - - [18/Jun/2026 09:36:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:36:11,518 127.0.0.1 - - [18/Jun/2026 09:36:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:36:12,519 127.0.0.1 - - [18/Jun/2026 09:36:12] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:42:38,700 127.0.0.1 - - [18/Jun/2026 09:42:38] "GET / HTTP/1.1" 200 -
+2026-06-18 09:42:38,891 127.0.0.1 - - [18/Jun/2026 09:42:38] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,153 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:42:39,154 127.0.0.1 - - [18/Jun/2026 09:42:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:42:39,156 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,160 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:42:39,160 127.0.0.1 - - [18/Jun/2026 09:42:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:42:39,168 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,172 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,190 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,266 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:42:39,276 127.0.0.1 - - [18/Jun/2026 09:42:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,685 127.0.0.1 - - [18/Jun/2026 09:42:43] "GET /resources HTTP/1.1" 200 -
+2026-06-18 09:42:43,829 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,838 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,844 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,846 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,964 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:42:43,969 127.0.0.1 - - [18/Jun/2026 09:42:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,419 127.0.0.1 - - [18/Jun/2026 09:43:21] "GET / HTTP/1.1" 200 -
+2026-06-18 09:43:21,534 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,543 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,546 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,550 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/resources","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:43:21,551 127.0.0.1 - - [18/Jun/2026 09:43:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:43:21,558 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/resources","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:43:21,558 127.0.0.1 - - [18/Jun/2026 09:43:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:43:21,567 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,575 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,605 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:43:21,663 127.0.0.1 - - [18/Jun/2026 09:43:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:03,867 127.0.0.1 - - [18/Jun/2026 09:44:03] "GET / HTTP/1.1" 200 -
+2026-06-18 09:44:03,994 127.0.0.1 - - [18/Jun/2026 09:44:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:03,998 127.0.0.1 - - [18/Jun/2026 09:44:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:04,000 127.0.0.1 - - [18/Jun/2026 09:44:04] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:44:04,003 127.0.0.1 - - [18/Jun/2026 09:44:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:04,004 127.0.0.1 - - [18/Jun/2026 09:44:04] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:04,006 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:04,006 127.0.0.1 - - [18/Jun/2026 09:44:04] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:04,022 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:04,022 127.0.0.1 - - [18/Jun/2026 09:44:04] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:04,119 127.0.0.1 - - [18/Jun/2026 09:44:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:04,123 127.0.0.1 - - [18/Jun/2026 09:44:04] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,409 127.0.0.1 - - [18/Jun/2026 09:44:21] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:44:21,543 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,546 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,549 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,563 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,691 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,694 127.0.0.1 - - [18/Jun/2026 09:44:21] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:44:21,825 127.0.0.1 - - [18/Jun/2026 09:44:21] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 09:44:23,458 127.0.0.1 - - [18/Jun/2026 09:44:23] "GET / HTTP/1.1" 200 -
+2026-06-18 09:44:23,560 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:23,560 127.0.0.1 - - [18/Jun/2026 09:44:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:23,563 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:23,563 127.0.0.1 - - [18/Jun/2026 09:44:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:36,039 127.0.0.1 - - [18/Jun/2026 09:44:36] "GET / HTTP/1.1" 200 -
+2026-06-18 09:44:36,155 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:36,158 127.0.0.1 - - [18/Jun/2026 09:44:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:36,170 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:36,180 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 09:44:36,188 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:36,189 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:36,190 127.0.0.1 - - [18/Jun/2026 09:44:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:36,193 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:36,215 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:36,260 127.0.0.1 - - [18/Jun/2026 09:44:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,699 127.0.0.1 - - [18/Jun/2026 09:44:40] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 09:44:40,770 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,783 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,786 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,833 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,880 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:40,943 127.0.0.1 - - [18/Jun/2026 09:44:40] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 09:44:41,234 127.0.0.1 - - [18/Jun/2026 09:44:41] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 09:44:56,406 127.0.0.1 - - [18/Jun/2026 09:44:56] "GET /resources HTTP/1.1" 200 -
+2026-06-18 09:44:56,500 127.0.0.1 - - [18/Jun/2026 09:44:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:56,507 127.0.0.1 - - [18/Jun/2026 09:44:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:56,510 127.0.0.1 - - [18/Jun/2026 09:44:56] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:56,515 127.0.0.1 - - [18/Jun/2026 09:44:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:44:56,568 127.0.0.1 - - [18/Jun/2026 09:44:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 09:44:59,252 127.0.0.1 - - [18/Jun/2026 09:44:59] "GET / HTTP/1.1" 200 -
+2026-06-18 09:44:59,367 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:59,367 127.0.0.1 - - [18/Jun/2026 09:44:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:44:59,387 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 09:44:59,388 127.0.0.1 - - [18/Jun/2026 09:44:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 09:45:00,369 127.0.0.1 - - [18/Jun/2026 09:45:00] "GET /useful_websites HTTP/1.1" 200 -
+2026-06-18 09:45:00,598 127.0.0.1 - - [18/Jun/2026 09:45:00] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 09:45:00,617 127.0.0.1 - - [18/Jun/2026 09:45:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 09:45:00,622 127.0.0.1 - - [18/Jun/2026 09:45:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 09:45:00,626 127.0.0.1 - - [18/Jun/2026 09:45:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 09:45:00,715 127.0.0.1 - - [18/Jun/2026 09:45:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:10:45,296 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.2.207:8000
+2026-06-18 13:10:45,322 [33mPress CTRL+C to quit[0m
+2026-06-18 13:10:45,323  * Restarting with stat
+2026-06-18 13:10:45,621  * Debugger is active!
+2026-06-18 13:10:45,621  * Debugger PIN: 513-047-296
+2026-06-18 13:10:52,531 127.0.0.1 - - [18/Jun/2026 13:10:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 13:10:55,216 127.0.0.1 - - [18/Jun/2026 13:10:55] "GET / HTTP/1.1" 200 -
+2026-06-18 13:10:55,646 127.0.0.1 - - [18/Jun/2026 13:10:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:10:55,646 127.0.0.1 - - [18/Jun/2026 13:10:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:10:55,647 127.0.0.1 - - [18/Jun/2026 13:10:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:10:55,764 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 13:10:55,764 127.0.0.1 - - [18/Jun/2026 13:10:55] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 13:10:55,786 127.0.0.1 - - [18/Jun/2026 13:10:55] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:10:55,787 127.0.0.1 - - [18/Jun/2026 13:10:55] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:10:55,791 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 13:10:55,791 127.0.0.1 - - [18/Jun/2026 13:10:55] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 13:10:56,263 127.0.0.1 - - [18/Jun/2026 13:10:56] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:10:56,272 127.0.0.1 - - [18/Jun/2026 13:10:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:14:13,025 127.0.0.1 - - [18/Jun/2026 13:14:13] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:14:13,682 127.0.0.1 - - [18/Jun/2026 13:14:13] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:14:13,683 127.0.0.1 - - [18/Jun/2026 13:14:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:14:13,700 127.0.0.1 - - [18/Jun/2026 13:14:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:14:14,399 127.0.0.1 - - [18/Jun/2026 13:14:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:14:14,609 127.0.0.1 - - [18/Jun/2026 13:14:14] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:14:15,497 127.0.0.1 - - [18/Jun/2026 13:14:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:14:16,644 127.0.0.1 - - [18/Jun/2026 13:14:16] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 13:22:22,932 127.0.0.1 - - [18/Jun/2026 13:22:22] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:22:23,210 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,245 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,267 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,281 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,289 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,336 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,338 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:22:23,416 127.0.0.1 - - [18/Jun/2026 13:22:23] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 13:22:23,426 127.0.0.1 - - [18/Jun/2026 13:22:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 13:28:00,867 127.0.0.1 - - [18/Jun/2026 13:28:00] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:28:01,178 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,190 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,208 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,226 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,231 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,279 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,290 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,363 127.0.0.1 - - [18/Jun/2026 13:28:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 13:28:01,373 127.0.0.1 - - [18/Jun/2026 13:28:01] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 13:28:56,328 127.0.0.1 - - [18/Jun/2026 13:28:56] "GET / HTTP/1.1" 200 -
+2026-06-18 13:28:56,405 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,414 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 13:28:56,415 127.0.0.1 - - [18/Jun/2026 13:28:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 13:28:56,418 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 13:28:56,418 127.0.0.1 - - [18/Jun/2026 13:28:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 13:28:56,420 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,422 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,424 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,434 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,487 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:28:56,497 127.0.0.1 - - [18/Jun/2026 13:28:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,519 127.0.0.1 - - [18/Jun/2026 13:29:03] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:29:03,599 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,600 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,621 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,623 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,627 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,671 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,675 127.0.0.1 - - [18/Jun/2026 13:29:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:29:03,720 127.0.0.1 - - [18/Jun/2026 13:29:03] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 13:30:54,489 127.0.0.1 - - [18/Jun/2026 13:30:54] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:30:54,580 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,821 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,824 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,836 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,853 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,908 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,911 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,961 127.0.0.1 - - [18/Jun/2026 13:30:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 13:30:54,969 127.0.0.1 - - [18/Jun/2026 13:30:54] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-18 13:31:20,549 127.0.0.1 - - [18/Jun/2026 13:31:20] "GET /about HTTP/1.1" 200 -
+2026-06-18 13:31:20,628 127.0.0.1 - - [18/Jun/2026 13:31:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 13:31:20,631 127.0.0.1 - - [18/Jun/2026 13:31:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 13:31:20,633 127.0.0.1 - - [18/Jun/2026 13:31:20] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-18 13:31:20,637 127.0.0.1 - - [18/Jun/2026 13:31:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 13:31:20,709 127.0.0.1 - - [18/Jun/2026 13:31:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 13:31:21,850 127.0.0.1 - - [18/Jun/2026 13:31:21] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-18 13:31:21,914 127.0.0.1 - - [18/Jun/2026 13:31:21] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
