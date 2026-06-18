@@ -25,7 +25,7 @@
             data-bs-target="#offcanvasScrolling"
             aria-controls="offcanvasScrolling"
           >
-            Resources
+            Subjects
           </button>
         </li>
         <li class="nav-item">
@@ -50,6 +50,8 @@
               {% endif %}
             </button>
             <ul class="dropdown-menu">
+              <li><h6 class="dropdown-header">Account</h6></li>
+              <li><hr class="dropdown-divider" /></li>
               {% if session.get("logged_in") %}
               <li><a class="dropdown-item" href="#">View Account</a></li>
               <li><a class="dropdown-item" href="#">Manage Account</a></li>
@@ -84,7 +86,7 @@
 >
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
-      Offcanvas with body scrolling
+      Subject Disciplines
     </h5>
     <button
       type="button"
@@ -94,6 +96,68 @@
     ></button>
   </div>
   <div class="offcanvas-body">
-    <p>Try scrolling the rest of the page to see this option in action.</p>
+    <div class="accordion accordion-flush" id="subjectsAccordion">
+<!-- english start -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEnglish">
+          <button 
+            class="accordion-button collapsed" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#collapseEnglish" 
+            aria-expanded="false" 
+            aria-controls="collapseEnglish"
+          >
+            <strong>English</strong>
+          </button>
+        </h2>
+        <div 
+          id="collapseEnglish" 
+          class="accordion-collapse collapse"
+          aria-labelledby="headingEnglish"
+          data-bs-parent="subjectsAccordion">
+        <div class="accordion-body py-2">
+          <ul class="list-unstyled mb-0">
+            <li><a class="text-dark text-decoration-none d-block py-2 px-3 rounded" href="#">English Advanced</a></li>
+            <li><a class="text-dark text-decoration-none d-block py-2 px-3 rounded" href="#">English Standard</a></li>
+            <li><a class="text-dark text-decoration-none d-block py-2 px-3 rounded" href="#">English Studies</a></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+<!-- end english one -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Mathematics
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        HSIE
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
   </div>
 </div>
+  </div>
+</div>
+
+  <!-- <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div> -->
