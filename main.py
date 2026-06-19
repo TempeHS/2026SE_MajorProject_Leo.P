@@ -266,8 +266,8 @@ def personal_dashboard():
 ### Subjects
 #### HSIE
 @app.route("/subject/hsie/business-studies")
-def businessStudies():
-    return render_template("subject/hsie/business-studies.html")
+def business_studies():
+    return render_template("subject/hsie/business-studies/business-studies.html")
 
 
 if __name__ == "__main__":
