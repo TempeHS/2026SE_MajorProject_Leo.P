@@ -16126,3 +16126,150 @@
 2026-06-19 07:11:59,591 127.0.0.1 - - [19/Jun/2026 07:11:59] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
 2026-06-19 07:11:59,657 127.0.0.1 - - [19/Jun/2026 07:11:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-19 07:11:59,726 127.0.0.1 - - [19/Jun/2026 07:11:59] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:18:24,337 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03·\x1a#Ë\x99c;7\x97{ª\x16$\x16°\x00\x11§t\x9eÚÓ9\x88"')
+2026-06-19 07:18:24,337 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03·\x1a#Ë\x99c;7\x97{ª\x16$\x16°\x00\x11§t\x9eÚÓ9\x88"\x0dÔµ³/1\x17\x00\x00\x84\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" 400 -
+2026-06-19 07:18:24,343 127.0.0.1 - - [19/Jun/2026 07:18:24] "HEAD / HTTP/1.1" 200 -
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request syntax ('\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@Øã\x99\xad\x82EÞ')
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@Øã\x99­\x82EÞ[0m" 400 -
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request syntax ('\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@\x91\x18¨\x86äâ"')
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@æI»BÏ[\x9ckÁ»\x12f\x0f\x86h\x1eëH¿ª\x9f\x0fEãìøä\x14\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,370 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00W\x01\x00\x00S\x03\x03j4í@oò1)\x9fÌ¥L§³wÛã!:°Ä\x8fT/2äf\x87\x8d')
+2026-06-19 07:18:24,371 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00W\x01\x00\x00S\x03\x03j4í@oò1)\x9fÌ¥L§³wÛã!:°Ä\x8fT/2äf\x87\x8d\x1df\x04\x00\x00[0m" 400 -
+2026-06-19 07:18:24,371 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00\x8c\x01\x00\x00\x88\x03\x03j4í@=Û5\x81@ä×Æ>f\x87ra\x98»S\x02K\x1fú²\x86|\x93x$;\x03\x00\x00\x1a\x13\x05\x13\x04\x13\x01\x13\x02\x13\x03À´Àµ\x00Ç\x00ÆÀ²À°À³À±\x01\x00\x00E\x00+\x00\x03\x02\x03\x04\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,371 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@\x91\x18¨\x86äâ"[0m" 400 -
+2026-06-19 07:18:24,470 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,470 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00/\x00')
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x1aÝÆ')
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@\x90¸n\x12C\x04D2\x07\x04:|\x02\x85ËGÔþh·\x91]¼L\x90Ã6\x8d\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@u\x96\x96\x9fe \x1b8\\õØFoJ@\x16\x1eÒk\x1aÉ\x05õ\x9eàó§¡\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+2026-06-19 07:18:24,471 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@\x98\x87À½*\x9dâº\x1e"Hà¯7Í®mâ\x0c\x1aÝÆ[0m" 400 -
+2026-06-19 07:18:24,619 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-19 07:18:24,619 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-19 07:18:24,619 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@È@\x05')
+2026-06-19 07:18:24,619 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@\x0d\x0bT`²\x1fTk¥zÖÐa\x17¦Æy$\x7f¦8\x7fÉ\x8aÃ\x81\x11´\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-19 07:18:24,620 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@ýA\x04\x8d%ß\x8bÒÁq$.í\x03\x95ß|\x90V4\x9f¤8°ÑÇ\x8fñ\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-19 07:18:24,620 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@È@\x05 ¯vâá«2>\x81NÂËÑË~\x83\x8a^Ý\x9dIl´[0m" 400 -
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@\x07ð³0')
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@\x07ð³0 ^³b\x15<ªC:\x04!%Iá-rc[0m" 400 -
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@"þ \x16L\x81.\x0f\x1f\x84tj;\x91tÔì\x93o=¦-\x05sÍ\x88lx\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,768 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@\x89ÕK\x83íWa&R°ïi&\x1b<j3\x8a6\x96:)áâÂ¾LÜ\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,916 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,916 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,916 127.0.0.1 - - [19/Jun/2026 07:18:24] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-19 07:18:24,916 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j4í@Ä\x8b\x10_\x07éÀ\x7f\x03&ôQ\x0es îp©±¾P\x9d±@W\x12\x9e\x8f\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,917 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j4í@p\x1c¹ÇRAOIØ\x1f¸5\x80#áõØsØvi:ÞFÚïÏ\x92\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:24,917 127.0.0.1 - - [19/Jun/2026 07:18:24] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j4í@\x90Ý"bW8½\x9bÞ =wå3\x91(Ý"\x81#*ëý\x037öz\x86\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-19 07:18:25,066 127.0.0.1 - - [19/Jun/2026 07:18:25] code 400, message Bad request syntax ('\x16\x03\x02\x00½\x01\x00\x00¹\x03\x02j4íA¨×òóÚ\x80\x8cºU\x87öÃàt\x91K7x\x8b¾\x1b¾Ã\x8eä2.«\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-19 07:18:25,066 127.0.0.1 - - [19/Jun/2026 07:18:25] "[31m[1m\x16\x03\x02\x00½\x01\x00\x00¹\x03\x02j4íA¨×òóÚ\x80\x8cºU\x87öÃàt\x91K7x\x8b¾\x1b¾Ã\x8eä2.«\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-19 07:18:25,066 127.0.0.1 - - [19/Jun/2026 07:18:25] code 400, message Bad request syntax ('\x16\x03\x03\x00Ý\x01\x00\x00Ù\x03\x03j4íA¾SNã\x8e¢:éo\x06½¿Vê¤-2"µ~P,¿ZåtB\x8e\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-19 07:18:25,066 127.0.0.1 - - [19/Jun/2026 07:18:25] "[31m[1m\x16\x03\x03\x00Ý\x01\x00\x00Ù\x03\x03j4íA¾SNã\x8e¢:éo\x06½¿Vê¤-2"µ~P,¿ZåtB\x8e\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-19 07:18:25,067 127.0.0.1 - - [19/Jun/2026 07:18:25] code 400, message Bad request syntax ('\x16\x03\x01\x00½\x01\x00\x00¹\x03\x01j4íA¸u')
+2026-06-19 07:18:25,067 127.0.0.1 - - [19/Jun/2026 07:18:25] "[31m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x01j4íA¸u[0m" 400 -
+2026-06-19 07:18:29,470 127.0.0.1 - - [19/Jun/2026 07:18:29] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00')
+2026-06-19 07:18:29,470 127.0.0.1 - - [19/Jun/2026 07:18:29] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j4í@\x11ø\x9a\x08f2º\x96\x99d\x89âg\x9b\x19<\x86º£A=z¥\x00+÷Ï%\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00[0m" 400 -
+2026-06-19 07:18:30,175 127.0.0.1 - - [19/Jun/2026 07:18:30] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-19 07:18:30,289 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,440 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,457 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,465 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,472 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,518 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,520 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,608 127.0.0.1 - - [19/Jun/2026 07:18:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-19 07:18:30,617 127.0.0.1 - - [19/Jun/2026 07:18:30] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:18:34,571 127.0.0.1 - - [19/Jun/2026 07:18:34] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00')
+2026-06-19 07:18:34,571 127.0.0.1 - - [19/Jun/2026 07:18:34] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j4íEÁÎ\x12\x02i¸éY¿á¡$ü\x9ep¤@\x7fçÏ\x02È\x05'wÿ½\x85\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00[0m" 400 -
+2026-06-19 07:18:34,571 127.0.0.1 - - [19/Jun/2026 07:18:34] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-19 07:18:34,571 127.0.0.1 - - [19/Jun/2026 07:18:34] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j4íJ\x90n?\x1dFÉ\x7f` wqé\x02NÁq\x15iÜ}1¦\x19\x12Þ\x81\x1fz\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-19 07:18:39,672 127.0.0.1 - - [19/Jun/2026 07:18:39] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00')
+2026-06-19 07:18:39,673 127.0.0.1 - - [19/Jun/2026 07:18:39] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j4íJ#ü\x90wwæf\x02j÷¨tWRa`g$C\x96jæ\x03\x9clé¢Í\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00[0m" 400 -
+2026-06-19 07:18:40,022 127.0.0.1 - - [19/Jun/2026 07:18:40] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-19 07:18:40,096 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,099 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,102 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,106 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,118 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,155 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:18:40,222 127.0.0.1 - - [19/Jun/2026 07:18:40] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:18:40,227 127.0.0.1 - - [19/Jun/2026 07:18:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-19 07:18:44,773 127.0.0.1 - - [19/Jun/2026 07:18:44] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00')
+2026-06-19 07:18:44,774 127.0.0.1 - - [19/Jun/2026 07:18:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x00\x00¥\x01\x00\x00¡\x03\x00j4íTóµ\x81ú:<\x12\x9f\x13½\x84y\x87\x98A¦\x17¨&p^àW\xadëã')
+2026-06-19 07:18:44,774 127.0.0.1 - - [19/Jun/2026 07:18:44] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j4íO\x0bIâ@6n\x1a\x048kæÑx\x1aãCÓ#û\x95ÿÐ:ÿ#MB´\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00[0m" 400 -
+2026-06-19 07:18:44,774 127.0.0.1 - - [19/Jun/2026 07:18:44] "[31m[1m\x16\x03\x00\x00¥\x01\x00\x00¡\x03\x00j4íTóµ\x81ú:<\x12\x9f\x13½\x84y\x87\x98A¦\x17¨&p^àW­ëã\x1eä\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-19 07:29:58,487  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-19 07:29:58,533  * Restarting with stat
+2026-06-19 07:29:58,863  * Debugger is active!
+2026-06-19 07:29:58,864  * Debugger PIN: 628-861-226
+2026-06-19 07:31:57,450 127.0.0.1 - - [19/Jun/2026 07:31:57] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-19 07:31:57,764 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,779 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,785 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,789 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,794 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,853 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,857 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:31:57,960 127.0.0.1 - - [19/Jun/2026 07:31:57] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:31:57,963 127.0.0.1 - - [19/Jun/2026 07:31:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,552 127.0.0.1 - - [19/Jun/2026 07:32:01] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-19 07:32:01,644 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,651 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,655 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,658 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,672 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,727 127.0.0.1 - - [19/Jun/2026 07:32:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:32:01,772 127.0.0.1 - - [19/Jun/2026 07:32:01] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:32:03,160 127.0.0.1 - - [19/Jun/2026 07:32:03] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-19 07:32:03,222 127.0.0.1 - - [19/Jun/2026 07:32:03] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:03,235 127.0.0.1 - - [19/Jun/2026 07:32:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:03,239 127.0.0.1 - - [19/Jun/2026 07:32:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:32:03,241 127.0.0.1 - - [19/Jun/2026 07:32:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:32:03,292 127.0.0.1 - - [19/Jun/2026 07:32:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:32:03,337 127.0.0.1 - - [19/Jun/2026 07:32:03] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:32:42,998 127.0.0.1 - - [19/Jun/2026 07:32:42] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-19 07:33:47,844 127.0.0.1 - - [19/Jun/2026 07:33:47] "[35m[1mGET /subject/hsie/business-studies/past-papers HTTP/1.1[0m" 500 -
+2026-06-19 07:33:47,915 127.0.0.1 - - [19/Jun/2026 07:33:47] "GET /subject/hsie/business-studies/past-papers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-19 07:33:47,976 127.0.0.1 - - [19/Jun/2026 07:33:47] "GET /subject/hsie/business-studies/past-papers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-19 07:33:48,119 127.0.0.1 - - [19/Jun/2026 07:33:48] "GET /subject/hsie/business-studies/past-papers?__debugger__=yes&cmd=resource&f=console.png&s=hOfSyXigUF72yFJmaC9W HTTP/1.1" 200 -
+2026-06-19 07:33:48,247 127.0.0.1 - - [19/Jun/2026 07:33:48] "GET /subject/hsie/business-studies/past-papers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-19 07:33:58,853 127.0.0.1 - - [19/Jun/2026 07:33:58] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-19 07:33:58,931 127.0.0.1 - - [19/Jun/2026 07:33:58] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:33:58,938 127.0.0.1 - - [19/Jun/2026 07:33:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:33:58,941 127.0.0.1 - - [19/Jun/2026 07:33:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:33:59,020 127.0.0.1 - - [19/Jun/2026 07:33:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:33:59,061 127.0.0.1 - - [19/Jun/2026 07:33:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:33:59,132 127.0.0.1 - - [19/Jun/2026 07:33:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-19 07:33:59,136 127.0.0.1 - - [19/Jun/2026 07:33:59] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:34:10,597 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.191:8000
+2026-06-19 07:34:10,597 [33mPress CTRL+C to quit[0m
+2026-06-19 07:34:10,598  * Restarting with stat
+2026-06-19 07:34:11,087  * Debugger is active!
+2026-06-19 07:34:11,087  * Debugger PIN: 628-861-226
+2026-06-19 07:34:14,743 127.0.0.1 - - [19/Jun/2026 07:34:14] "GET / HTTP/1.1" 200 -
+2026-06-19 07:34:14,843 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,845 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,846 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,847 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-19 07:34:14,848 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-19 07:34:14,850 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,851 127.0.0.1 - - [19/Jun/2026 07:34:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-19 07:34:14,851 127.0.0.1 - - [19/Jun/2026 07:34:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-19 07:34:14,853 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,944 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:34:14,950 127.0.0.1 - - [19/Jun/2026 07:34:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:35:59,041 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.191:8000
+2026-06-19 07:35:59,042 [33mPress CTRL+C to quit[0m
+2026-06-19 07:35:59,043  * Restarting with stat
+2026-06-19 07:35:59,373  * Debugger is active!
+2026-06-19 07:35:59,373  * Debugger PIN: 628-861-226

@@ -270,5 +270,11 @@ def business_studies():
     return render_template("subject/hsie/business-studies/business-studies.html")
 
 
+##### business past papers
+@app.route("/subject/hsie/business-studies/past-papers")
+def business_studies_past_papers():
+    return render_template("subject/hsie/business-studies/past-papers.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
