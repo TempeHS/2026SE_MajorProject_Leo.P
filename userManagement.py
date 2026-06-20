@@ -49,3 +49,12 @@ def getUserSecret(email):
     result = cur.fetchone()
     con.close()
     return result[0] if result else None
+
+
+def userExists(email):
+    con = sql.connect("databaseFiles/database.db")
+    cur = con.cursor()
+    cur.execute("SELECT 1 FROM user_info WHERE email = ?", (email,))
+    result = cur.fetchone()
+    con.close()
+    return result is not None

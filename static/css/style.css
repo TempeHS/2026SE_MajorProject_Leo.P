@@ -1,8 +1,10 @@
 * {
 }
+
 body {
   padding-top: 56px;
 }
+
 .container {
 }
 
@@ -30,6 +32,125 @@ body {
 #offcanvasScrolling {
   top: 56px;
 }
+
+/* home page cards */
+
+.home-cards-wrap {
+  width: min(92vw, 1400px);
+  /* margin-inline: auto;
+  padding-inline: clamp(12px, 2vw, 28px); */
+}
+
+.equal-card {
+  height: 235px;
+}
+
+.card-action-btn {
+  width: 50%;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.side-card .card-body .btn {
+  margin-top: auto;
+}
+
+.feature-card .row,
+.feature-card [class*="col-"] {
+  height: 100%;
+}
+
+.feature-card .feature-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feature-card .card-body {
+  height: 100%;
+}
+
+.side-card .side-img {
+  display: block;
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  background-color: transparent;
+}
+
+.compact-card .card-body {
+  padding: 0.75rem;
+}
+
+.compact-card .card-text {
+  margin-bottom: 0.5rem;
+}
+
+/* changing the font to helvetica */
+/* * {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+} */
+
+/* laptop/desktop with short viewport height */
+@media (min-width: 992px) and (max-height: 760px) {
+  .home-cards-wrap {
+    width: min(90vw, 1080px);
+    padding-inline: 16px;
+  }
+
+  .equal-card {
+    height: 195px;
+  }
+
+  .compact-card .card-body {
+    padding: 0.55rem;
+  }
+
+  .compact-card .card-title {
+    margin-bottom: 0.2rem;
+    font-size: 1.15rem;
+  }
+
+  .compact-card .card-text {
+    margin-bottom: 0.35rem;
+    font-size: 0.95rem;
+    line-height: 1.25;
+  }
+
+  .card-action-btn {
+    width: 46%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .side-card .side-img {
+    height: 72px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .equal-card {
+    height: auto;
+  }
+
+  .feature-img,
+  .side-img {
+    height: 160px;
+  }
+}
+
+/* logo on home page */
+
+.home-hero-logo {
+  width: clamp(820px, 88vw, 1020px);
+  max-width: 100%;
+  height: auto;
+}
+
+/* something */
 
 @keyframes slideDown {
   from {

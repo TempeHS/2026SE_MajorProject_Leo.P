@@ -5,6 +5,7 @@ from flask import request
 from flask import jsonify
 from flask import url_for
 from flask import session
+from flask import flash
 import requests
 from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
@@ -105,18 +106,26 @@ def index():
 )
 def login():
     if session.get("logged_in"):
-        return redirect("/home.html", code=303)
+        return redirect("/index.html", code=303)  # this might be wrong
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
+
+        if not dbHandler.userExists(email):
+            flash("Account not found. Please sign up first.", "not-registered")
+            app_log.info("%s attempted to log in without registered account.", email)
+            return redirect("/login.html")
+
         if dbHandler.getUsers(email, password):
             session["user_email"] = email
             session["user_secret"] = dbHandler.getUserSecret(email)
 
             app_log.info("%s has logged in.", email)
             return redirect("/2fa.html", code=303)
-        else:
-            app_log.info("%s failed to log in.", email)
+
+        flash("Incorrect email or password. Please try again.", "error")
+        app_log.info("%s failed to log in.", email)
+        return redirect("/login.html", code=303)
 
     return render_template("/login.html")
 
@@ -124,25 +133,18 @@ def login():
 @app.route("/signup.html", methods=["GET", "POST"])
 def signup():
     if request.method == "POST":
-        email = request.form["email"]
+        email = request.form["email"].strip().lower()
         password = request.form["password"]
-        dbHandler.insertSignup(email, password)
+        exists = dbHandler.insertSignup(email, password)
+        if not exists:
+            flash("Email already registered. Please log in instead.", "error")
+            return redirect("/signup.html", code=303)
+
         app_log.info(f"Form submitted: {email}")
+        flash("Account created successfully. Please log in.", "success")
         return redirect("/login.html", code=303)
-    else:
-        return render_template("/signup.html")
 
-
-# example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        password = request.form["password"]
-        app_log.info(f"Form submitted: {email}")
-        return redirect("/home.html", code=303)
-    else:
-        return render_template("/form.html")
+    return render_template("/signup.html")
 
 
 # Endpoint for logging CSP violations
@@ -151,16 +153,6 @@ def form():
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
-
-
-# Home page
-@app.route("/home.html", methods=["GET"])
-def home():
-    if not session.get("logged_in"):
-        app_log.warning("Unauthorised attempt to access data")
-        return redirect("/", code=303)
-
-    return render_template("/home.html")
 
 
 @app.route("/logout", methods=["GET", "POST"])
@@ -200,10 +192,10 @@ def reach_2fa():
         return redirect("/", code=303)
 
     totp = pyotp.TOTP(user_secret)
-    otp_uri = totp.provisioning_uri(name=username, issuer_name="Developer Logs")
+    otp_uri = totp.provisioning_uri(name=username, issuer_name="OneLink: HSC")
     qr_code = pyqrcode.create(otp_uri)
     stream = BytesIO()
-    qr_code.png(stream, scale=5)
+    qr_code.png(stream, scale=10)
     qr_code_b64 = base64.b64encode(stream.getvalue()).decode("utf-8")
 
     if request.method == "POST":
@@ -212,7 +204,8 @@ def reach_2fa():
             session["logged_in"] = True
             return redirect("/")
         else:
-            return "Invalid OTP. Please try again.", 401
+            flash("Invalid OTP. Please try again.", "error")
+            return redirect("/2fa.html", code=303)
 
     return render_template("/2fa.html", qr_code=qr_code_b64, value=username)
 
@@ -246,6 +239,19 @@ def useful_websites():
 @app.route("/personal_dashboard")
 def personal_dashboard():
     return render_template("cards/personal_dashboard.html")
+
+
+### Subjects
+#### HSIE
+@app.route("/subject/hsie/business-studies")
+def business_studies():
+    return render_template("subject/hsie/business-studies/business-studies.html")
+
+
+##### business past papers
+@app.route("/subject/hsie/business-studies/past-papers")
+def business_studies_past_papers():
+    return render_template("subject/hsie/business-studies/past-papers.html")
 
 
 if __name__ == "__main__":

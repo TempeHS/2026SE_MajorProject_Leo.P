@@ -2,6 +2,10 @@
 <div class="d-flex justify-content-center align-items-center min-vh-100">
   <div class="card p-5" style="width: 100%; max-width: 480px">
     <h1 class="card-title text-center mb-3">Sign up</h1>
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+    messages %} {% for category, message in messages %}
+    <div class="alert alert-warning" role="alert">{{ message }}</div>
+    {% endfor %} {% endif %} {% endwith %}
     <form method="POST">
       <div class="form-group">
         <label for="exampleInputEmail1">Email</label>
@@ -32,6 +36,9 @@
         >
       </div>
       <button type="submit" class="btn btn-primary">Sign up</button>
+      <a href="/login.html" class="btn btn-outline-secondary ms-2"
+        >Back to Login</a
+      >
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
     </form>
   </div>
