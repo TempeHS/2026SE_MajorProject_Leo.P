@@ -8,7 +8,7 @@ OneLink works by allowing students to find and access all the study materials th
 
 ### Current sprint
 
-Sprint 3:
+Sprint 3: Content population and expansion
 
 ### Last increment
 

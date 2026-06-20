@@ -104,11 +104,11 @@ In sprint 2, I was able to successfully delivered / completed my sprint plan and
 
 ---
 
-## SPRINT 3:
+## SPRINT 3: Content population and expansion
 
 ### Sprint Goal
 
-put goal here
+Expand and structure the demo subject (Business Studies) resource system + home page cards using reusable components
 
 ### Committed Items
 
@@ -117,12 +117,12 @@ put goal here
 
 ### Sprint Plan
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. Implement client feedback from sprint 2
+2. Build demo subject (Business studies) page structure with 1 or more functioning cards per category
+3. Populate demo subject (Business studies) page with placeholder resource cards to simulate real content
+4. Improve overall layout consistency
+5. Populate home page cards with placeholder resource cards to simulate real content
+6. Check all navigation paths work correctly
 
 ### Unit Test Summary Table
 
