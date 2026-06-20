@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS "user_info" (
     "password"	TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS "dev_logs";
 
 ALTER TABLE user_info ADD COLUMN "totp_secret" TEXT;
 

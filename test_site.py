@@ -9,19 +9,36 @@ URL = "http://localhost:8000"
 
 #     assert response.status_code == 200, f"Expected 200, got {response.status_code}"
 
+### sprint 1unit test
+# @pytest.mark.parametrize(
+#     "path",
+#     [
+#         "/",
+#         "/about",
+#         "/resources",
+#         "/privacy",
+#         "/login.html",
+#         "/signup.html",
+#         "/past_papers",
+#         "/useful_websites",
+#         "/personal_dashboard",
+#     ],
+# )
+# def test_pages_are_up(path):
+#     response = requests.get(f"{URL}{path}", timeout=5)
 
+#     assert response.status_code == 200, f"Expected 200, got {response.status_code}"
+
+
+### sprint 2 unit test
 @pytest.mark.parametrize(
     "path",
     [
-        "/",
-        "/about",
+        "/subject/hsie/business-studies",
+        "/subject/hsie/business-studies/past-papers",
         "/resources",
-        "/privacy",
         "/login.html",
         "/signup.html",
-        "/past_papers",
-        "/useful_websites",
-        "/personal_dashboard",
     ],
 )
 def test_pages_are_up(path):
