@@ -18173,3 +18173,150 @@
 2026-06-20 11:46:02,339 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/privacy","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
 2026-06-20 11:46:02,340 127.0.0.1 - - [20/Jun/2026 11:46:02] "POST /csp_report HTTP/1.1" 200 -
 2026-06-20 11:46:02,407 127.0.0.1 - - [20/Jun/2026 11:46:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:46,821 127.0.0.1 - - [20/Jun/2026 11:46:46] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 11:46:46,988 127.0.0.1 - - [20/Jun/2026 11:46:46] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:46,996 127.0.0.1 - - [20/Jun/2026 11:46:46] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:46:46,999 127.0.0.1 - - [20/Jun/2026 11:46:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:47,002 127.0.0.1 - - [20/Jun/2026 11:46:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:47,008 127.0.0.1 - - [20/Jun/2026 11:46:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:47,084 127.0.0.1 - - [20/Jun/2026 11:46:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:47,254 127.0.0.1 - - [20/Jun/2026 11:46:47] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:48,324 127.0.0.1 - - [20/Jun/2026 11:46:48] "GET /subject/hsie/business-studies/videos HTTP/1.1" 200 -
+2026-06-20 11:46:48,414 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,418 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,419 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,422 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,425 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,504 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,510 127.0.0.1 - - [20/Jun/2026 11:46:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:48,593 127.0.0.1 - - [20/Jun/2026 11:46:48] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:49,670 127.0.0.1 - - [20/Jun/2026 11:46:49] "GET /subject/hsie/business-studies/videos/operations HTTP/1.1" 200 -
+2026-06-20 11:46:49,793 127.0.0.1 - - [20/Jun/2026 11:46:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:49,795 127.0.0.1 - - [20/Jun/2026 11:46:49] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:49,804 127.0.0.1 - - [20/Jun/2026 11:46:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:49,808 127.0.0.1 - - [20/Jun/2026 11:46:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:49,811 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos/operations","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://i.ytimg.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos/operations","status-code":200,"script-sample":""}}
+2026-06-20 11:46:49,811 127.0.0.1 - - [20/Jun/2026 11:46:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:46:49,813 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos/operations","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://i.ytimg.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies/videos/operations","status-code":200,"script-sample":""}}
+2026-06-20 11:46:49,814 127.0.0.1 - - [20/Jun/2026 11:46:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:46:49,880 127.0.0.1 - - [20/Jun/2026 11:46:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:50,842 127.0.0.1 - - [20/Jun/2026 11:46:50] "[33mGET /subject/hsie/business-studies/videos/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:54,558 127.0.0.1 - - [20/Jun/2026 11:46:54] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 11:46:54,715 127.0.0.1 - - [20/Jun/2026 11:46:54] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:55,547 127.0.0.1 - - [20/Jun/2026 11:46:55] "GET /subject/hsie/business-studies/notes HTTP/1.1" 200 -
+2026-06-20 11:46:55,677 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,680 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,684 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,697 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,702 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,778 127.0.0.1 - - [20/Jun/2026 11:46:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:55,883 127.0.0.1 - - [20/Jun/2026 11:46:55] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:56,848 127.0.0.1 - - [20/Jun/2026 11:46:56] "GET /subject/hsie/business-studies/notes/operations HTTP/1.1" 200 -
+2026-06-20 11:46:56,942 127.0.0.1 - - [20/Jun/2026 11:46:56] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:56,962 127.0.0.1 - - [20/Jun/2026 11:46:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:56,966 127.0.0.1 - - [20/Jun/2026 11:46:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:46:56,968 127.0.0.1 - - [20/Jun/2026 11:46:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:57,026 127.0.0.1 - - [20/Jun/2026 11:46:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:46:57,095 127.0.0.1 - - [20/Jun/2026 11:46:57] "[33mGET /subject/hsie/business-studies/notes/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 11:46:59,567 127.0.0.1 - - [20/Jun/2026 11:46:59] "GET / HTTP/1.1" 200 -
+2026-06-20 11:46:59,688 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/privacy","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:46:59,689 127.0.0.1 - - [20/Jun/2026 11:46:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:46:59,697 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/privacy","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:46:59,699 127.0.0.1 - - [20/Jun/2026 11:46:59] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:47:02,067 127.0.0.1 - - [20/Jun/2026 11:47:02] "GET /useful_websites HTTP/1.1" 200 -
+2026-06-20 11:47:02,176 127.0.0.1 - - [20/Jun/2026 11:47:02] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:02,191 127.0.0.1 - - [20/Jun/2026 11:47:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:02,195 127.0.0.1 - - [20/Jun/2026 11:47:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:02,198 127.0.0.1 - - [20/Jun/2026 11:47:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:47:02,266 127.0.0.1 - - [20/Jun/2026 11:47:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,167 127.0.0.1 - - [20/Jun/2026 11:47:11] "GET / HTTP/1.1" 200 -
+2026-06-20 11:47:11,366 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,368 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,370 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,372 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/useful_websites","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:47:11,372 127.0.0.1 - - [20/Jun/2026 11:47:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:47:11,376 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/useful_websites","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:47:11,376 127.0.0.1 - - [20/Jun/2026 11:47:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:47:11,380 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,384 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:47:11,453 127.0.0.1 - - [20/Jun/2026 11:47:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:36,502 127.0.0.1 - - [20/Jun/2026 11:52:36] "GET / HTTP/1.1" 200 -
+2026-06-20 11:52:37,496 127.0.0.1 - - [20/Jun/2026 11:52:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:37,629 127.0.0.1 - - [20/Jun/2026 11:52:37] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:37,643 127.0.0.1 - - [20/Jun/2026 11:52:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:37,661 127.0.0.1 - - [20/Jun/2026 11:52:37] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:52:37,663 127.0.0.1 - - [20/Jun/2026 11:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:37,675 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:52:37,676 127.0.0.1 - - [20/Jun/2026 11:52:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:52:37,703 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:52:37,704 127.0.0.1 - - [20/Jun/2026 11:52:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:52:38,660 127.0.0.1 - - [20/Jun/2026 11:52:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:39,515 127.0.0.1 - - [20/Jun/2026 11:52:39] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 11:52:51,463 127.0.0.1 - - [20/Jun/2026 11:52:51] "GET /about HTTP/1.1" 200 -
+2026-06-20 11:52:52,491 127.0.0.1 - - [20/Jun/2026 11:52:52] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:52,497 127.0.0.1 - - [20/Jun/2026 11:52:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:52,510 127.0.0.1 - - [20/Jun/2026 11:52:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:52,515 127.0.0.1 - - [20/Jun/2026 11:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:53,077 127.0.0.1 - - [20/Jun/2026 11:52:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:53,088 127.0.0.1 - - [20/Jun/2026 11:52:53] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 11:52:56,205 127.0.0.1 - - [20/Jun/2026 11:52:56] "GET / HTTP/1.1" 200 -
+2026-06-20 11:52:56,592 127.0.0.1 - - [20/Jun/2026 11:52:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:56,599 127.0.0.1 - - [20/Jun/2026 11:52:56] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:56,600 127.0.0.1 - - [20/Jun/2026 11:52:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:52:56,625 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:52:56,626 127.0.0.1 - - [20/Jun/2026 11:52:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:52:57,487 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:52:57,488 127.0.0.1 - - [20/Jun/2026 11:52:57] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:52:57,493 127.0.0.1 - - [20/Jun/2026 11:52:57] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:52:57,493 127.0.0.1 - - [20/Jun/2026 11:52:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:52:58,406 127.0.0.1 - - [20/Jun/2026 11:52:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:53:01,550 127.0.0.1 - - [20/Jun/2026 11:53:01] "GET / HTTP/1.1" 200 -
+2026-06-20 11:53:02,710 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:53:02,711 127.0.0.1 - - [20/Jun/2026 11:53:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:53:02,716 127.0.0.1 - - [20/Jun/2026 11:53:02] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:02,774 127.0.0.1 - - [20/Jun/2026 11:53:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:02,777 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 11:53:02,778 127.0.0.1 - - [20/Jun/2026 11:53:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 11:53:02,784 127.0.0.1 - - [20/Jun/2026 11:53:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:02,791 127.0.0.1 - - [20/Jun/2026 11:53:02] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:53:03,211 127.0.0.1 - - [20/Jun/2026 11:53:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:53:03,426 127.0.0.1 - - [20/Jun/2026 11:53:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:53:05,431 127.0.0.1 - - [20/Jun/2026 11:53:05] "GET /useful_websites HTTP/1.1" 200 -
+2026-06-20 11:53:05,585 127.0.0.1 - - [20/Jun/2026 11:53:05] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:05,588 127.0.0.1 - - [20/Jun/2026 11:53:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:05,591 127.0.0.1 - - [20/Jun/2026 11:53:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:53:05,593 127.0.0.1 - - [20/Jun/2026 11:53:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:53:05,959 127.0.0.1 - - [20/Jun/2026 11:53:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:58:03,589 127.0.0.1 - - [20/Jun/2026 11:58:03] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 11:58:03,811 127.0.0.1 - - [20/Jun/2026 11:58:03] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 11:58:03,956 127.0.0.1 - - [20/Jun/2026 11:58:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 11:58:03,966 127.0.0.1 - - [20/Jun/2026 11:58:03] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 11:58:03,983 127.0.0.1 - - [20/Jun/2026 11:58:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 11:58:03,995 127.0.0.1 - - [20/Jun/2026 11:58:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 11:58:04,052 127.0.0.1 - - [20/Jun/2026 11:58:04] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 11:58:04,140 127.0.0.1 - - [20/Jun/2026 11:58:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 11:58:04,281 127.0.0.1 - - [20/Jun/2026 11:58:04] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 12:18:37,840  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/test_site.py', reloading
+2026-06-20 12:18:37,881  * Restarting with stat
+2026-06-20 12:18:38,191  * Debugger is active!
+2026-06-20 12:18:38,192  * Debugger PIN: 962-173-320
+2026-06-20 12:18:40,391 127.0.0.1 - - [20/Jun/2026 12:18:40] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 12:18:40,398 127.0.0.1 - - [20/Jun/2026 12:18:40] "[33mGET /subject/hsie/business-studies/topic-notes/operations.html HTTP/1.1[0m" 404 -
+2026-06-20 12:18:40,484 127.0.0.1 - - [20/Jun/2026 12:18:40] "[33mGET /subject/hsie/business-studies/topic-videos/operations.html HTTP/1.1[0m" 404 -
+2026-06-20 12:20:06,465  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/test_site.py', reloading
+2026-06-20 12:20:06,498  * Restarting with stat
+2026-06-20 12:20:06,805  * Debugger is active!
+2026-06-20 12:20:06,805  * Debugger PIN: 962-173-320
+2026-06-20 12:20:07,537 127.0.0.1 - - [20/Jun/2026 12:20:07] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 12:20:07,545 127.0.0.1 - - [20/Jun/2026 12:20:07] "[33mGET /subject/hsie/business-studies/topic-notes/operations HTTP/1.1[0m" 404 -
+2026-06-20 12:20:07,652 127.0.0.1 - - [20/Jun/2026 12:20:07] "[33mGET /subject/hsie/business-studies/topic-videos/operations HTTP/1.1[0m" 404 -
+2026-06-20 12:22:10,504  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/test_site.py', reloading
+2026-06-20 12:22:10,550  * Restarting with stat
+2026-06-20 12:22:11,053  * Debugger is active!
+2026-06-20 12:22:11,054  * Debugger PIN: 962-173-320
+2026-06-20 12:22:26,284  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/test_site.py', reloading
+2026-06-20 12:22:26,317  * Restarting with stat
+2026-06-20 12:22:26,634  * Debugger is active!
+2026-06-20 12:22:26,634  * Debugger PIN: 962-173-320
+2026-06-20 12:22:31,230 127.0.0.1 - - [20/Jun/2026 12:22:31] "GET /subject/hsie/business-studies/notes/operations HTTP/1.1" 200 -
+2026-06-20 12:22:31,236 127.0.0.1 - - [20/Jun/2026 12:22:31] "GET /subject/hsie/business-studies/videos/operations HTTP/1.1" 200 -

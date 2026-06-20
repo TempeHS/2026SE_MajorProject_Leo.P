@@ -31,14 +31,28 @@ URL = "http://localhost:8000"
 
 
 ### sprint 2 unit test
+# @pytest.mark.parametrize(
+#     "path",
+#     [
+#         "/subject/hsie/business-studies",
+#         "/subject/hsie/business-studies/past-papers",
+#         "/resources",
+#         "/login.html",
+#         "/signup.html",
+#     ],
+# )
+# def test_pages_are_up(path):
+#     response = requests.get(f"{URL}{path}", timeout=5)
+
+#     assert response.status_code == 200, f"Expected 200, got {response.status_code}"
+
+
+### sprint 3 test
 @pytest.mark.parametrize(
     "path",
     [
-        "/subject/hsie/business-studies",
-        "/subject/hsie/business-studies/past-papers",
-        "/resources",
-        "/login.html",
-        "/signup.html",
+        "/subject/hsie/business-studies/notes/operations",
+        "/subject/hsie/business-studies/videos/operations",
     ],
 )
 def test_pages_are_up(path):
