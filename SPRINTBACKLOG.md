@@ -163,11 +163,11 @@ In sprint 3, I was able to implement client feedback from sprint 2, as well as w
 
 ---
 
-## SPRINT 4:
+## SPRINT 4: Visual design and styling
 
 ### Sprint Goal
 
-put goal here
+Improve visual design and user experience of OneLink.
 
 ### Committed Items
 
@@ -176,12 +176,11 @@ put goal here
 
 ### Sprint Plan
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. Apply a consistent colour palette and styling theme site wide
+2. Improve header design
+3. Implement visual feedback with cards
+4. Add skeleton loaders to cards
+5. Enhance offcanvas navigation with background blur and colour coded accordions
 
 ### Unit Test Summary Table
 

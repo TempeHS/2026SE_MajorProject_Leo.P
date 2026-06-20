@@ -8,15 +8,15 @@ OneLink works by allowing students to find and access all the study materials th
 
 ### Current sprint
 
-Sprint 3: Content population and expansion
+Sprint 4: Visual design and styling
 
 ### Last increment
 
-Sprint 2: Base navigation and functionality
+Sprint 3: Content population and expansion
 
 ### Next planned increment
 
-Sprint 4: Visuals
+N/A
 
 ## Backlogs
 
