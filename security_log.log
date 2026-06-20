@@ -19863,3 +19863,555 @@
 2026-06-20 14:36:50,271 127.0.0.1 - - [20/Jun/2026 14:36:50] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
 2026-06-20 14:36:50,316 127.0.0.1 - - [20/Jun/2026 14:36:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2026-06-20 14:36:50,354 127.0.0.1 - - [20/Jun/2026 14:36:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 14:49:37,297 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET / HTTP/1.1" 200 -
+2026-06-20 14:49:37,427 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:49:37,606 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:49:37,632 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:49:37,633 127.0.0.1 - - [20/Jun/2026 14:49:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:49:37,637 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:49:37,637 127.0.0.1 - - [20/Jun/2026 14:49:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:49:37,644 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:49:37,654 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:49:37,658 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:49:37,708 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:49:37,710 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:49:37,764 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:49:37,788 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:49:37,864 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:49:37,917 127.0.0.1 - - [20/Jun/2026 14:49:37] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:50:05,770 127.0.0.1 - - [20/Jun/2026 14:50:05] "GET / HTTP/1.1" 200 -
+2026-06-20 14:50:05,838 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,864 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,867 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:50:05,867 127.0.0.1 - - [20/Jun/2026 14:50:05] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:50:05,870 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,873 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/js/home-scroll-indicator.js HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,878 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,883 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:50:05,884 127.0.0.1 - - [20/Jun/2026 14:50:05] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:50:05,918 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,921 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 14:50:05,971 127.0.0.1 - - [20/Jun/2026 14:50:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 14:50:06,013 127.0.0.1 - - [20/Jun/2026 14:50:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 14:50:06,066 127.0.0.1 - - [20/Jun/2026 14:50:06] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 14:50:48,271 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET / HTTP/1.1" 200 -
+2026-06-20 14:50:48,364 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:50:48,364 127.0.0.1 - - [20/Jun/2026 14:50:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:50:48,369 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:50:48,370 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:50:48,370 127.0.0.1 - - [20/Jun/2026 14:50:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:50:48,371 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:50:48,375 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:50:48,377 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:50:48,388 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:50:48,435 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:50:48,438 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:50:48,541 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:50:48,550 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:50:48,611 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:50:48,666 127.0.0.1 - - [20/Jun/2026 14:50:48] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:51:20,551 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET / HTTP/1.1" 200 -
+2026-06-20 14:51:20,619 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:51:20,642 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:51:20,645 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:51:20,646 127.0.0.1 - - [20/Jun/2026 14:51:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:51:20,648 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:51:20,649 127.0.0.1 - - [20/Jun/2026 14:51:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:51:20,652 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:51:20,653 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:51:20,669 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:51:20,730 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:51:20,735 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:51:20,818 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:51:20,831 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:51:20,982 127.0.0.1 - - [20/Jun/2026 14:51:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:51:21,099 127.0.0.1 - - [20/Jun/2026 14:51:21] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:51:36,268 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET / HTTP/1.1" 200 -
+2026-06-20 14:51:36,432 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:51:36,437 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:51:36,437 127.0.0.1 - - [20/Jun/2026 14:51:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:51:36,438 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:51:36,439 127.0.0.1 - - [20/Jun/2026 14:51:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:51:36,440 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:51:36,442 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:51:36,445 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:51:36,450 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:51:36,550 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:51:36,558 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:51:36,713 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:51:36,715 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:51:36,854 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:51:36,969 127.0.0.1 - - [20/Jun/2026 14:51:36] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:51:39,778 127.0.0.1 - - [20/Jun/2026 14:51:39] "GET /personal_dashboard HTTP/1.1" 200 -
+2026-06-20 14:51:39,857 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,860 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,862 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,864 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,901 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,904 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 14:51:39,951 127.0.0.1 - - [20/Jun/2026 14:51:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,811 127.0.0.1 - - [20/Jun/2026 14:52:10] "GET / HTTP/1.1" 200 -
+2026-06-20 14:52:10,936 127.0.0.1 - - [20/Jun/2026 14:52:10] "[36mGET /static/js/home-scroll-indicator.js HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,938 127.0.0.1 - - [20/Jun/2026 14:52:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,940 127.0.0.1 - - [20/Jun/2026 14:52:10] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,941 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:52:10,941 127.0.0.1 - - [20/Jun/2026 14:52:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:52:10,944 127.0.0.1 - - [20/Jun/2026 14:52:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,947 127.0.0.1 - - [20/Jun/2026 14:52:10] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 14:52:10,951 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:52:10,951 127.0.0.1 - - [20/Jun/2026 14:52:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:52:11,003 127.0.0.1 - - [20/Jun/2026 14:52:11] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 14:52:11,017 127.0.0.1 - - [20/Jun/2026 14:52:11] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 14:52:11,020 127.0.0.1 - - [20/Jun/2026 14:52:11] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 14:52:11,068 127.0.0.1 - - [20/Jun/2026 14:52:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 14:52:11,112 127.0.0.1 - - [20/Jun/2026 14:52:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 14:54:04,377 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET / HTTP/1.1" 200 -
+2026-06-20 14:54:04,498 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:04,499 127.0.0.1 - - [20/Jun/2026 14:54:04] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:04,511 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:54:04,553 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:54:04,673 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:54:04,690 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:04,690 127.0.0.1 - - [20/Jun/2026 14:54:04] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:04,692 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:54:04,701 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:54:04,732 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:54:04,747 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:54:04,840 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:54:04,843 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:54:04,917 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:54:04,964 127.0.0.1 - - [20/Jun/2026 14:54:04] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:54:38,507 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET / HTTP/1.1" 200 -
+2026-06-20 14:54:38,601 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:38,601 127.0.0.1 - - [20/Jun/2026 14:54:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:38,605 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:54:38,615 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:54:38,617 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:54:38,619 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:38,619 127.0.0.1 - - [20/Jun/2026 14:54:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:38,621 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:54:38,632 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:54:38,667 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:54:38,681 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:54:38,779 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:54:38,799 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:54:38,886 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:54:38,947 127.0.0.1 - - [20/Jun/2026 14:54:38] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:54:50,155 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET / HTTP/1.1" 200 -
+2026-06-20 14:54:50,252 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:54:50,255 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:50,256 127.0.0.1 - - [20/Jun/2026 14:54:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:50,256 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:54:50,259 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:54:50,262 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:54:50,262 127.0.0.1 - - [20/Jun/2026 14:54:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:54:50,265 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:54:50,268 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:54:50,307 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:54:50,314 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:54:50,406 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:54:50,410 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:54:50,468 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:54:50,515 127.0.0.1 - - [20/Jun/2026 14:54:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:56:39,687 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET / HTTP/1.1" 200 -
+2026-06-20 14:56:39,789 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:56:39,802 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:56:39,802 127.0.0.1 - - [20/Jun/2026 14:56:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:56:39,807 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:56:39,829 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:56:39,940 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:56:39,940 127.0.0.1 - - [20/Jun/2026 14:56:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:56:39,949 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:56:39,958 127.0.0.1 - - [20/Jun/2026 14:56:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:56:40,050 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:56:40,053 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:56:40,100 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:56:40,107 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:56:40,190 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:56:40,255 127.0.0.1 - - [20/Jun/2026 14:56:40] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:56:53,938 127.0.0.1 - - [20/Jun/2026 14:56:53] "GET / HTTP/1.1" 200 -
+2026-06-20 14:56:54,048 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:56:54,053 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:56:54,055 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:56:54,055 127.0.0.1 - - [20/Jun/2026 14:56:54] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:56:54,058 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:56:54,060 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:56:54,060 127.0.0.1 - - [20/Jun/2026 14:56:54] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:56:54,065 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:56:54,073 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:56:54,099 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:56:54,112 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:56:54,229 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:56:54,232 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:56:54,336 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:56:54,411 127.0.0.1 - - [20/Jun/2026 14:56:54] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:57:34,775 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET / HTTP/1.1" 200 -
+2026-06-20 14:57:34,876 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:57:34,879 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:57:34,882 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:57:34,883 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:57:34,883 127.0.0.1 - - [20/Jun/2026 14:57:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:57:34,884 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:57:34,884 127.0.0.1 - - [20/Jun/2026 14:57:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:57:34,887 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:57:34,890 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:57:34,930 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:57:34,936 127.0.0.1 - - [20/Jun/2026 14:57:34] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:57:35,027 127.0.0.1 - - [20/Jun/2026 14:57:35] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:57:35,031 127.0.0.1 - - [20/Jun/2026 14:57:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:57:35,111 127.0.0.1 - - [20/Jun/2026 14:57:35] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:57:35,165 127.0.0.1 - - [20/Jun/2026 14:57:35] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:58:19,836 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET / HTTP/1.1" 200 -
+2026-06-20 14:58:19,934 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:58:19,935 127.0.0.1 - - [20/Jun/2026 14:58:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:58:19,935 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:58:19,936 127.0.0.1 - - [20/Jun/2026 14:58:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:58:19,937 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:58:19,940 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:58:19,942 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:58:19,947 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:58:19,952 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:58:19,990 127.0.0.1 - - [20/Jun/2026 14:58:19] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:58:20,006 127.0.0.1 - - [20/Jun/2026 14:58:20] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:58:20,129 127.0.0.1 - - [20/Jun/2026 14:58:20] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:58:20,137 127.0.0.1 - - [20/Jun/2026 14:58:20] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:58:20,334 127.0.0.1 - - [20/Jun/2026 14:58:20] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:58:20,387 127.0.0.1 - - [20/Jun/2026 14:58:20] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:58:50,007 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET / HTTP/1.1" 200 -
+2026-06-20 14:58:50,101 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:58:50,106 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:58:50,109 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:58:50,110 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:58:50,115 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:58:50,115 127.0.0.1 - - [20/Jun/2026 14:58:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:58:50,117 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:58:50,117 127.0.0.1 - - [20/Jun/2026 14:58:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:58:50,118 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:58:50,171 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:58:50,173 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:58:50,283 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:58:50,298 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:58:50,353 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:58:50,435 127.0.0.1 - - [20/Jun/2026 14:58:50] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 14:59:02,979 127.0.0.1 - - [20/Jun/2026 14:59:02] "GET / HTTP/1.1" 200 -
+2026-06-20 14:59:03,089 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:59:03,090 127.0.0.1 - - [20/Jun/2026 14:59:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:59:03,095 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 14:59:03,097 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 14:59:03,098 127.0.0.1 - - [20/Jun/2026 14:59:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 14:59:03,098 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 14:59:03,101 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 14:59:03,102 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 14:59:03,107 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 14:59:03,178 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 14:59:03,186 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 14:59:03,291 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 14:59:03,316 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 14:59:03,380 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 14:59:03,452 127.0.0.1 - - [20/Jun/2026 14:59:03] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 15:00:22,923 127.0.0.1 - - [20/Jun/2026 15:00:22] "GET / HTTP/1.1" 200 -
+2026-06-20 15:00:23,029 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:00:23,031 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:00:23,039 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:00:23,039 127.0.0.1 - - [20/Jun/2026 15:00:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:00:23,049 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:00:23,123 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:00:23,150 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:00:23,202 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:00:23,210 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/personal_dashboard","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:00:23,211 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:00:23,211 127.0.0.1 - - [20/Jun/2026 15:00:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:00:23,349 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:00:23,370 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:00:23,430 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:00:23,485 127.0.0.1 - - [20/Jun/2026 15:00:23] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 15:00:43,945 127.0.0.1 - - [20/Jun/2026 15:00:43] "GET /about HTTP/1.1" 200 -
+2026-06-20 15:00:44,066 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,068 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,071 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,073 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,108 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,110 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:44,158 127.0.0.1 - - [20/Jun/2026 15:00:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,608 127.0.0.1 - - [20/Jun/2026 15:00:45] "GET /privacy HTTP/1.1" 200 -
+2026-06-20 15:00:45,687 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,689 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,692 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,694 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,731 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,734 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:45,779 127.0.0.1 - - [20/Jun/2026 15:00:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:49,895 127.0.0.1 - - [20/Jun/2026 15:00:49] "GET / HTTP/1.1" 200 -
+2026-06-20 15:00:49,970 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:00:49,971 127.0.0.1 - - [20/Jun/2026 15:00:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:00:49,971 127.0.0.1 - - [20/Jun/2026 15:00:49] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:49,994 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:00:49,994 127.0.0.1 - - [20/Jun/2026 15:00:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:00:49,998 127.0.0.1 - - [20/Jun/2026 15:00:49] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,000 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,003 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,006 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/js/home-scroll-indicator.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,049 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,052 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,098 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:50,148 127.0.0.1 - - [20/Jun/2026 15:00:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:56,897 127.0.0.1 - - [20/Jun/2026 15:00:56] "GET /personal_dashboard HTTP/1.1" 200 -
+2026-06-20 15:00:56,991 127.0.0.1 - - [20/Jun/2026 15:00:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:00:56,994 127.0.0.1 - - [20/Jun/2026 15:00:56] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:56,996 127.0.0.1 - - [20/Jun/2026 15:00:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:57,000 127.0.0.1 - - [20/Jun/2026 15:00:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:57,041 127.0.0.1 - - [20/Jun/2026 15:00:57] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:57,044 127.0.0.1 - - [20/Jun/2026 15:00:57] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:00:57,104 127.0.0.1 - - [20/Jun/2026 15:00:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:01:38,914 127.0.0.1 - - [20/Jun/2026 15:01:38] "GET / HTTP/1.1" 200 -
+2026-06-20 15:01:39,000 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:01:39,006 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:01:39,006 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:01:39,009 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:01:39,011 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:01:39,011 127.0.0.1 - - [20/Jun/2026 15:01:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:01:39,013 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:01:39,013 127.0.0.1 - - [20/Jun/2026 15:01:39] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:01:39,023 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:01:39,073 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:01:39,075 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:01:39,143 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:01:39,197 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:01:39,245 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:01:39,301 127.0.0.1 - - [20/Jun/2026 15:01:39] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 15:02:34,750 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET / HTTP/1.1" 200 -
+2026-06-20 15:02:34,851 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:02:34,867 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:02:34,873 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:02:34,875 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:02:34,876 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:02:34,876 127.0.0.1 - - [20/Jun/2026 15:02:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:02:34,878 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:02:34,878 127.0.0.1 - - [20/Jun/2026 15:02:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:02:34,886 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:02:34,891 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/images/website-icon-5.png HTTP/1.1" 200 -
+2026-06-20 15:02:34,941 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:02:34,942 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:02:35,079 127.0.0.1 - - [20/Jun/2026 15:02:35] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:02:35,083 127.0.0.1 - - [20/Jun/2026 15:02:35] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:02:35,176 127.0.0.1 - - [20/Jun/2026 15:02:35] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:02:35,227 127.0.0.1 - - [20/Jun/2026 15:02:35] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-20 15:06:15,485 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET / HTTP/1.1" 200 -
+2026-06-20 15:06:15,645 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:06:15,855 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:06:15,880 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:06:15,896 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:06:15,918 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:06:15,918 127.0.0.1 - - [20/Jun/2026 15:06:15] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:06:15,926 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:06:15,926 127.0.0.1 - - [20/Jun/2026 15:06:15] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:06:15,930 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:06:15,950 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:06:15,950 127.0.0.1 - - [20/Jun/2026 15:06:15] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:06:16,103 127.0.0.1 - - [20/Jun/2026 15:06:16] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:06:16,107 127.0.0.1 - - [20/Jun/2026 15:06:16] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:06:16,214 127.0.0.1 - - [20/Jun/2026 15:06:16] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:06:16,278 127.0.0.1 - - [20/Jun/2026 15:06:16] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:08:21,334 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET / HTTP/1.1" 200 -
+2026-06-20 15:08:21,435 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:08:21,471 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:08:21,636 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:21,636 127.0.0.1 - - [20/Jun/2026 15:08:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:21,640 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:08:21,649 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:08:21,666 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:21,666 127.0.0.1 - - [20/Jun/2026 15:08:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:21,671 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:08:21,711 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:08:21,717 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:08:21,781 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:08:21,783 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:08:21,855 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:08:21,900 127.0.0.1 - - [20/Jun/2026 15:08:21] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:08:31,055 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET / HTTP/1.1" 200 -
+2026-06-20 15:08:31,115 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:08:31,143 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:31,144 127.0.0.1 - - [20/Jun/2026 15:08:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:31,149 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:31,149 127.0.0.1 - - [20/Jun/2026 15:08:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:31,152 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:08:31,156 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:08:31,158 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:08:31,179 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:08:31,242 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:08:31,244 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:08:31,312 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:08:31,321 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:08:31,379 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:08:31,433 127.0.0.1 - - [20/Jun/2026 15:08:31] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:08:46,008 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET / HTTP/1.1" 200 -
+2026-06-20 15:08:46,110 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:08:46,114 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:08:46,115 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:46,116 127.0.0.1 - - [20/Jun/2026 15:08:46] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:46,117 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:08:46,117 127.0.0.1 - - [20/Jun/2026 15:08:46] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:08:46,119 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:08:46,122 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:08:46,125 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:08:46,186 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:08:46,188 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:08:46,291 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:08:46,297 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:08:46,369 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:08:46,417 127.0.0.1 - - [20/Jun/2026 15:08:46] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:09:10,068 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET / HTTP/1.1" 200 -
+2026-06-20 15:09:10,174 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:09:10,179 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:10,180 127.0.0.1 - - [20/Jun/2026 15:09:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:10,182 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:09:10,185 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:09:10,186 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:09:10,189 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:10,189 127.0.0.1 - - [20/Jun/2026 15:09:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:10,191 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:09:10,291 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:09:10,294 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:09:10,382 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:09:10,407 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:09:10,478 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:09:10,560 127.0.0.1 - - [20/Jun/2026 15:09:10] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:09:38,689 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET / HTTP/1.1" 200 -
+2026-06-20 15:09:38,766 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:09:38,770 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:38,770 127.0.0.1 - - [20/Jun/2026 15:09:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:38,777 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:09:38,779 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:09:38,783 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:09:38,787 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:09:38,791 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:38,791 127.0.0.1 - - [20/Jun/2026 15:09:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:38,843 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:09:38,845 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:09:38,912 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:09:38,921 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:09:38,978 127.0.0.1 - - [20/Jun/2026 15:09:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:09:39,022 127.0.0.1 - - [20/Jun/2026 15:09:39] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:09:48,964 127.0.0.1 - - [20/Jun/2026 15:09:48] "GET / HTTP/1.1" 200 -
+2026-06-20 15:09:49,070 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:49,070 127.0.0.1 - - [20/Jun/2026 15:09:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:49,072 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:09:49,077 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:09:49,077 127.0.0.1 - - [20/Jun/2026 15:09:49] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:09:49,079 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:09:49,084 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:09:49,089 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:09:49,090 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:09:49,133 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:09:49,135 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:09:49,240 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:09:49,247 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:09:49,326 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:09:49,390 127.0.0.1 - - [20/Jun/2026 15:09:49] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:13:36,028 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET / HTTP/1.1" 200 -
+2026-06-20 15:13:36,141 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:13:36,420 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:13:36,421 127.0.0.1 - - [20/Jun/2026 15:13:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:13:36,423 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:13:36,428 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:13:36,434 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/images/dashboard.png HTTP/1.1" 200 -
+2026-06-20 15:13:36,436 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:13:36,442 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:13:36,446 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:13:36,446 127.0.0.1 - - [20/Jun/2026 15:13:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:13:36,499 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:13:36,504 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:13:36,592 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:13:36,610 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:13:36,677 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:13:36,772 127.0.0.1 - - [20/Jun/2026 15:13:36] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:19:57,539 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET / HTTP/1.1" 200 -
+2026-06-20 15:19:57,637 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:19:57,667 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:19:57,695 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:19:57,850 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/images/dashboard.png HTTP/1.1" 200 -
+2026-06-20 15:19:57,864 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:19:57,867 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:19:57,875 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:19:57,875 127.0.0.1 - - [20/Jun/2026 15:19:57] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:19:57,879 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:19:57,879 127.0.0.1 - - [20/Jun/2026 15:19:57] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:19:57,932 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:19:57,934 127.0.0.1 - - [20/Jun/2026 15:19:57] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:19:58,017 127.0.0.1 - - [20/Jun/2026 15:19:58] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:19:58,020 127.0.0.1 - - [20/Jun/2026 15:19:58] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:19:58,074 127.0.0.1 - - [20/Jun/2026 15:19:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:19:58,156 127.0.0.1 - - [20/Jun/2026 15:19:58] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:22:36,086 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET / HTTP/1.1" 200 -
+2026-06-20 15:22:36,213 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:22:36,222 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:22:36,494 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/images/placeholder.png HTTP/1.1" 200 -
+2026-06-20 15:22:36,502 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/images/dashboard.png HTTP/1.1" 200 -
+2026-06-20 15:22:36,524 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:22:36,524 127.0.0.1 - - [20/Jun/2026 15:22:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:22:36,525 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:22:36,526 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:22:36,527 127.0.0.1 - - [20/Jun/2026 15:22:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:22:36,531 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:22:36,541 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:22:36,549 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:22:36,791 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:22:36,796 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:22:36,896 127.0.0.1 - - [20/Jun/2026 15:22:36] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:22:37,037 127.0.0.1 - - [20/Jun/2026 15:22:37] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:24:56,021 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET / HTTP/1.1" 200 -
+2026-06-20 15:24:56,134 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 15:24:56,136 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 15:24:56,139 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/js/home-scroll-indicator.js HTTP/1.1" 200 -
+2026-06-20 15:24:56,149 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 15:24:56,187 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/images/dashboard.png HTTP/1.1" 200 -
+2026-06-20 15:24:56,239 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/theme.css HTTP/1.1" 200 -
+2026-06-20 15:24:56,257 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/hometitle.css HTTP/1.1" 200 -
+2026-06-20 15:24:56,342 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/images/resources.png HTTP/1.1" 200 -
+2026-06-20 15:24:56,350 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:24:56,350 127.0.0.1 - - [20/Jun/2026 15:24:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:24:56,354 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:24:56,354 127.0.0.1 - - [20/Jun/2026 15:24:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:24:56,359 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/images/websites.png HTTP/1.1" 200 -
+2026-06-20 15:24:56,504 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 15:24:56,545 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-20 15:24:56,603 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-20 15:24:56,655 127.0.0.1 - - [20/Jun/2026 15:24:56] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2026-06-20 15:25:20,562 127.0.0.1 - - [20/Jun/2026 15:25:20] "GET /resources HTTP/1.1" 200 -
+2026-06-20 15:25:20,645 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,647 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,649 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,652 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,654 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,687 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,697 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,739 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:25:20,785 127.0.0.1 - - [20/Jun/2026 15:25:20] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2026-06-20 15:25:32,814 127.0.0.1 - - [20/Jun/2026 15:25:32] "GET / HTTP/1.1" 200 -
+2026-06-20 15:25:32,889 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:25:32,890 127.0.0.1 - - [20/Jun/2026 15:25:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:25:32,893 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 15:25:32,893 127.0.0.1 - - [20/Jun/2026 15:25:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:25:33,046 127.0.0.1 - - [20/Jun/2026 15:25:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,426 127.0.0.1 - - [20/Jun/2026 15:25:42] "GET /signup.html HTTP/1.1" 200 -
+2026-06-20 15:25:42,485 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,500 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,502 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,506 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,548 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,551 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:42,623 127.0.0.1 - - [20/Jun/2026 15:25:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,422 127.0.0.1 - - [20/Jun/2026 15:25:48] "GET /login.html HTTP/1.1" 200 -
+2026-06-20 15:25:48,522 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,527 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,527 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,528 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","status-code":200,"script-sample":""}}
+2026-06-20 15:25:48,529 127.0.0.1 - - [20/Jun/2026 15:25:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:25:48,535 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,537 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":262,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","status-code":200,"script-sample":""}}
+2026-06-20 15:25:48,538 127.0.0.1 - - [20/Jun/2026 15:25:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:25:48,548 {"csp-report":{"document-uri":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","referrer":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://animated-giggle-7qqjp9w595gcxw7-8000.app.github.dev/login.html","status-code":200,"script-sample":""}}
+2026-06-20 15:25:48,549 127.0.0.1 - - [20/Jun/2026 15:25:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 15:25:48,601 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/css/hometitle.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,604 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/css/theme.css HTTP/1.1[0m" 304 -
+2026-06-20 15:25:48,644 127.0.0.1 - - [20/Jun/2026 15:25:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -

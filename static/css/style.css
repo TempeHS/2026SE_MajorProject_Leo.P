@@ -104,6 +104,22 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.side-card-left-media {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.side-card-left-media .side-img-left {
+  flex: 0 0 50%;
+  width: 50%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* changing the font to helvetica */
 /* * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
