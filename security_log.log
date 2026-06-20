@@ -17572,3 +17572,166 @@
 2026-06-20 09:06:23,028 127.0.0.1 - - [20/Jun/2026 09:06:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 2026-06-20 09:06:23,105 127.0.0.1 - - [20/Jun/2026 09:06:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-20 09:06:23,205 127.0.0.1 - - [20/Jun/2026 09:06:23] "[33mGET /subject/hsie/business-studies/notes/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:04:15,168 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.0.108:8000
+2026-06-20 10:04:15,168 [33mPress CTRL+C to quit[0m
+2026-06-20 10:04:15,169  * Restarting with stat
+2026-06-20 10:04:15,486  * Debugger is active!
+2026-06-20 10:04:15,621  * Debugger PIN: 962-173-320
+2026-06-20 10:04:19,069 127.0.0.1 - - [20/Jun/2026 10:04:19] "GET / HTTP/1.1" 200 -
+2026-06-20 10:04:19,375 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:04:19,376 127.0.0.1 - - [20/Jun/2026 10:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:04:19,377 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,444 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,458 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,466 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,503 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,524 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:04:19,525 127.0.0.1 - - [20/Jun/2026 10:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:04:19,808 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:19,815 127.0.0.1 - - [20/Jun/2026 10:04:19] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:04:29,891 127.0.0.1 - - [20/Jun/2026 10:04:29] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 10:04:30,046 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,083 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,083 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,086 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,089 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,200 127.0.0.1 - - [20/Jun/2026 10:04:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:30,303 127.0.0.1 - - [20/Jun/2026 10:04:30] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:04:34,639 127.0.0.1 - - [20/Jun/2026 10:04:34] "GET /subject/hsie/business-studies/videos HTTP/1.1" 200 -
+2026-06-20 10:04:34,900 127.0.0.1 - - [20/Jun/2026 10:04:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:34,910 127.0.0.1 - - [20/Jun/2026 10:04:34] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:34,919 127.0.0.1 - - [20/Jun/2026 10:04:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:34,924 127.0.0.1 - - [20/Jun/2026 10:04:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:34,933 127.0.0.1 - - [20/Jun/2026 10:04:34] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:04:35,060 127.0.0.1 - - [20/Jun/2026 10:04:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:35,207 127.0.0.1 - - [20/Jun/2026 10:04:35] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:04:37,498 127.0.0.1 - - [20/Jun/2026 10:04:37] "GET /subject/hsie/business-studies/videos/operations HTTP/1.1" 200 -
+2026-06-20 10:04:37,605 127.0.0.1 - - [20/Jun/2026 10:04:37] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:37,629 127.0.0.1 - - [20/Jun/2026 10:04:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:37,635 127.0.0.1 - - [20/Jun/2026 10:04:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:37,638 127.0.0.1 - - [20/Jun/2026 10:04:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:37,727 127.0.0.1 - - [20/Jun/2026 10:04:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:37,784 127.0.0.1 - - [20/Jun/2026 10:04:37] "[33mGET /subject/hsie/business-studies/videos/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:04:39,255 127.0.0.1 - - [20/Jun/2026 10:04:39] "GET /subject/hsie/business-studies/videos HTTP/1.1" 200 -
+2026-06-20 10:04:39,455 127.0.0.1 - - [20/Jun/2026 10:04:39] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:04:41,436 127.0.0.1 - - [20/Jun/2026 10:04:41] "GET / HTTP/1.1" 200 -
+2026-06-20 10:04:41,556 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:41,574 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:04:41,574 127.0.0.1 - - [20/Jun/2026 10:04:41] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:04:41,587 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:41,598 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:04:41,606 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:04:41,610 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:04:41,614 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:04:41,614 127.0.0.1 - - [20/Jun/2026 10:04:41] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:04:41,698 127.0.0.1 - - [20/Jun/2026 10:04:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,163 127.0.0.1 - - [20/Jun/2026 10:11:57] "GET / HTTP/1.1" 200 -
+2026-06-20 10:11:57,363 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,573 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,589 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:11:57,590 127.0.0.1 - - [20/Jun/2026 10:11:57] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:11:57,607 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,615 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:11:57,616 127.0.0.1 - - [20/Jun/2026 10:11:57] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:11:57,639 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,660 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,801 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:11:57,806 127.0.0.1 - - [20/Jun/2026 10:11:57] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:11:58,012 127.0.0.1 - - [20/Jun/2026 10:11:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,153 127.0.0.1 - - [20/Jun/2026 10:15:37] "GET / HTTP/1.1" 200 -
+2026-06-20 10:15:37,307 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,320 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,335 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:15:37,337 127.0.0.1 - - [20/Jun/2026 10:15:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:15:37,491 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,505 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:15:37,505 127.0.0.1 - - [20/Jun/2026 10:15:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:15:37,524 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,539 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,606 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,618 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:15:37,695 127.0.0.1 - - [20/Jun/2026 10:15:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 10:25:11,971 127.0.0.1 - - [20/Jun/2026 10:25:11] "GET / HTTP/1.1" 200 -
+2026-06-20 10:25:12,267 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:25:12,282 127.0.0.1 - - [20/Jun/2026 10:25:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 10:25:12,293 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:25:12,391 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:25:12,406 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:25:12,406 127.0.0.1 - - [20/Jun/2026 10:25:12] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:25:12,416 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:25:12,500 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:25:12,501 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:25:12,502 127.0.0.1 - - [20/Jun/2026 10:25:12] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:25:12,742 127.0.0.1 - - [20/Jun/2026 10:25:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:25:13,602 127.0.0.1 - - [20/Jun/2026 10:25:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 10:26:35,411 127.0.0.1 - - [20/Jun/2026 10:26:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:26:35,416 127.0.0.1 - - [20/Jun/2026 10:26:35] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2026-06-20 10:26:35,419 127.0.0.1 - - [20/Jun/2026 10:26:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:26:35,492 127.0.0.1 - - [20/Jun/2026 10:26:35] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:26:37,400 127.0.0.1 - - [20/Jun/2026 10:26:37] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2026-06-20 10:27:17,063 127.0.0.1 - - [20/Jun/2026 10:27:17] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 10:27:17,271 127.0.0.1 - - [20/Jun/2026 10:27:17] "GET /static/css/bootstrap-icons.css HTTP/1.1" 200 -
+2026-06-20 10:27:17,278 127.0.0.1 - - [20/Jun/2026 10:27:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-20 10:27:17,281 127.0.0.1 - - [20/Jun/2026 10:27:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 10:27:17,322 127.0.0.1 - - [20/Jun/2026 10:27:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:27:17,412 127.0.0.1 - - [20/Jun/2026 10:27:17] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:27:17,464 127.0.0.1 - - [20/Jun/2026 10:27:17] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:27:17,546 127.0.0.1 - - [20/Jun/2026 10:27:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:27:18,553 127.0.0.1 - - [20/Jun/2026 10:27:18] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 10:27:22,660 127.0.0.1 - - [20/Jun/2026 10:27:22] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:22,666 127.0.0.1 - - [20/Jun/2026 10:27:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:22,670 127.0.0.1 - - [20/Jun/2026 10:27:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:22,985 127.0.0.1 - - [20/Jun/2026 10:27:22] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2026-06-20 10:27:23,194 127.0.0.1 - - [20/Jun/2026 10:27:23] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2026-06-20 10:27:45,368 127.0.0.1 - - [20/Jun/2026 10:27:45] "GET / HTTP/1.1" 200 -
+2026-06-20 10:27:45,879 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:27:45,879 127.0.0.1 - - [20/Jun/2026 10:27:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:27:45,886 127.0.0.1 - - [20/Jun/2026 10:27:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:45,888 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:27:45,888 127.0.0.1 - - [20/Jun/2026 10:27:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:27:45,896 127.0.0.1 - - [20/Jun/2026 10:27:45] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:45,902 127.0.0.1 - - [20/Jun/2026 10:27:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:27:46,350 127.0.0.1 - - [20/Jun/2026 10:27:46] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:27:46,356 127.0.0.1 - - [20/Jun/2026 10:27:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:27:46,720 127.0.0.1 - - [20/Jun/2026 10:27:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:27:47,054 127.0.0.1 - - [20/Jun/2026 10:27:47] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 10:30:41,483 127.0.0.1 - - [20/Jun/2026 10:30:41] "GET / HTTP/1.1" 200 -
+2026-06-20 10:30:42,130 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:42,135 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:42,141 127.0.0.1 - - [20/Jun/2026 10:30:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 10:30:42,296 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:42,412 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:42,413 127.0.0.1 - - [20/Jun/2026 10:30:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:42,422 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:30:42,440 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:42,442 127.0.0.1 - - [20/Jun/2026 10:30:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:42,443 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:42,596 127.0.0.1 - - [20/Jun/2026 10:30:42] "GET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 -
+2026-06-20 10:30:42,879 127.0.0.1 - - [20/Jun/2026 10:30:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,149 127.0.0.1 - - [20/Jun/2026 10:30:52] "GET / HTTP/1.1" 200 -
+2026-06-20 10:30:52,223 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,228 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,240 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,336 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:52,336 127.0.0.1 - - [20/Jun/2026 10:30:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:52,339 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,343 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:52,345 127.0.0.1 - - [20/Jun/2026 10:30:52] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:52,345 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,475 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:52,553 127.0.0.1 - - [20/Jun/2026 10:30:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 10:30:55,228 127.0.0.1 - - [20/Jun/2026 10:30:55] "GET / HTTP/1.1" 200 -
+2026-06-20 10:30:55,435 127.0.0.1 - - [20/Jun/2026 10:30:55] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:55,453 127.0.0.1 - - [20/Jun/2026 10:30:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-20 10:30:55,456 127.0.0.1 - - [20/Jun/2026 10:30:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 10:30:56,620 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:56,621 127.0.0.1 - - [20/Jun/2026 10:30:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:56,623 127.0.0.1 - - [20/Jun/2026 10:30:56] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 10:30:56,626 127.0.0.1 - - [20/Jun/2026 10:30:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:56,628 {"csp-report":{"document-uri":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","referrer":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://bookish-system-qrr5pq64p9xfpv6-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 10:30:56,628 127.0.0.1 - - [20/Jun/2026 10:30:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 10:30:57,614 127.0.0.1 - - [20/Jun/2026 10:30:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 10:30:58,449 127.0.0.1 - - [20/Jun/2026 10:30:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
