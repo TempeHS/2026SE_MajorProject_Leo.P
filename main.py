@@ -273,6 +273,25 @@ def business_studies_videos():
 
 ####### topics for videos
 @app.route("/subject/hsie/business-studies/videos/operations")
+@csp_header(
+    {
+        "base-uri": "'self'",
+        "default-src": "'self'",
+        "style-src": "'self'",
+        "script-src": "'self'",
+        "img-src": "'self' data: https://i.ytimg.com",
+        "media-src": "'self'",
+        "font-src": "'self'",
+        "object-src": "'self'",
+        "child-src": "'self'",
+        "connect-src": "'self'",
+        "worker-src": "'self'",
+        "report-uri": "/csp_report",
+        "frame-ancestors": "'none'",
+        "form-action": "'self'",
+        "frame-src": "https://www.youtube.com https://www.youtube-nocookie.com",
+    }
+)
 def business_studies_topic_videos_operations():
     return render_template("subject/hsie/business-studies/topic-videos/operations.html")
 
