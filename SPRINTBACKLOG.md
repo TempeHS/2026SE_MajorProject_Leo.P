@@ -87,9 +87,15 @@ Develop the website's navigation and implement base level functionality.
 | Login with wrong email/password (Manual test) | POST wrong email or password                           | Redirect to /login.html, error flash   | Redirected to /login.html                                         | Pass      |
 | 2FA invalid OTP (Manual test)                 | POST invalid OTP                                       | Remain in 2FA, error flash             | Remained in 2FA, error flash                                      | Pass      |
 
-### Sprint Review
+Routes tested:
 
-Write what was completed, what worked, and what was delivered.
+- /subject/hsie/business-studies
+- /subject/hsie/business-studies/past-papers
+- /resources
+- /login.html
+- /signup.html
+
+### Sprint Review
 
 In sprint 2, I was able to successfully delivered / completed my sprint plan and have everything working, including implementing client feedback from the sprint 1 demo, developing the base necessary functionality and general website navigation, as well as an initial prototype subject page structure with a reusable resource card component that can be adapted for future development.
 
@@ -104,11 +110,11 @@ In sprint 2, I was able to successfully delivered / completed my sprint plan and
 
 ---
 
-## SPRINT 3:
+## SPRINT 3: Content population and expansion
 
 ### Sprint Goal
 
-put goal here
+Expand and structure the demo subject (Business Studies) resource system + home page cards using reusable components
 
 ### Committed Items
 
@@ -117,29 +123,43 @@ put goal here
 
 ### Sprint Plan
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. Implement client feedback from sprint 2
+2. Build demo subject (Business studies) page structure with 1 or more functioning cards
+3. Populate demo subject (Business studies) page with placeholder resource cards to simulate real content
+4. Improve overall layout consistency
+5. Populate home page cards with placeholder resource cards to simulate real content
+6. Check all navigation paths work correctly
 
 ### Unit Test Summary Table
 
-| Feature      | Test            | Expected Result    | Actual Result | Pass/Fail |
-| ------------ | --------------- | ------------------ | ------------- | --------- |
-| Feature name | What you tested | What should happen | What happened | Pass/Fail |
-| Feature name | What you tested | What should happen | What happened | Pass/Fail |
+| Feature                                | Test                                                   | Expected Result                        | Actual Result                                                     | Pass/Fail |
+| -------------------------------------- | ------------------------------------------------------ | -------------------------------------- | ----------------------------------------------------------------- | --------- |
+| Pages loading                          | Send GET request to all listed routes (see list below) | Server responds with HTTP 200          | Server responded with HTTP 200 (pytest: [100%] 2 passed in 0.28s) | Pass      |
+| Resource card opening (Manual testing) | Open various resource cards (see list below)           | Cards redirect to respective resources | Cards redirected to respective resources                          | Pass      |
+
+Routes tested:
+
+- /subject/hsie/business-studies/notes/operations
+- /subject/hsie/business-studies/videos/operations
+
+Resource cards tested:
+
+- Past Papers
+- Notes
+- Videos
 
 ### Sprint Review
 
-Write what was completed, what worked, and what was delivered.
+In sprint 3, I was able to implement client feedback from sprint 2, as well as working on the demo subject (Business studies) and adding some functioning cards in past papers, notes and videos. I populated Business studies a with a few placeholder resource cards (specifically in past papers) to simulate real content and what a page would look like when full. The overall layout consistency was improved and all navigation paths were checked to make sure they worked correctly.
 
 ### Sprint Retrospective
 
 - **What went well:**
+  - The use of a card template and moulding it to the different pages in order to develop a cohesive card layout look across the demo subject pages
 - **What didn’t go well:**
+  - The scope of the sprint was a bit too large considering the time I had, meaning that population of the home page had to be cut, meaning there was a shift in focus from fully populating the demo subject page to a focus on delivering an example of each type of card that will be seen throughout the website in future enhancements.
 - **What to improve next sprint:**
+  - Time management
 
 ---
 

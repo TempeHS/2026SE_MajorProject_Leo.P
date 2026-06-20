@@ -243,15 +243,62 @@ def personal_dashboard():
 
 ### Subjects
 #### HSIE
+##### business
 @app.route("/subject/hsie/business-studies")
 def business_studies():
     return render_template("subject/hsie/business-studies/business-studies.html")
 
 
-##### business past papers
+@app.route("/subject/hsie/business-studies/notes")
+def business_studies_notes():
+    return render_template("subject/hsie/business-studies/notes.html")
+
+
+######### topic notes
+@app.route("/subject/hsie/business-studies/notes/operations")
+def business_studies_topic_notes_operations():
+    return render_template("subject/hsie/business-studies/topic-notes/operations.html")
+
+
+###### business past papers
 @app.route("/subject/hsie/business-studies/past-papers")
 def business_studies_past_papers():
     return render_template("subject/hsie/business-studies/past-papers.html")
+
+
+@app.route("/subject/hsie/business-studies/videos")
+def business_studies_videos():
+    return render_template("subject/hsie/business-studies/videos.html")
+
+
+####### topics for videos
+@app.route("/subject/hsie/business-studies/videos/operations")
+@csp_header(
+    {
+        "base-uri": "'self'",
+        "default-src": "'self'",
+        "style-src": "'self'",
+        "script-src": "'self'",
+        "img-src": "'self' data: https://i.ytimg.com",
+        "media-src": "'self'",
+        "font-src": "'self'",
+        "object-src": "'self'",
+        "child-src": "'self'",
+        "connect-src": "'self'",
+        "worker-src": "'self'",
+        "report-uri": "/csp_report",
+        "frame-ancestors": "'none'",
+        "form-action": "'self'",
+        "frame-src": "https://www.youtube.com https://www.youtube-nocookie.com",
+    }
+)
+def business_studies_topic_videos_operations():
+    return render_template("subject/hsie/business-studies/topic-videos/operations.html")
+
+
+@app.route("/subject/hsie/business-studies/band-6-exemplars")
+def business_studies_band_6_exemplars():
+    return render_template("subject/hsie/business-studies/band-6-exemplars.html")
 
 
 if __name__ == "__main__":
