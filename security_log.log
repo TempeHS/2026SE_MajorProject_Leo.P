@@ -16273,3 +16273,385 @@
 2026-06-19 07:35:59,043  * Restarting with stat
 2026-06-19 07:35:59,373  * Debugger is active!
 2026-06-19 07:35:59,373  * Debugger PIN: 628-861-226
+2026-06-19 07:37:04,355 127.0.0.1 - - [19/Jun/2026 07:37:04] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-19 07:37:04,678 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,690 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,691 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,714 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,730 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,773 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,775 127.0.0.1 - - [19/Jun/2026 07:37:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:37:04,828 127.0.0.1 - - [19/Jun/2026 07:37:04] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:37:08,518 127.0.0.1 - - [19/Jun/2026 07:37:08] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-19 07:37:08,590 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,594 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,596 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,600 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,652 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,657 127.0.0.1 - - [19/Jun/2026 07:37:08] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:37:08,714 127.0.0.1 - - [19/Jun/2026 07:37:08] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:44:38,855 127.0.0.1 - - [19/Jun/2026 07:44:38] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-19 07:44:39,120 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,155 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,176 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,182 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,261 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,342 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,409 127.0.0.1 - - [19/Jun/2026 07:44:39] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-19 07:44:39,413 127.0.0.1 - - [19/Jun/2026 07:44:39] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-19 07:44:50,180 127.0.0.1 - - [19/Jun/2026 07:44:50] "[33mGET /static/pdfs/business-studies/2025-hsc-business-studies.pdf HTTP/1.1[0m" 404 -
+2026-06-20 01:20:15,012 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.0.1.238:8000
+2026-06-20 01:20:15,047 [33mPress CTRL+C to quit[0m
+2026-06-20 01:20:15,048  * Restarting with stat
+2026-06-20 01:20:15,447  * Debugger is active!
+2026-06-20 01:20:15,447  * Debugger PIN: 111-613-002
+2026-06-20 01:21:32,968 127.0.0.1 - - [20/Jun/2026 01:21:32] "GET / HTTP/1.1" 200 -
+2026-06-20 01:21:33,113 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 01:21:33,114 127.0.0.1 - - [20/Jun/2026 01:21:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 01:21:33,209 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,352 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,383 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,384 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,405 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 01:21:33,405 127.0.0.1 - - [20/Jun/2026 01:21:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 01:21:33,427 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,514 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:21:33,516 127.0.0.1 - - [20/Jun/2026 01:21:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:05,972 127.0.0.1 - - [20/Jun/2026 01:28:05] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 01:28:06,097 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,251 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,262 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,281 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,293 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,344 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,353 127.0.0.1 - - [20/Jun/2026 01:28:06] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:28:06,452 127.0.0.1 - - [20/Jun/2026 01:28:06] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:28:09,789 127.0.0.1 - - [20/Jun/2026 01:28:09] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:28:09,855 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,867 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,871 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,873 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,927 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,932 127.0.0.1 - - [20/Jun/2026 01:28:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:09,987 127.0.0.1 - - [20/Jun/2026 01:28:09] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:28:12,616 127.0.0.1 - - [20/Jun/2026 01:28:12] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 01:28:12,703 127.0.0.1 - - [20/Jun/2026 01:28:12] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:28:20,889 127.0.0.1 - - [20/Jun/2026 01:28:20] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:28:20,953 127.0.0.1 - - [20/Jun/2026 01:28:20] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:20,963 127.0.0.1 - - [20/Jun/2026 01:28:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:20,970 127.0.0.1 - - [20/Jun/2026 01:28:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:20,972 127.0.0.1 - - [20/Jun/2026 01:28:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:28:21,026 127.0.0.1 - - [20/Jun/2026 01:28:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:28:21,079 127.0.0.1 - - [20/Jun/2026 01:28:21] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:30:09,914 127.0.0.1 - - [20/Jun/2026 01:30:09] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:30:10,190 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,197 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,210 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,216 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,283 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,360 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:30:10,423 127.0.0.1 - - [20/Jun/2026 01:30:10] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:30:10,434 127.0.0.1 - - [20/Jun/2026 01:30:10] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,100 127.0.0.1 - - [20/Jun/2026 01:31:17] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:31:17,175 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,177 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,180 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,182 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,239 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,242 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:31:17,308 127.0.0.1 - - [20/Jun/2026 01:31:17] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:31:17,316 127.0.0.1 - - [20/Jun/2026 01:31:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:31:18,849 127.0.0.1 - - [20/Jun/2026 01:31:18] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:31:18,921 127.0.0.1 - - [20/Jun/2026 01:31:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:18,924 127.0.0.1 - - [20/Jun/2026 01:31:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:18,929 127.0.0.1 - - [20/Jun/2026 01:31:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:31:18,933 127.0.0.1 - - [20/Jun/2026 01:31:18] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:31:19,001 127.0.0.1 - - [20/Jun/2026 01:31:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:31:19,058 127.0.0.1 - - [20/Jun/2026 01:31:19] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:31:19,060 127.0.0.1 - - [20/Jun/2026 01:31:19] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:32:05,015 127.0.0.1 - - [20/Jun/2026 01:32:05] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:32:05,090 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,102 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,108 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,113 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,162 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,165 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,220 127.0.0.1 - - [20/Jun/2026 01:32:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:32:05,229 127.0.0.1 - - [20/Jun/2026 01:32:05] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:32:06,249 127.0.0.1 - - [20/Jun/2026 01:32:06] "GET / HTTP/1.1" 200 -
+2026-06-20 01:32:06,356 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies/past-papers","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 01:32:06,357 127.0.0.1 - - [20/Jun/2026 01:32:06] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 01:32:06,361 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:06,367 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:06,372 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 01:32:06,375 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies/past-papers","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 01:32:06,375 127.0.0.1 - - [20/Jun/2026 01:32:06] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 01:32:06,378 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:06,398 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:06,445 127.0.0.1 - - [20/Jun/2026 01:32:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,829 127.0.0.1 - - [20/Jun/2026 01:32:09] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 01:32:09,895 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,912 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,914 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,916 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,918 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:09,967 127.0.0.1 - - [20/Jun/2026 01:32:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:10,050 127.0.0.1 - - [20/Jun/2026 01:32:10] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:32:10,928 127.0.0.1 - - [20/Jun/2026 01:32:10] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:32:10,994 127.0.0.1 - - [20/Jun/2026 01:32:10] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:11,008 127.0.0.1 - - [20/Jun/2026 01:32:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:11,012 127.0.0.1 - - [20/Jun/2026 01:32:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:32:11,015 127.0.0.1 - - [20/Jun/2026 01:32:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:11,056 127.0.0.1 - - [20/Jun/2026 01:32:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:32:11,103 127.0.0.1 - - [20/Jun/2026 01:32:11] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:33:12,528 127.0.0.1 - - [20/Jun/2026 01:33:12] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:33:12,607 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,610 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,612 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,616 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,676 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,678 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,735 127.0.0.1 - - [20/Jun/2026 01:33:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:33:12,740 127.0.0.1 - - [20/Jun/2026 01:33:12] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:33:17,435 127.0.0.1 - - [20/Jun/2026 01:33:17] "[33mGET /static/pdfs/business-studies/2025-hsc-business-studies.pdf HTTP/1.1[0m" 404 -
+2026-06-20 01:33:48,963 127.0.0.1 - - [20/Jun/2026 01:33:48] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:33:49,021 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,037 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,040 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,043 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,153 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,156 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,215 127.0.0.1 - - [20/Jun/2026 01:33:49] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:33:49,217 127.0.0.1 - - [20/Jun/2026 01:33:49] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:33:50,242 127.0.0.1 - - [20/Jun/2026 01:33:50] "GET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1" 200 -
+2026-06-20 01:39:26,989 127.0.0.1 - - [20/Jun/2026 01:39:26] "[36mGET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,348 127.0.0.1 - - [20/Jun/2026 01:44:12] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:44:12,611 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,620 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,641 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,656 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,725 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,788 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,869 127.0.0.1 - - [20/Jun/2026 01:44:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:44:12,880 127.0.0.1 - - [20/Jun/2026 01:44:12] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:44:14,207 127.0.0.1 - - [20/Jun/2026 01:44:14] "GET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1" 200 -
+2026-06-20 01:44:17,298 127.0.0.1 - - [20/Jun/2026 01:44:17] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:44:17,365 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,372 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,374 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,378 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,428 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,474 127.0.0.1 - - [20/Jun/2026 01:44:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:44:17,485 127.0.0.1 - - [20/Jun/2026 01:44:17] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:45:51,551 127.0.0.1 - - [20/Jun/2026 01:45:51] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:45:51,616 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,752 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,765 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,783 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,828 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,831 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,881 127.0.0.1 - - [20/Jun/2026 01:45:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:45:51,890 127.0.0.1 - - [20/Jun/2026 01:45:51] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:46:33,836 127.0.0.1 - - [20/Jun/2026 01:46:33] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:46:33,906 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:46:33,917 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:46:33,926 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:46:33,929 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:46:33,967 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:46:33,984 127.0.0.1 - - [20/Jun/2026 01:46:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:46:34,045 127.0.0.1 - - [20/Jun/2026 01:46:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:46:34,048 127.0.0.1 - - [20/Jun/2026 01:46:34] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:59:26,362 127.0.0.1 - - [20/Jun/2026 01:59:26] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:59:26,645 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,668 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,689 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,697 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,763 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,831 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,914 127.0.0.1 - - [20/Jun/2026 01:59:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:59:26,924 127.0.0.1 - - [20/Jun/2026 01:59:26] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 01:59:49,859 127.0.0.1 - - [20/Jun/2026 01:59:49] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 01:59:49,922 127.0.0.1 - - [20/Jun/2026 01:59:49] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:49,935 127.0.0.1 - - [20/Jun/2026 01:59:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 01:59:49,939 127.0.0.1 - - [20/Jun/2026 01:59:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:49,942 127.0.0.1 - - [20/Jun/2026 01:59:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 01:59:49,997 127.0.0.1 - - [20/Jun/2026 01:59:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 01:59:50,051 127.0.0.1 - - [20/Jun/2026 01:59:50] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 01:59:50,055 127.0.0.1 - - [20/Jun/2026 01:59:50] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:16:20,984  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-20 02:16:21,036  * Restarting with stat
+2026-06-20 02:16:21,362  * Debugger is active!
+2026-06-20 02:16:21,363  * Debugger PIN: 111-613-002
+2026-06-20 02:24:33,924  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-20 02:24:33,986  * Restarting with stat
+2026-06-20 02:24:34,331  * Debugger is active!
+2026-06-20 02:24:34,331  * Debugger PIN: 111-613-002
+2026-06-20 02:24:48,679  * Detected change in '/workspaces/2026SE_MajorProject_Leo.P/main.py', reloading
+2026-06-20 02:24:48,729  * Restarting with stat
+2026-06-20 02:24:49,054  * Debugger is active!
+2026-06-20 02:24:49,054  * Debugger PIN: 111-613-002
+2026-06-20 02:26:23,587 127.0.0.1 - - [20/Jun/2026 02:26:23] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:26:23,832 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:23,841 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:23,859 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:23,872 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:26:23,929 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:26:23,992 127.0.0.1 - - [20/Jun/2026 02:26:23] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 02:26:24,074 127.0.0.1 - - [20/Jun/2026 02:26:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:26:24,086 127.0.0.1 - - [20/Jun/2026 02:26:24] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:26:42,648 127.0.0.1 - - [20/Jun/2026 02:26:42] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:26:42,701 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:42,720 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:42,724 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:26:42,727 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:26:42,800 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:26:42,857 127.0.0.1 - - [20/Jun/2026 02:26:42] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:26:42,860 127.0.0.1 - - [20/Jun/2026 02:26:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,143 127.0.0.1 - - [20/Jun/2026 02:31:55] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:31:55,458 127.0.0.1 - - [20/Jun/2026 02:31:55] "GET /static/images/resource-card-images/nesa-logo.png HTTP/1.1" 200 -
+2026-06-20 02:31:55,461 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,475 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,477 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,500 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,554 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,565 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,649 127.0.0.1 - - [20/Jun/2026 02:31:55] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:31:55,659 127.0.0.1 - - [20/Jun/2026 02:31:55] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:40:02,516 127.0.0.1 - - [20/Jun/2026 02:40:02] "[36mGET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,153 127.0.0.1 - - [20/Jun/2026 02:58:24] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:58:24,464 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,484 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/images/resource-card-images/nesa-logo.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,490 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,509 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,521 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,571 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,574 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,658 127.0.0.1 - - [20/Jun/2026 02:58:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:24,666 127.0.0.1 - - [20/Jun/2026 02:58:24] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:58:39,606 127.0.0.1 - - [20/Jun/2026 02:58:39] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:58:39,672 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,675 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,677 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,680 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/images/resource-card-images/nesa-logo.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,688 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,739 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,793 127.0.0.1 - - [20/Jun/2026 02:58:39] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:39,796 127.0.0.1 - - [20/Jun/2026 02:58:39] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:58:41,935 127.0.0.1 - - [20/Jun/2026 02:58:41] "GET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1" 200 -
+2026-06-20 02:58:47,972 127.0.0.1 - - [20/Jun/2026 02:58:47] "GET /subject/hsie/business-studies/past-papers HTTP/1.1" 200 -
+2026-06-20 02:58:48,043 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,046 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,048 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,053 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/images/resource-card-images/nesa-logo.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,063 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,119 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,167 127.0.0.1 - - [20/Jun/2026 02:58:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-20 02:58:48,176 127.0.0.1 - - [20/Jun/2026 02:58:48] "[33mGET /subject/hsie/business-studies/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 02:58:49,499 127.0.0.1 - - [20/Jun/2026 02:58:49] "[36mGET /static/pdfs/business-studies/hsc-papers/2025-hsc-business-studies.pdf HTTP/1.1[0m" 304 -
+2026-06-20 03:04:18,658 127.0.0.1 - - [20/Jun/2026 03:04:18] "GET / HTTP/1.1" 200 -
+2026-06-20 03:04:18,807 127.0.0.1 - - [20/Jun/2026 03:04:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,107 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,138 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,142 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies/past-papers","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:19,142 127.0.0.1 - - [20/Jun/2026 03:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:19,153 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,183 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,185 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies/past-papers","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:19,186 127.0.0.1 - - [20/Jun/2026 03:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:19,226 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,229 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,633 127.0.0.1 - - [20/Jun/2026 03:04:19] "GET / HTTP/1.1" 200 -
+2026-06-20 03:04:19,718 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,744 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,747 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,750 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:19,751 127.0.0.1 - - [20/Jun/2026 03:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:19,753 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,760 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,766 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:19,766 127.0.0.1 - - [20/Jun/2026 03:04:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:19,830 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 03:04:19,834 127.0.0.1 - - [20/Jun/2026 03:04:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,388 127.0.0.1 - - [20/Jun/2026 03:04:20] "GET / HTTP/1.1" 200 -
+2026-06-20 03:04:20,449 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,469 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,475 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,478 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:20,478 127.0.0.1 - - [20/Jun/2026 03:04:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:20,481 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,486 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:20,512 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:20,512 127.0.0.1 - - [20/Jun/2026 03:04:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:20,534 127.0.0.1 - - [20/Jun/2026 03:04:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:38,775 127.0.0.1 - - [20/Jun/2026 03:04:38] "GET /privacy HTTP/1.1" 200 -
+2026-06-20 03:04:38,838 127.0.0.1 - - [20/Jun/2026 03:04:38] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:38,843 127.0.0.1 - - [20/Jun/2026 03:04:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:38,851 127.0.0.1 - - [20/Jun/2026 03:04:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:38,857 127.0.0.1 - - [20/Jun/2026 03:04:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:38,905 127.0.0.1 - - [20/Jun/2026 03:04:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:41,292 127.0.0.1 - - [20/Jun/2026 03:04:41] "GET /about HTTP/1.1" 200 -
+2026-06-20 03:04:41,380 127.0.0.1 - - [20/Jun/2026 03:04:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:41,384 127.0.0.1 - - [20/Jun/2026 03:04:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:41,385 127.0.0.1 - - [20/Jun/2026 03:04:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:41,388 127.0.0.1 - - [20/Jun/2026 03:04:41] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:41,433 127.0.0.1 - - [20/Jun/2026 03:04:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,184 127.0.0.1 - - [20/Jun/2026 03:04:44] "GET / HTTP/1.1" 200 -
+2026-06-20 03:04:44,257 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,280 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,282 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:44,282 127.0.0.1 - - [20/Jun/2026 03:04:44] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:44,285 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,288 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,290 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/about","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:04:44,291 127.0.0.1 - - [20/Jun/2026 03:04:44] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:04:44,292 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:04:44,333 127.0.0.1 - - [20/Jun/2026 03:04:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:13,116 127.0.0.1 - - [20/Jun/2026 03:05:13] "GET /signup.html HTTP/1.1" 200 -
+2026-06-20 03:05:13,177 127.0.0.1 - - [20/Jun/2026 03:05:13] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:13,184 127.0.0.1 - - [20/Jun/2026 03:05:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:13,192 127.0.0.1 - - [20/Jun/2026 03:05:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:13,197 127.0.0.1 - - [20/Jun/2026 03:05:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:13,251 127.0.0.1 - - [20/Jun/2026 03:05:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,457 127.0.0.1 - - [20/Jun/2026 03:05:16] "GET / HTTP/1.1" 200 -
+2026-06-20 03:05:16,549 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,559 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:05:16,559 127.0.0.1 - - [20/Jun/2026 03:05:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:05:16,561 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,562 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:05:16,563 127.0.0.1 - - [20/Jun/2026 03:05:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:05:16,565 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,568 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,584 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:16,635 127.0.0.1 - - [20/Jun/2026 03:05:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,126 127.0.0.1 - - [20/Jun/2026 03:05:59] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 03:05:59,213 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,220 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,224 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,228 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,231 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,267 127.0.0.1 - - [20/Jun/2026 03:05:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:05:59,345 127.0.0.1 - - [20/Jun/2026 03:05:59] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-20 03:15:17,112 127.0.0.1 - - [20/Jun/2026 03:15:17] "GET / HTTP/1.1" 200 -
+2026-06-20 03:15:17,235 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,504 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,506 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":110,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:15:17,507 127.0.0.1 - - [20/Jun/2026 03:15:17] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:15:17,516 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,522 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,531 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,541 {"csp-report":{"document-uri":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","referrer":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/subject/hsie/business-studies","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":31,"source-file":"https://psychic-doodle-v44jqvwrpxq3xvj7-8000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-20 03:15:17,542 127.0.0.1 - - [20/Jun/2026 03:15:17] "POST /csp_report HTTP/1.1" 200 -
+2026-06-20 03:15:17,591 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:15:17,594 127.0.0.1 - - [20/Jun/2026 03:15:17] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,600 127.0.0.1 - - [20/Jun/2026 03:15:28] "GET /subject/hsie/business-studies HTTP/1.1" 200 -
+2026-06-20 03:15:28,666 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/css/bootstrap-icons.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,670 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,672 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,676 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,682 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/images/placeholder.png HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,727 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/css/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,731 127.0.0.1 - - [20/Jun/2026 03:15:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-20 03:15:28,782 127.0.0.1 - - [20/Jun/2026 03:15:28] "[33mGET /subject/hsie/static/js/serviceWorker.js HTTP/1.1[0m" 404 -

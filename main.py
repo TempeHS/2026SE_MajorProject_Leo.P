@@ -106,7 +106,7 @@ def index():
 )
 def login():
     if session.get("logged_in"):
-        return redirect("/home.html", code=303)  # this might be wrong
+        return redirect("/index.html", code=303)  # this might be wrong
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
@@ -147,34 +147,12 @@ def signup():
     return render_template("/signup.html")
 
 
-# example CSRF protected form
-@app.route("/form.html", methods=["POST", "GET"])
-def form():
-    if request.method == "POST":
-        email = request.form["email"]
-        password = request.form["password"]
-        app_log.info(f"Form submitted: {email}")
-        return redirect("/home.html", code=303)
-    else:
-        return render_template("/form.html")
-
-
 # Endpoint for logging CSP violations
 @app.route("/csp_report", methods=["POST"])
 @csrf.exempt
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
-
-
-# Home page
-@app.route("/home.html", methods=["GET"])
-def home():
-    if not session.get("logged_in"):
-        app_log.warning("Unauthorised attempt to access data")
-        return redirect("/", code=303)
-
-    return render_template("/home.html")
 
 
 @app.route("/logout", methods=["GET", "POST"])
