@@ -1,41 +1,79 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container-xxl mt-4 home-cards-wrap">
-  <div class="row mb-3">
-    <div class="col-12">
-      <h1>OneLink: HSC</h1>
+<section class="home-hero">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="home-hero-title fw-bold mb-3">
+          OneLink<i class="bi bi-link-45deg" aria-hidden="true"></i>: HSC
+        </h1>
+        <p class="home-hero-tagline mb-0">
+          Spend your time studying, not searching.
+        </p>
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- <div class="row mb-4">
-    <div class="col-12 text-center">
-      <img
-        src="{{ url_for('static', filename='images/OneLink_homepage.png') }}"
-        alt="OneLink logo"
-        class="mb-1 d-block mx-auto home-hero-logo"
-      />
-      <h1 class="fw-bold mb-0">Spend your time studying,</h1>
-      <h1 class="fw-bold mb-0">not searching.</h1>
-    </div>
-  </div> -->
-
-  <div class="row g-3 align-items-stretch home-cards-row">
-    <!-- priority cards -->
-    <div class="col-12 col-lg-8 d-flex">
-      <div class="card feature-card compact-card w-100 h-100">
-        <div class="row g-0 h-100">
-          <div class="col-md-5">
-            <img
-              class="w-100 feature-img rounded-start h-100"
-              src="{{ url_for('static', filename='images/placeholder.png') }}"
-              alt="Resources"
-            />
+<section class="home-cards-section" id="home-cards">
+  <div class="container-xxl home-cards-wrap">
+    <div class="row g-3 align-items-stretch home-cards-row">
+      <!-- priority cards -->
+      <div class="col-12 col-lg-8 d-flex">
+        <div class="card feature-card compact-card w-100 h-100">
+          <div class="row g-0 h-100">
+            <div class="col-md-5">
+              <img
+                class="w-100 feature-img rounded-start h-100"
+                src="{{ url_for('static', filename='images/placeholder.png') }}"
+                alt="Resources"
+              />
+            </div>
+            <div class="col-md-7">
+              <div class="card-body d-flex flex-column h-100">
+                <h5 class="card-title fs-4">Resource Hub</h5>
+                <p class="card-text">Study resources and key content.</p>
+                <a
+                  href="/resources"
+                  class="btn btn-primary btn-sm mt-auto card-action-btn"
+                  >View</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="col-md-7">
+        </div>
+      </div>
+
+      <!-- side cards -->
+      <div class="col-12 col-lg-4 d-flex">
+        <div class="side-stack w-100 h-100">
+          <div class="card side-card compact-card side-stack-card">
+            <img
+              class="card-img-top side-img"
+              src="{{ url_for('static', filename='images/placeholder.png') }}"
+              alt="Useful websites"
+            />
             <div class="card-body d-flex flex-column h-100">
-              <h5 class="card-title fs-4">Resource Hub</h5>
-              <p class="card-text">Study resources and key content.</p>
+              <h5 class="card-title">Useful websites</h5>
+              <p class="card-text">External websites with great resources.</p>
               <a
-                href="/resources"
+                href="/useful_websites"
+                class="btn btn-primary btn-sm mt-auto card-action-btn"
+                >View</a
+              >
+            </div>
+          </div>
+
+          <div class="card side-card compact-card side-stack-card">
+            <img
+              class="card-img-top side-img"
+              src="{{ url_for('static', filename='images/placeholder.png') }}"
+              alt="Personal Dashboard"
+            />
+            <div class="card-body d-flex flex-column h-100">
+              <h5 class="card-title">Personal Dashboard</h5>
+              <p class="card-text">Your personalised look and saved items.</p>
+              <a
+                href="/personal_dashboard"
                 class="btn btn-primary btn-sm mt-auto card-action-btn"
                 >View</a
               >
@@ -44,47 +82,20 @@
         </div>
       </div>
     </div>
-
-    <!-- side cards -->
-    <div class="col-12 col-lg-4 d-flex">
-      <div class="side-stack w-100 h-100">
-        <div class="card side-card compact-card side-stack-card">
-          <img
-            class="card-img-top side-img"
-            src="{{ url_for('static', filename='images/placeholder.png') }}"
-            alt="Useful websites"
-          />
-          <div class="card-body d-flex flex-column h-100">
-            <h5 class="card-title">Useful websites</h5>
-            <p class="card-text">External websites with great resources.</p>
-            <a
-              href="/useful_websites"
-              class="btn btn-primary btn-sm mt-auto card-action-btn"
-              >View</a
-            >
-          </div>
-        </div>
-
-        <div class="card side-card compact-card side-stack-card">
-          <img
-            class="card-img-top side-img"
-            src="{{ url_for('static', filename='images/placeholder.png') }}"
-            alt="Personal Dashboard"
-          />
-          <div class="card-body d-flex flex-column h-100">
-            <h5 class="card-title">Personal Dashboard</h5>
-            <p class="card-text">Your personalised look and saved items.</p>
-            <a
-              href="/personal_dashboard"
-              class="btn btn-primary btn-sm mt-auto card-action-btn"
-              >View</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-</div>
+</section>
+
+<a
+  href="#home-cards"
+  class="scroll-indicator"
+  id="scrollIndicator"
+  aria-label="Scroll down"
+>
+  <i class="bi bi-arrow-down" aria-hidden="true"></i>
+</a>
+
+<script src="{{ url_for('static', filename='js/home-scroll-indicator.js') }}"></script>
+
 {% endblock %}
 
 <!-- <div class="card" style="width: 18rem; flex: 0 0 18rem">
