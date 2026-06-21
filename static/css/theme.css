@@ -1,0 +1,71 @@
+.site-navbar {
+  background-color: #1e3a5f !important;
+
+  --bs-navbar-color: rgba(255, 255, 255, 0.9);
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.35);
+}
+
+.site-navbar .nav-link,
+.site-navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link:focus,
+.site-navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+/* Account button */
+.site-navbar .btn-outline-primary {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.site-navbar .btn-outline-primary:hover,
+.site-navbar .btn-outline-primary:focus {
+  color: #2e5a87 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+/* logot */
+.site-navbar .btn-outline-danger {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+:root {
+  --brand-accent: #3a6ea5;
+  --brand-accent-hover: #2e5a87;
+  --brand-accent-active: #7ba7d9;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--brand-accent);
+  --bs-btn-border-color: var(--brand-accent);
+  --bs-btn-hover-bg: var(--brand-accent-hover);
+  --bs-btn-hover-border-color: var(--brand-accent-hover);
+  --bs-btn-active-bg: var(--brand-accent-active);
+  --bs-btn-active-border-color: var(--brand-accent-active);
+  --bs-btn-disabled-bg: var(--brand-accent);
+  --bs-btn-disabled-border-color: var(--brand-accent);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--brand-accent);
+  --bs-btn-border-color: var(--brand-accent);
+  --bs-btn-hover-bg: var(--brand-accent);
+  --bs-btn-hover-border-color: var(--brand-accent);
+  --bs-btn-active-bg: var(--brand-accent-active);
+  --bs-btn-active-border-color: var(--brand-accent-active);
+}
+
+/* background */
+body {
+  background-color: #f8fafc;
+}

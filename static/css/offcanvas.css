@@ -1,0 +1,8 @@
+/* background blur */
+.offcanvas-backdrop.show {
+  top: 56px; /* keep navbar/menu area unblurred */
+  height: calc(100vh - 56px);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+}
