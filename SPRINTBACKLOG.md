@@ -184,19 +184,26 @@ Improve visual design and user experience of OneLink.
 
 ### Unit Test Summary Table
 
-| Feature      | Test            | Expected Result    | Actual Result | Pass/Fail |
-| ------------ | --------------- | ------------------ | ------------- | --------- |
-| Feature name | What you tested | What should happen | What happened | Pass/Fail |
-| Feature name | What you tested | What should happen | What happened | Pass/Fail |
+| Feature                             | Test                               | Expected Result                                                   | Actual Result                                       | Pass/Fail |
+| ----------------------------------- | ---------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------- | --------- |
+| New homepage styling (Manual test)  | Load homepage with correct styling | Homepage displays updated styling                                 | Homepage displayed updated styling                  | Pass      |
+| Card hover effects (Manual test)    | Button feedback                    | Buttons provide visual feedback (colour change) when hovered over | Buttons provide=d visual feedback when hovered over | Pass      |
+| Offcanvas blur effect (Manual test) | Open offcanvas menu                | Background blurs while offcanvas is active                        | Background blurred while offcanvas was active       | Pass      |
+| Responsive layout (Manual test)     | Resize browser window              | Layout remains usable and visually consistent                     | Layout adjusted correctly across tested sizes       | Pass      |
+| Website information (Manual test)   | Information loads                  | Descriptions load when page is loaded                             | Descriptions loaded when page is loaded             | Pass      |
+| Card icons (Manual test)            | Check card icons load              | Card icons load on relevant page                                  | Card icons loaded on relevant pages                 | Pass      |
 
 ### Sprint Review
 
-Write what was completed, what worked, and what was delivered.
+In sprint 4, I was able to successfully complete the website styling follow a pattern of icons for images and blue for buttons. I added descriptions for cards on the home page and for the demo subject (Business studies), and I was able to successfully add a blur effect to the background when the offcanvas menu was opened. I also added a scroll indicator (using AI for the javascript) after reworking the website homepage.
 
 ### Sprint Retrospective
 
 - **What went well:**
+  - The creation of the website theme and overall development throughout sprint 4
 - **What didn’t go well:**
+  - Some aspects of the styling were a bit too time consuming and had to be cut (for example skeleton loaders), though they were mainly nice to have stylistic aspects rather then more important ones
 - **What to improve next sprint:**
+  - Better use of time
 
 ---
