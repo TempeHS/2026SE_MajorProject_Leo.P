@@ -10,8 +10,8 @@ Develop a base skeleton layout for OneLink and map basic feature locations to su
 
 ### Committed Items
 
-- PB1: [User story title]
-- PB2: [User story title]
+- PB1: I want to be able to view and access a wide range of study resources.
+- PB2: I want to navigate easily between subjects and resource types.
 
 ### Sprint Plan
 
@@ -65,8 +65,8 @@ Develop the website's navigation and implement base level functionality.
 
 ### Committed Items
 
-- PB2: [User story title]
-- PB3: [User story title]
+- PB2: I want to navigate easily between subjects and resource types.
+- PB3: I want to access subject specific content such as Business Studies.PB2: [User story title]
 
 ### Sprint Plan
 
@@ -118,8 +118,8 @@ Expand and structure the demo subject (Business Studies) resource system + home 
 
 ### Committed Items
 
-- PB2: [User story title]
-- PB3: [User story title]
+- PB1: I want to be able to view and access a wide range of study resources.
+- PB3: I want to access subject specific content such as Business Studies.
 
 ### Sprint Plan
 
@@ -171,8 +171,8 @@ Improve visual design and user experience of OneLink.
 
 ### Committed Items
 
-- PB2: [User story title]
-- PB3: [User story title]
+- PB1: I want to be able to view and access a wide range of study resources.
+- PB4: I want the website to feel visually appealing and easy to use.
 
 ### Sprint Plan
 
