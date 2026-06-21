@@ -36,6 +36,25 @@
   font-weight: 500;
 }
 
+/* icons and such */
+.feature-img .feature-icon-fill {
+  font-size: clamp(12rem, 18vw, 18rem) !important;
+  line-height: 1;
+}
+
+.side-img .side-icon-fill {
+  font-size: clamp(6.5rem, 9vw, 10rem) !important;
+  line-height: 1;
+}
+/* 
+fixing the button so it doesnt stack (delete in future) */
+.btn-coming-soon {
+  min-width: 9.5rem;
+  white-space: nowrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* scroll */
 .scroll-indicator {
   position: fixed;
