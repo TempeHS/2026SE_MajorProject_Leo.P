@@ -180,8 +180,7 @@ Improve visual design and user experience of OneLink.
 2. Add images and information across the site
 3. Improve header design
 4. Implement visual feedback with cards
-5. Add skeleton loaders to cards
-6. Enhance offcanvas navigation with background blur and colour coded accordions
+5. Enhance offcanvas navigation with background blur
 
 ### Unit Test Summary Table
 

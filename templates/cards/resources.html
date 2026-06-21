@@ -11,67 +11,72 @@
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
     <div class="col">
       <div class="card h-100">
-        <img
-          class="card-img-top"
-          src="{{ url_for('static', filename='images/placeholder.png') }}"
-          alt="Card image cap"
-          style="height: 180px; object-fit: cover"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Exam Strategy</h5>
-          <p class="card-text">Some quick example text for the card.</p>
-          <a href="#" class="btn btn-primary">View</a>
+        <div
+          class="card-img-top d-flex align-items-center justify-content-center bg-light"
+          style="height: 180px"
+          aria-label="Exam Strategy icon"
+        >
+          <i class="bi bi-bullseye" style="font-size: 4rem"></i>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Exam Strategy</h5>
+            <p class="card-text">Some quick example text for the card.</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Revision tools -->
-    <div class="col">
-      <div class="card h-100">
-        <img
-          class="card-img-top"
-          src="{{ url_for('static', filename='images/placeholder.png') }}"
-          alt="Card image cap"
-          style="height: 180px; object-fit: cover"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Revision Tools</h5>
-          <p class="card-text">Some quick example text for the card.</p>
-          <a href="#" class="btn btn-primary">View</a>
+      <!-- Revision tools -->
+      <div class="col">
+        <div class="card h-100">
+          <div
+          class="card-img-top d-flex align-items-center justify-content-center bg-light"
+          style="height: 180px"
+          aria-label="Revision Tools icon"
+        >
+          <i class="bi bi-tools" style="font-size: 4rem"></i>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Revision Tools</h5>
+            <p class="card-text">Some quick example text for the card.</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Time managemnts -->
-    <div class="col">
-      <div class="card h-100">
-        <img
-          class="card-img-top"
-          src="{{ url_for('static', filename='images/placeholder.png') }}"
-          alt="Card image cap"
-          style="height: 180px; object-fit: cover"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Time Management</h5>
-          <p class="card-text">Some quick example text for the card.</p>
-          <a href="#" class="btn btn-primary">View</a>
+      <!-- Time managemnts -->
+      <div class="col">
+        <div class="card h-100">
+          <div
+          class="card-img-top d-flex align-items-center justify-content-center bg-light"
+          style="height: 180px"
+          aria-label="Time Management icon"
+        >
+          <i class="bi bi-clock" style="font-size: 4rem"></i>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Time Management</h5>
+            <p class="card-text">Some quick example text for the card.</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- study techniques -->
-    <div class="col">
-      <div class="card h-100">
-        <img
-          class="card-img-top"
-          src="{{ url_for('static', filename='images/placeholder.png') }}"
-          alt="Card image cap"
-          style="height: 180px; object-fit: cover"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Study Techniques</h5>
-          <p class="card-text">Some quick example text for the card.</p>
-          <a href="#" class="btn btn-primary">View</a>
+      <!-- study techniques -->
+      <div class="col">
+        <div class="card h-100">
+          <div
+          class="card-img-top d-flex align-items-center justify-content-center bg-light"
+          style="height: 180px"
+          aria-label="Study Techniques icon"
+        >
+          <i class="bi bi-highlighter" style="font-size: 4rem"></i>
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Study Techniques</h5>
+            <p class="card-text">Some quick example text for the card.</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  {% endblock %}
 </div>
-{% endblock %}
